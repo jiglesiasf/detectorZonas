@@ -88,5 +88,46 @@ class TestPipeline(unittest.TestCase):
             self.assertTrue((valid["variacion_anual_%"].notna().all()))
 
 
+class TestAmenityIntegration(unittest.TestCase):
+
+    def setUp(self):
+        self.complete_path = "data/poblacion_por_cp_completo.csv"
+
+    def test_amenity_columns_exist(self):
+        df = pd.read_csv(self.complete_path)
+        expected = ["tiene_supermercado", "tiene_colegio", "tiene_instituto",
+                    "tiene_universidad", "tiene_centro_salud", "tiene_todos_servicios"]
+        for col in expected:
+            self.assertIn(col, df.columns, f"Missing column: {col}")
+
+    def test_amenity_columns_are_boolean(self):
+        df = pd.read_csv(self.complete_path)
+        for col in ["tiene_supermercado", "tiene_colegio", "tiene_instituto",
+                     "tiene_universidad", "tiene_centro_salud", "tiene_todos_servicios"]:
+            self.assertTrue(df[col].dropna().isin([True, False]).all(),
+                            f"{col} contains non-boolean values")
+
+    def test_todos_servicios_matches_all_individual(self):
+        df = pd.read_csv(self.complete_path)
+        calculated = (
+            df["tiene_supermercado"]
+            & df["tiene_colegio"]
+            & df["tiene_instituto"]
+            & df["tiene_universidad"]
+            & df["tiene_centro_salud"]
+        )
+        self.assertTrue((df["tiene_todos_servicios"] == calculated).all())
+
+    def test_health_centers_coverage(self):
+        df = pd.read_csv(self.complete_path)
+        self.assertGreater(df["tiene_centro_salud"].sum(), 500,
+                           "Expected 500+ CPs with health centers")
+
+    def test_supermarkets_coverage(self):
+        df = pd.read_csv(self.complete_path)
+        self.assertGreater(df["tiene_supermercado"].sum(), 100,
+                           "Expected 100+ CPs with supermarkets")
+
+
 if __name__ == "__main__":
     unittest.main()
