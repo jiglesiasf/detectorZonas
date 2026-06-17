@@ -314,16 +314,41 @@ def main():
         grouped["en_maximo_historico"] = False
         grouped["precio_anual_positivo"] = False
 
+    amenity_types = ["supermercado", "colegio", "instituto", "universidad", "centro_salud"]
+    amenity_path = Path("data/pois_osm.csv")
+    health_path = Path("data/centros_salud.csv")
+    if amenity_path.exists() and health_path.exists():
+        pois = pd.read_csv(amenity_path, dtype={"codigo_postal": str})
+        health = pd.read_csv(health_path, dtype={"codigo_postal": str})
+        pois["codigo_postal"] = pois["codigo_postal"].str.zfill(5)
+        health["codigo_postal"] = health["codigo_postal"].str.zfill(5)
+        all_amenities = pd.concat([pois, health], ignore_index=True)
+
+        for atype in amenity_types:
+            cps_con = set(all_amenities[all_amenities["tipo"] == atype]["codigo_postal"])
+            grouped[f"tiene_{atype}"] = grouped["codigo_postal"].isin(cps_con)
+
+        grouped["tiene_todos_servicios"] = grouped[
+            [f"tiene_{t}" for t in amenity_types]
+        ].all(axis=1)
+        print(f"CPs con todos los servicios: {grouped['tiene_todos_servicios'].sum()}")
+    else:
+        print("WARNING: Amenity data not found, skipping amenity filters")
+        for atype in amenity_types:
+            grouped[f"tiene_{atype}"] = False
+        grouped["tiene_todos_servicios"] = False
+
+    amenity_cols = [f"tiene_{t}" for t in amenity_types] + ["tiene_todos_servicios"]
     cols = ["codigo_postal", "provincia", "municipio_nombre",
             "pob_act", "pob_5a", "crecimiento_%", "supera_20k", "crecimiento_positivo",
             "precio_m2", "variacion_anual", "variacion_maximo",
-            "en_maximo_historico", "precio_anual_positivo"]
+            "en_maximo_historico", "precio_anual_positivo"] + amenity_cols
     grouped = grouped[cols]
     grouped.columns = ["codigo_postal", "provincia", "municipio_nombre",
                        "poblacion_actual", "poblacion_hace_5a",
                        "crecimiento_%", "supera_20k", "crecimiento_positivo",
                        "precio_m2", "variacion_anual_%", "variacion_maximo_%",
-                       "en_maximo_historico", "precio_anual_positivo"]
+                       "en_maximo_historico", "precio_anual_positivo"] + amenity_cols
 
     print(f"\nCPs totales: {len(grouped)}")
     print(f"CPs >20K hab: {grouped['supera_20k'].sum()}")
@@ -335,9 +360,14 @@ def main():
             & grouped["crecimiento_positivo"]
             & grouped["precio_anual_positivo"]
             & ~grouped["en_maximo_historico"]
+            & grouped["tiene_todos_servicios"]
         ]
     else:
-        filtered = grouped[grouped["supera_20k"] & grouped["crecimiento_positivo"]]
+        filtered = grouped[
+            grouped["supera_20k"]
+            & grouped["crecimiento_positivo"]
+            & grouped["tiene_todos_servicios"]
+        ]
     print(f"CPs cumplen TODOS los filtros: {len(filtered)}")
 
     grouped.to_csv("data/poblacion_por_cp_completo.csv", index=False)

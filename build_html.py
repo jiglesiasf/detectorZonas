@@ -3,9 +3,12 @@ import pandas as pd
 
 df = pd.read_csv("data/poblacion_por_cp_completo.csv")
 
+amenity_fields = ["tiene_supermercado", "tiene_colegio", "tiene_instituto",
+                  "tiene_universidad", "tiene_centro_salud", "tiene_todos_servicios"]
+
 records = []
 for _, row in df.iterrows():
-    records.append({
+    rec = {
         "cp": row["codigo_postal"],
         "prov": row["provincia"],
         "muni": row["municipio_nombre"],
@@ -18,7 +21,10 @@ for _, row in df.iterrows():
         "varAnual": round(row["variacion_anual_%"], 1) if pd.notna(row.get("variacion_anual_%")) else None,
         "enMax": bool(row["en_maximo_historico"]) if pd.notna(row.get("en_maximo_historico")) else False,
         "precPos": bool(row["precio_anual_positivo"]) if pd.notna(row.get("precio_anual_positivo")) else False,
-    })
+    }
+    for af in amenity_fields:
+        rec[af] = bool(row[af]) if af in row else False
+    records.append(rec)
 
 data_json = json.dumps(records, ensure_ascii=False)
 
@@ -54,6 +60,7 @@ tr:hover td{{background:#f8faff}}
 .badge-both{{background:#dbeafe;color:#1e40af}}
 .badge-max{{background:#fce4ec;color:#b71c1c}}
 .province-tag{{font-size:11px;color:#666}}
+.badge-servicio{{background:#f0f4ff;color:#4361ee;font-size:14px;padding:0 4px;cursor:help}}
 .empty{{text-align:center;padding:40px;color:#999;font-size:15px}}
 .th-sort{{margin-left:4px;opacity:.4}}
 th.sorted .th-sort{{opacity:1}}
@@ -71,6 +78,12 @@ th.sorted .th-sort{{opacity:1}}
 <label><input type="checkbox" id="filterCrec" checked onchange="render()"> <span>Crecimiento demográfico positivo</span></label>
 <label><input type="checkbox" id="filterPrecio" checked onchange="render()"> <span>Precio anual positivo</span></label>
 <label><input type="checkbox" id="filterNoMax" checked onchange="render()"> <span>No en máximo histórico</span></label>
+<label><input type="checkbox" id="filterTodosServicios" onchange="render()"> <span>Todos los servicios</span></label>
+<label><input type="checkbox" id="filterSuper" onchange="render()"> <span>🛒 Supermercado</span></label>
+<label><input type="checkbox" id="filterColegio" onchange="render()"> <span>🏫 Colegio</span></label>
+<label><input type="checkbox" id="filterInstituto" onchange="render()"> <span>🏛️ Instituto</span></label>
+<label><input type="checkbox" id="filterUni" onchange="render()"> <span>🎓 Universidad</span></label>
+<label><input type="checkbox" id="filterSalud" onchange="render()"> <span>🏥 Centro Salud</span></label>
 <input type="text" class="search-input" id="search" placeholder="Buscar CP o municipio..." oninput="render()">
 <span class="counter" id="counter"></span>
 </div>
@@ -105,6 +118,12 @@ function render() {{
     const fCrec = document.getElementById('filterCrec').checked;
     const fPrecio = document.getElementById('filterPrecio').checked;
     const fNoMax = document.getElementById('filterNoMax').checked;
+    const fTodosServicios = document.getElementById('filterTodosServicios').checked;
+    const fSuper = document.getElementById('filterSuper').checked;
+    const fColegio = document.getElementById('filterColegio').checked;
+    const fInstituto = document.getElementById('filterInstituto').checked;
+    const fUni = document.getElementById('filterUni').checked;
+    const fSalud = document.getElementById('filterSalud').checked;
     const q = document.getElementById('search').value.toLowerCase().trim();
 
     let items = DATA.filter(d => {{
@@ -112,6 +131,12 @@ function render() {{
         if (fCrec && !d.crecPos) return false;
         if (fPrecio && d.precPos === false) return false;
         if (fNoMax && d.enMax) return false;
+        if (fTodosServicios && !d.tiene_todos_servicios) return false;
+        if (fSuper && !d.tiene_supermercado) return false;
+        if (fColegio && !d.tiene_colegio) return false;
+        if (fInstituto && !d.tiene_instituto) return false;
+        if (fUni && !d.tiene_universidad) return false;
+        if (fSalud && !d.tiene_centro_salud) return false;
         if (q && !d.cp.includes(q) && !d.muni.toLowerCase().includes(q) && !d.prov.toLowerCase().includes(q)) return false;
         return true;
     }});
@@ -124,6 +149,11 @@ function render() {{
         if (d.sup20k) badges.push('<span class="badge badge-pop">>20K</span>');
         if (d.crecPos) badges.push('<span class="badge badge-grow">+' + d.crec + '%</span>');
         if (d.enMax) badges.push('<span class="badge badge-max">Máx. histórico</span>');
+        if (d.tiene_supermercado) badges.push('<span class="badge badge-servicio" title="Supermercado">🛒</span>');
+        if (d.tiene_colegio) badges.push('<span class="badge badge-servicio" title="Colegio">🏫</span>');
+        if (d.tiene_instituto) badges.push('<span class="badge badge-servicio" title="Instituto">🏛️</span>');
+        if (d.tiene_universidad) badges.push('<span class="badge badge-servicio" title="Universidad">🎓</span>');
+        if (d.tiene_centro_salud) badges.push('<span class="badge badge-servicio" title="Centro Salud">🏥</span>');
         const crecClass = d.crec > 0 ? 'color:#0a7b3e' : 'color:#d32f2f';
         const priceDisplay = d.precio ? d.precio.toLocaleString() + ' €' : '—';
         const varAnualDisplay = d.varAnual !== null ? (d.varAnual > 0 ? '+' : '') + d.varAnual + '%' : '—';
