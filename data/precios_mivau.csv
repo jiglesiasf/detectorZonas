@@ -1,0 +1,307 @@
+municipio_nombre,nombre_normalizado,precio_m2,variacion_anual,en_maximo_historico,variacion_maximo,year,quarter,n_tasaciones
+Adeje,adeje,3727.9,11.77,True,0.0,2026,1,148.0
+Agüimes,aguimes,1936.7,16.94,True,0.0,2026,1,64.0
+Alaquàs,alaquas,1603.2,28.07,False,-0.42,2026,1,81.0
+Albacete,albacete,1762.2,15.34,False,-20.16,2026,1,687.0
+Alcalá de Guadaíra,alcala de guadaira,1731.1,22.75,False,-9.6,2026,1,295.0
+Alcalá de Henares,alcala de henares,2838.6,21.62,False,-0.44,2026,1,573.0
+Alcantarilla,alcantarilla,1085.4,21.49,False,-33.52,2026,1,152.0
+Alcobendas,alcobendas,4790.4,20.14,True,0.0,2026,1,358.0
+Alcorcón,alcorcon,3443.7,20.91,True,0.0,2026,1,418.0
+Alcoy/Alcoi,alcoi/alcoy,1041.1,18.13,False,-21.21,2026,1,226.0
+Alcázar de San Juan,alcazar de san juan,980.4,17.23,False,-23.08,2026,1,118.0
+Aldaia,aldaia,1602.1,24.8,False,-7.97,2026,1,112.0
+Algeciras,algeciras,1533.1,21.04,False,-16.4,2026,1,412.0
+Algemesí,algemesi,984.0,26.82,False,-25.34,2026,1,99.0
+Alhaurín de la Torre,alhaurin de la torre,2724.9,10.23,True,0.0,2026,1,190.0
+Alicante/Alacant,alacant/alicante,2265.3,11.69,True,0.0,2026,1,1257.0
+Almansa,almansa,802.4,3.22,False,-34.25,2026,1,85.0
+Almazora/Almassora,almassora/almazora,1223.4,25.95,True,0.0,2026,1,143.0
+Almendralejo,almendralejo,939.7,10.19,False,-13.44,2026,1,158.0
+Almería,almeria,1675.2,13.33,False,-21.4,2026,1,622.0
+Almuñecar,almunecar,2661.7,21.19,True,0.0,2026,1,126.0
+Alzira,alzira,1224.0,19.87,False,-24.04,2026,1,200.0
+Ames,ames,1872.4,22.61,True,0.0,2026,1,79.0
+Andújar,andujar,815.7,5.08,False,-39.64,2026,1,120.0
+Antequera,antequera,1564.0,20.13,False,-18.94,2026,1,137.0
+Aranda de Duero,aranda de duero,1443.2,13.33,False,-30.82,2026,1,100.0
+Aranjuez,aranjuez,2151.0,20.45,False,-22.89,2026,1,244.0
+Arcos de la frontera,arcos de la frontera,1262.6,23.02,False,-45.8,2026,1,114.0
+Arganda del Rey,arganda del rey,2613.8,23.64,True,0.0,2026,1,212.0
+Arona,arona,2895.6,19.52,True,0.0,2026,1,232.0
+Arrecife,arrecife,1946.7,16.69,False,-0.13,2026,1,185.0
+Arteixo,arteixo,1698.7,22.75,True,0.0,2026,1,83.0
+Arucas,arucas,1627.7,16.86,False,-8.26,2026,1,135.0
+Avilés,aviles,1531.3,19.08,False,-21.21,2026,1,249.0
+Azuqueca de Henares,azuqueca de henares,2120.3,18.45,True,0.0,2026,1,127.0
+Badajoz,badajoz,1527.0,5.76,False,-12.58,2026,1,494.0
+Badalona,badalona,2898.8,14.92,False,-8.44,2026,1,928.0
+Barakaldo,barakaldo,2855.5,16.41,False,-16.3,2026,1,293.0
+Barberà del Vallès,barbera del valles,2584.9,8.72,False,-10.72,2026,1,128.0
+Barcelona,barcelona,4681.5,12.04,True,0.0,2026,1,5384.0
+Basauri,basauri,2721.2,15.92,False,-16.88,2026,1,110.0
+Benalmádena,benalmadena,3760.8,15.06,True,0.0,2026,1,375.0
+Benicarló,benicarlo,1268.4,-2.34,False,-2.34,2026,1,73.0
+Benidorm,benidorm,3089.3,9.03,True,0.0,2026,1,263.0
+Bilbao,bilbao,3401.8,10.63,False,-9.08,2026,1,953.0
+Blanes,blanes,2067.5,2.89,False,-18.61,2026,1,155.0
+Boadilla del Monte,boadilla del monte,4372.7,15.78,True,0.0,2026,1,185.0
+Burgos,burgos,1958.7,15.41,False,-22.81,2026,1,534.0
+Burjassot,burjassot,1940.6,22.72,False,-7.05,2026,1,110.0
+Burriana,burriana,1071.5,20.62,False,-35.62,2026,1,145.0
+Calpe/Calp,calp/calpe,3001.4,10.59,False,-1.33,2026,1,105.0
+Calvià,calvia,5290.5,0.02,False,-5.85,2026,1,151.0
+Camargo,camargo,2063.5,16.15,False,-15.27,2026,1,94.0
+Camas,camas,1800.1,29.25,False,-10.79,2026,1,175.0
+Cambrils,cambrils,2423.2,11.71,False,-12.66,2026,1,219.0
+"Campello, el","campello, el",2908.8,26.24,True,0.0,2026,1,142.0
+Candelaria,candelaria,2831.9,20.71,True,0.0,2026,1,112.0
+Cangas,cangas,1748.3,10.21,False,-0.78,2026,1,63.0
+Caravaca de la Cruz,caravaca de la cruz,862.0,5.73,False,-33.44,2026,1,91.0
+Carballo,carballo,993.5,0.5,False,-23.37,2026,1,40.0
+Carmona,carmona,1251.3,5.07,False,-25.4,2026,1,119.0
+Cartagena,cartagena,1496.0,14.09,False,-26.95,2026,1,775.0
+Castelldefels,castelldefels,4301.5,10.75,True,0.0,2026,1,261.0
+Castellón de la Plana,castellon de la plana,1526.6,21.95,False,-33.25,2026,1,562.0
+Castro-Urdiales,castro-urdiales,2717.2,11.35,False,-5.19,2026,1,127.0
+Catarroja,catarroja,1674.5,29.41,True,0.0,2026,1,109.0
+Cerdanyola del Vallès,cerdanyola del valles,2921.6,16.44,True,0.0,2026,1,177.0
+Ceuta,ceuta,2212.0,8.0,True,0.0,2026,1,154.0
+Chiclana de la Frontera,chiclana de la frontera,2163.4,12.72,False,-14.11,2026,1,332.0
+Cieza,cieza,949.7,-3.79,False,-29.06,2026,1,94.0
+Ciudad Real,ciudad real,1469.9,19.53,False,-25.37,2026,1,220.0
+Ciutadella de Menorca,ciutadella de menorca,3564.2,10.98,False,-1.26,2026,1,113.0
+Collado Villalba,collado villalba,2879.8,18.29,False,-1.45,2026,1,225.0
+Colmenar Viejo,colmenar viejo,3076.4,18.17,True,0.0,2026,1,212.0
+Coria del Río,coria del rio,1367.7,11.71,False,-23.56,2026,1,112.0
+Cornellà de Llobregat,cornella de llobregat,3065.3,10.72,False,-6.27,2026,1,299.0
+Coruña (A),a coruna,2759.2,16.99,True,0.0,2026,1,565.0
+Coslada,coslada,3326.2,25.29,True,0.0,2026,1,246.0
+Crevillent,crevillent,1020.0,8.78,False,-26.48,2026,1,72.0
+Cuenca,cuenca,1566.7,11.42,False,-19.58,2026,1,132.0
+Culleredo,culleredo,1967.7,17.71,True,0.0,2026,1,84.0
+Cáceres,caceres,1569.5,17.53,False,-4.13,2026,1,332.0
+Cádiz,cadiz,3098.9,9.42,True,0.0,2026,1,362.0
+Córdoba,cordoba,1745.7,13.78,False,-27.45,2026,1,1313.0
+Don Benito,don benito,980.4,4.16,False,-8.79,2026,1,134.0
+Dos Hermanas,dos hermanas,1959.7,16.0,False,-2.27,2026,1,533.0
+Durango,durango,2618.2,12.02,False,-25.44,2026,1,53.0
+Dénia,denia,2841.8,14.73,False,-1.15,2026,1,256.0
+Eibar,eibar,2084.0,14.09,False,-40.94,2026,1,47.0
+Eivissa,eivissa,5725.5,11.99,True,0.0,2026,1,154.0
+Ejido (El),el ejido,1216.2,5.45,False,-31.38,2026,1,354.0
+Elche/Elx,elche/elx,1684.1,21.43,False,-7.71,2026,1,647.0
+Elda,elda,980.2,27.63,False,-16.59,2026,1,196.0
+Errenteria,errenteria,3164.1,15.63,False,-9.05,2026,1,90.0
+Esplugues de Llobregat,esplugues de llobregat,3652.9,7.96,False,-1.62,2026,1,167.0
+Estepona,estepona,3514.0,20.04,True,0.0,2026,1,407.0
+Ferrol,ferrol,1133.3,23.28,False,-12.46,2026,1,193.0
+Figueres,figueres,1494.1,15.94,False,-33.88,2026,1,118.0
+Fuengirola,fuengirola,3668.5,19.29,True,0.0,2026,1,361.0
+Fuenlabrada,fuenlabrada,2913.5,21.27,True,0.0,2026,1,513.0
+Galapagar,galapagar,2768.2,19.01,True,0.0,2026,1,135.0
+Galdakao,galdakao,2949.7,28.99,False,-3.28,2026,1,66.0
+Gandia,gandia,1646.5,21.65,False,-6.73,2026,1,279.0
+Gavà,gava,3392.5,14.02,True,0.0,2026,1,187.0
+Getafe,getafe,3200.9,22.56,False,-0.41,2026,1,496.0
+Getxo,getxo,4044.9,12.5,True,0.0,2026,1,182.0
+Gijón,gijon,2341.6,15.38,True,0.0,2026,1,907.0
+Girona,girona,2347.0,5.97,False,-17.03,2026,1,363.0
+Granada,granada,2426.8,16.91,False,-1.49,2026,1,741.0
+Granadilla de Abona,granadilla de abona,2474.7,16.87,True,0.0,2026,1,176.0
+Granollers,granollers,2532.8,11.05,False,-12.52,2026,1,210.0
+Guadalajara,guadalajara,2025.9,13.65,False,-23.89,2026,1,241.0
+Hellín,hellin,684.7,-5.74,False,-38.67,2026,1,44.0
+Hospitalet de Llobregat (L'),l' hospitalet de llobregat,3064.6,12.49,False,-9.51,2026,1,978.0
+Huelva,huelva,1575.7,13.58,False,-15.95,2026,1,501.0
+Huesca,huesca,1705.8,5.47,False,-28.06,2026,1,99.0
+Igualada,igualada,1854.1,14.34,False,-22.37,2026,1,129.0
+Illescas,illescas,1663.8,6.17,True,0.0,2026,1,126.0
+Inca,inca,2633.4,17.12,True,0.0,2026,1,101.0
+Ingenio,ingenio,1431.8,9.42,False,-7.47,2026,1,86.0
+Irun,irun,3005.2,21.58,False,-7.66,2026,1,135.0
+Jaén,jaen,1443.8,16.61,False,-21.33,2026,1,492.0
+Jerez de la Frontera,jerez de la frontera,1743.4,17.38,True,0.0,2026,1,842.0
+Jumilla,jumilla,845.4,11.16,False,-31.7,2026,1,78.0
+Jávea/Xábia,javea/xabia,3685.1,22.53,True,0.0,2026,1,180.0
+Langreo,langreo,939.0,10.87,False,-32.12,2026,1,143.0
+Lebrija,lebrija,1154.5,15.66,True,0.0,2026,1,75.0
+Leganés,leganes,3157.5,17.49,True,0.0,2026,1,497.0
+Leioa,leioa,3531.8,12.74,False,-0.73,2026,1,83.0
+Lepe,lepe,1842.6,9.18,True,0.0,2026,1,159.0
+León,leon,1626.4,14.66,False,-9.96,2026,1,390.0
+Linares,linares,888.8,9.49,False,-41.69,2026,1,212.0
+Lleida,lleida,1428.2,12.87,False,-28.52,2026,1,474.0
+Lloret de Mar,lloret de mar,2364.2,16.69,False,-8.33,2026,1,179.0
+Llucmajor,llucmajor,3607.3,12.66,True,0.0,2026,1,152.0
+Logroño,logrono,1892.3,12.14,False,-24.5,2026,1,441.0
+Lorca,lorca,1201.5,16.36,False,-19.25,2026,1,279.0
+Lucena,lucena,1096.9,14.4,False,-33.88,2026,1,125.0
+Lugo,lugo,1360.1,9.52,False,-9.99,2026,1,264.0
+Línea de la Concepción (La),la linea de la concepcion,1562.6,12.09,False,-25.68,2026,1,196.0
+Madrid,madrid,5466.1,16.09,True,0.0,2026,1,11447.0
+Mahón,mahon,2812.2,10.36,True,0.0,2026,1,91.0
+Mairena del Aljarafe,mairena del aljarafe,2139.0,15.09,False,-3.82,2026,1,165.0
+Majadahonda,majadahonda,4839.5,13.84,True,0.0,2026,1,171.0
+Manacor,manacor,2881.6,19.25,True,0.0,2026,1,124.0
+Manises,manises,1746.6,14.31,False,-7.53,2026,1,135.0
+Manresa,manresa,1554.0,9.24,False,-27.79,2026,1,238.0
+Marbella,marbella,4332.7,10.76,True,0.0,2026,1,715.0
+Marratxí,marratxi,3803.2,18.58,True,0.0,2026,1,114.0
+Martorell,martorell,2026.7,2.8,False,-20.93,2026,1,103.0
+Marín,marin,1414.7,31.14,False,-7.22,2026,1,58.0
+Mataró,mataro,2548.9,12.16,False,-12.73,2026,1,464.0
+Mazarrón,mazarron,1611.0,13.04,False,-18.84,2026,1,112.0
+Melilla,melilla,2122.9,11.47,True,0.0,2026,1,229.0
+Mieres,mieres,1026.0,24.5,False,-35.28,2026,1,101.0
+Mijas,mijas,3235.3,15.57,True,0.0,2026,1,585.0
+Miranda de Ebro,miranda de ebro,1483.4,16.66,False,-31.27,2026,1,141.0
+Mislata,mislata,2274.1,23.93,False,-20.15,2026,1,126.0
+Molina de Segura,molina de segura,1269.2,13.29,False,-32.32,2026,1,342.0
+Mollet del Vallès,mollet del valles,2454.1,11.45,False,-9.0,2026,1,183.0
+Montcada i Reixac,montcada i reixac,2312.5,6.05,False,-17.17,2026,1,132.0
+Morón de la Frontera,moron de la frontera,1010.1,5.03,False,-38.56,2026,1,65.0
+Motril,motril,1544.5,15.37,False,-18.53,2026,1,211.0
+Murcia,murcia,1574.8,9.64,False,-14.49,2026,1,1743.0
+Málaga,malaga,3240.5,12.96,False,-0.18,2026,1,1605.0
+Mérida,merida,1095.5,9.1,False,-20.32,2026,1,222.0
+Móstoles,mostoles,3025.7,20.6,True,0.0,2026,1,544.0
+Narón,naron,1113.8,18.82,False,-14.49,2026,1,144.0
+Navalcarnero,navalcarnero,2474.4,21.15,True,0.0,2026,1,103.0
+Nijar,nijar,1182.4,5.37,False,-3.52,2026,1,86.0
+Novelda,novelda,987.6,28.51,False,-19.35,2026,1,121.0
+Oleiros,oleiros,2108.4,6.59,False,-2.63,2026,1,125.0
+Oliva,oliva,1630.5,28.76,False,-5.47,2026,1,110.0
+"Oliva, La","oliva, la",3213.7,13.51,True,0.0,2026,1,111.0
+Olot,olot,1599.5,6.92,False,-30.28,2026,1,115.0
+Onda,onda,964.4,7.1,False,-0.21,2026,1,94.0
+Ontinyent,ontinyent,1040.9,16.84,False,-19.43,2026,1,105.0
+Orihuela,orihuela,2166.2,28.59,True,0.0,2026,1,407.0
+Orotava (La),la orotava,1772.4,20.18,True,0.0,2026,1,80.0
+Ourense,ourense,1602.0,18.61,False,-2.64,2026,1,251.0
+Oviedo,oviedo,2082.3,18.86,False,-2.85,2026,1,742.0
+Palacios y Villafranca (Los),los palacios y villafranca,1300.3,12.01,False,-21.92,2026,1,105.0
+Palencia,palencia,1347.2,13.25,False,-29.03,2026,1,239.0
+Palma de Mallorca,palma de mallorca,3788.9,14.7,True,0.0,2026,1,1169.0
+Palmas de Gran Canaria (Las),las palmas de gran canaria,2251.4,7.16,True,0.0,2026,1,1089.0
+Pamplona/Iruña,iruna/pamplona,2736.6,8.94,False,-4.61,2026,1,412.0
+Parla,parla,2367.8,19.0,False,-4.73,2026,1,357.0
+Paterna,paterna,2220.0,20.64,True,0.0,2026,1,275.0
+Petrer,petrer,1113.7,25.63,False,-4.67,2026,1,100.0
+Pineda de Mar,pineda de mar,2258.1,14.18,False,-2.14,2026,1,123.0
+Pinto,pinto,2800.7,15.61,False,-1.44,2026,1,151.0
+Plasencia,plasencia,1084.6,9.32,False,-23.59,2026,1,125.0
+Ponferrada,ponferrada,921.6,7.97,False,-30.57,2026,1,188.0
+Pontevedra,pontevedra,2083.6,22.59,True,0.0,2026,1,216.0
+Portugalete,portugalete,2808.3,14.66,False,-12.97,2026,1,114.0
+Pozuelo de Alarcón,pozuelo de alarcon,5150.8,15.14,True,0.0,2026,1,271.0
+Prat de Llobregat (El),el prat de llobregat,3052.5,15.52,True,0.0,2026,1,187.0
+Premià de Mar,premia de mar,2920.1,15.33,False,-0.69,2026,1,106.0
+Puente Génil,puente genil,987.1,12.09,False,-27.91,2026,1,95.0
+Puerto Real,puerto real,1963.5,20.69,False,-1.45,2026,1,158.0
+Puerto de Santa María,puerto de santa maria,2495.7,14.43,True,0.0,2026,1,339.0
+Puerto de la Cruz,puerto de la cruz,3036.3,24.71,True,0.0,2026,1,89.0
+Puerto del Rosario,puerto del rosario,1968.4,19.6,False,-0.07,2026,1,145.0
+Puertollano,puertollano,710.7,13.55,False,-47.3,2026,1,124.0
+Quart de Poblet,quart de poblet,1855.5,27.01,False,-1.47,2026,1,106.0
+Realejos (Los),los realejos,1768.7,21.64,True,0.0,2026,1,84.0
+Redondela,redondela,1381.3,15.85,False,-32.86,2026,1,62.0
+Reus,reus,1640.9,11.88,False,-17.69,2026,1,427.0
+Ribeira,ribeira,1398.2,13.66,False,-15.59,2026,1,74.0
+Rinconada (La),la rinconada,1744.6,22.82,True,0.0,2026,1,119.0
+Rincón de la Victoria,rincon de la victoria,3343.2,15.2,False,-1.0,2026,1,206.0
+Ripollet,ripollet,2481.0,10.94,False,-7.89,2026,1,157.0
+Rivas-Vaciamadrid,rivas-vaciamadrid,3392.8,20.74,True,0.0,2026,1,229.0
+Ronda,ronda,1683.1,24.17,False,-12.93,2026,1,138.0
+Roquetas de Mar,roquetas de mar,1697.9,12.15,False,-10.15,2026,1,563.0
+Rota,rota,2795.5,9.83,False,-1.81,2026,1,123.0
+Rozas de Madrid (Las),las rozas de madrid,4435.2,15.42,True,0.0,2026,1,352.0
+Rubí,rubi,2457.8,13.69,False,-10.99,2026,1,340.0
+Sabadell,sabadell,2446.0,10.01,False,-12.2,2026,1,1010.0
+Sagunto/Sagunt,sagunt/sagunto,1627.6,18.91,False,-4.77,2026,1,251.0
+Salamanca,salamanca,2165.6,20.71,False,-11.42,2026,1,496.0
+Salou,salou,2555.4,15.0,True,0.0,2026,1,198.0
+Salt,salt,1407.8,14.08,False,-35.73,2026,1,104.0
+San Andrés  del Rabanedo,san andres del rabanedo,1202.4,20.2,False,-18.32,2026,1,94.0
+San Bartolomé de Tirajana,san bartolome de tirajana,3138.9,15.27,False,-2.65,2026,1,123.0
+San Cristóbal Laguna,san cristobal laguna,2016.2,13.61,True,0.0,2026,1,353.0
+San Fernando,san fernando,1951.2,16.21,False,-4.72,2026,1,335.0
+San Fernando de Henares,san fernando de henares,2911.6,16.39,False,-12.5,2026,1,122.0
+San Javier,san javier,1904.9,21.39,False,-17.19,2026,1,286.0
+San Roque,san roque,2558.3,16.42,False,-16.23,2026,1,185.0
+San Sebastián de los Reyes,san sebastian de los reyes,3865.3,18.91,True,0.0,2026,1,259.0
+San Sebastián/Donostia,donostia/san sebastian,5118.4,6.42,False,-3.28,2026,1,386.0
+San Vicente del Raspeig,san vicente del raspeig,1987.2,24.09,True,0.0,2026,1,194.0
+Sanlúcar de Barrameda,sanlucar de barrameda,2083.2,16.09,False,-6.37,2026,1,215.0
+Sant Adrià de Besòs,sant adria de besos,2895.1,18.87,False,-12.46,2026,1,164.0
+Sant Andreu de la Barca,sant andreu de la barca,2642.0,11.01,True,0.0,2026,1,94.0
+Sant Boi de Llobregat,sant boi de llobregat,2830.0,13.14,False,-8.23,2026,1,350.0
+Sant Cugat del Vallès,sant cugat del valles,5063.4,9.35,True,0.0,2026,1,306.0
+Sant Feliu de Llobregat,sant feliu de llobregat,3377.7,14.12,True,0.0,2026,1,119.0
+Sant Joan Despí,sant joan despi,3442.1,11.5,False,-1.51,2026,1,124.0
+Sant Pere de Ribes,sant pere de ribes,2532.2,10.0,False,-14.42,2026,1,204.0
+Sant Vicenç dels Horts,sant vicenç dels horts,2531.9,18.19,False,-6.06,2026,1,129.0
+Santa Coloma Gramanet,santa coloma gramanet,2607.8,14.17,False,-12.6,2026,1,453.0
+Santa Cruz deTenerife,santa cruz detenerife,2335.1,19.08,True,0.0,2026,1,590.0
+Santa Eulalia del Río,santa eulalia del rio,6624.0,13.63,True,0.0,2026,1,125.0
+Santa Lucía de Tirajana,santa lucia de tirajana,1773.3,16.73,True,0.0,2026,1,149.0
+Santa Perpètua de Mogoda,santa perpetua de mogoda,2476.1,11.52,True,0.0,2026,1,115.0
+Santa Pola,santa pola,2488.7,20.56,True,0.0,2026,1,232.0
+Santander,santander,2600.8,12.98,False,-0.83,2026,1,551.0
+Santiago de Compostela,santiago de compostela,2365.0,13.38,True,0.0,2026,1,144.0
+Santurtzi,santurtzi,2681.5,12.58,False,-20.11,2026,1,123.0
+Segovia,segovia,2053.3,15.78,False,-24.56,2026,1,162.0
+Sestao,sestao,2294.7,10.38,False,-23.42,2026,1,98.0
+Sevilla,sevilla,2570.8,12.88,False,-1.35,2026,1,2573.0
+Siero,siero,1453.1,8.52,False,-10.99,2026,1,213.0
+Sitges,sitges,4821.1,11.22,True,0.0,2026,1,137.0
+Soria,soria,1555.3,9.99,False,-20.14,2026,1,62.0
+Sueca,sueca,1486.7,23.69,False,-8.79,2026,1,280.0
+Talavera de la Reina,talavera de la reina,1248.2,23.28,False,-33.3,2026,1,267.0
+Tarragona,tarragona,1837.8,9.95,False,-26.93,2026,1,533.0
+Telde,telde,1796.3,22.27,False,-0.59,2026,1,262.0
+Terrassa,terrassa,2300.6,10.94,False,-16.44,2026,1,1106.0
+Teruel,teruel,1691.5,12.47,False,-12.0,2026,1,104.0
+Toledo,toledo,1965.6,16.33,False,-20.78,2026,1,243.0
+Tomelloso,tomelloso,804.0,15.45,False,-31.38,2026,1,125.0
+Torre-Pacheco,torre-pacheco,1351.1,13.01,False,-30.02,2026,1,146.0
+Torrejón de Ardoz,torrejon de ardoz,2952.2,18.85,True,0.0,2026,1,404.0
+Torrelavega,torrelavega,1593.4,34.45,False,-19.55,2026,1,125.0
+Torremolinos,torremolinos,3887.3,19.8,True,0.0,2026,1,290.0
+Torrent,torrent,1880.5,22.23,True,0.0,2026,1,309.0
+Torrevieja,torrevieja,2182.4,15.71,True,0.0,2026,1,531.0
+Tortosa,tortosa,1084.5,9.61,False,-28.59,2026,1,99.0
+Totana,totana,978.2,7.51,False,-37.18,2026,1,80.0
+Tres Cantos,tres cantos,4265.1,16.71,True,0.0,2026,1,184.0
+Tudela,tudela,1591.0,19.1,False,-19.03,2026,1,95.0
+Utrera,utrera,1450.2,17.84,False,-13.86,2026,1,181.0
+Valdemoro,valdemoro,2705.7,23.25,True,0.0,2026,1,301.0
+Valdepeñas,valdepenas,892.9,13.67,False,-32.4,2026,1,97.0
+Valencia,valencia,2907.9,16.99,True,0.0,2026,1,2519.0
+Vall d'Uixó (la),la vall d'uixo,975.9,17.15,False,-14.46,2026,1,107.0
+Valladolid,valladolid,1845.9,15.26,False,-17.04,2026,1,842.0
+Vendrell (El),el vendrell,1921.3,9.01,False,-18.0,2026,1,250.0
+Vic,vic,2078.9,14.9,False,-10.98,2026,1,142.0
+Vigo,vigo,2302.3,13.9,False,-8.95,2026,1,595.0
+Viladecans,viladecans,3065.4,12.17,True,0.0,2026,1,315.0
+Vilafranca del Penedès,vilafranca del penedes,2022.6,7.72,False,-17.33,2026,1,124.0
+Vilagarcía de Arousa,vilagarcia de arousa,1454.7,7.77,False,-10.15,2026,1,77.0
+Vilanova i la Geltrú,vilanova i la geltru,2698.4,10.68,False,-5.41,2026,1,293.0
+Villajoyosa/Vila Joiosa (La),la villajoyosa/vila joiosa,2236.6,17.56,False,-1.19,2026,1,149.0
+Villanueva de la Serena,villanueva de la serena,810.4,-0.84,False,-5.4,2026,1,81.0
+Villarreal/Vila-real,vila-real/villarreal,1183.4,20.22,False,-35.15,2026,1,177.0
+Villarrobledo,villarrobledo,631.5,-2.82,False,-42.98,2026,1,53.0
+Villaviciosa de Odón,villaviciosa de odon,3382.3,17.62,True,0.0,2026,1,108.0
+Villena,villena,910.3,17.28,False,-20.22,2026,1,107.0
+Vinaròs,vinaros,1632.0,24.19,False,-25.38,2026,1,93.0
+Vitoria,vitoria,2700.0,10.96,False,-11.78,2026,1,558.0
+Vélez Málaga,velez malaga,2558.2,17.87,True,0.0,2026,1,278.0
+Xirivella,xirivella,1705.5,30.44,True,0.0,2026,1,114.0
+Xàtiva,xativa,1236.8,25.04,False,-12.59,2026,1,102.0
+Yecla,yecla,839.3,13.71,False,-37.55,2026,1,106.0
+Zamora,zamora,1323.7,13.67,False,-19.8,2026,1,185.0
+Zaragoza,zaragoza,2216.4,14.8,False,-26.04,2026,1,1960.0
+Águilas,aguilas,1460.6,19.88,False,-40.55,2026,1,198.0
+Ávila,avila,1605.4,17.77,False,-18.76,2026,1,193.0
+Écija,ecija,1157.3,16.64,False,-20.37,2026,1,120.0
+Úbeda,ubeda,938.5,-1.51,False,-34.51,2026,1,141.0

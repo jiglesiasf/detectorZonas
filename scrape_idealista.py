@@ -7,11 +7,11 @@ import re
 import time
 from pathlib import Path
 
-import requests
 from playwright.sync_api import sync_playwright
 
 
 API_BASE = "https://www.idealista.com/sala-de-prensa/informes-precio-vivienda"
+API_REST = "https://www.idealista.com/press-room/property-price-reports/rest"
 
 TARGET_PROVINCES = [
     "alicante/alacant", "castellón/castelló", "valencia/valència",
@@ -20,280 +20,315 @@ TARGET_PROVINCES = [
 ]
 
 
-def discover_api(target_provinces, cookie_file=None):
-    """Discover idealista's internal price API.
-
-    Opens the idealista price report page with Playwright, captures XHR
-    requests to discover the internal API URL pattern, and builds a
-    location mapping from the page's dropdown selectors.
-
-    If DataDome blocks access (captcha), raises RuntimeError with guidance
-    on how to manually export cookies for reuse.
-
-    Args:
-        target_provinces: List of province name strings (lowercase) to target.
-        cookie_file: Optional path to a JSON cookie file exported from a
-                     browser session where the captcha was already solved.
-
-    Returns:
-        dict with keys:
-          - session: requests.Session primed with cookies
-          - api_pattern: str, the API URL template
-          - headers: dict of required request headers
-          - location_mapping: dict[str, str] mapping normalized names -> IDs
-    """
-    if cookie_file and os.path.exists(cookie_file):
-        return _load_cookies_and_discover(cookie_file)
-
-    return _discover_via_playwright(target_provinces)
-
-
-def _discover_via_playwright(target_provinces):
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        context = browser.new_context(
-            user_agent=(
-                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-                "AppleWebKit/537.36 (KHTML, like Gecko) "
-                "Chrome/120.0.0.0 Safari/537.36"
-            ),
-            viewport={"width": 1920, "height": 1080},
-            locale="es-ES",
-            timezone_id="Europe/Madrid",
-        )
-        page = context.new_page()
-        captured_url = None
-        captured_headers = None
-        location_mapping = {}
-
-        def intercept(response):
-            nonlocal captured_url, captured_headers
-            if response.ok and "/data/" in response.url and "price" in response.url.lower():
-                content_type = response.headers.get("content-type", "")
-                if "json" in content_type:
-                    captured_url = response.url
-                    captured_headers = response.request.headers
-
-        page.on("response", intercept)
-        try:
-            page.goto(API_BASE, wait_until="networkidle", timeout=30000)
-        except Exception as e:
-            browser.close()
-            raise RuntimeError(
-                f"Could not load idealista page (blocked by DataDome?): {e}\n"
-                "Try manually opening https://www.idealista.com/sala-de-prensa/informes-precio-vivienda/ "
-                "in a regular browser, solve the captcha, export cookies as JSON, "
-                "and pass them via --cookie-file."
-            )
-        time.sleep(2)
-
-        # Check if we got past the captcha (look for select elements)
-        selects = page.locator("select")
-        if selects.count() < 2:
-            body_text = page.locator("body").inner_text()
-            browser.close()
-            body_snippet = body_text[:200] if body_text else "(empty page body)"
-            raise RuntimeError(
-                "DataDome captcha blocking idealista access. "
-                "Manually solve the captcha in a regular browser, then:\n"
-                "  1. Export cookies with an extension like 'Cookie-Editor'\n"
-                "  2. Save as JSON file\n"
-                "  3. Pass with --cookie-file <path>\n"
-                f"Body content: {body_snippet}"
-            )
-
-        prov_select = page.locator("select").first
-        prov_options = prov_select.locator("option").all()
-        for opt in prov_options:
-            val = opt.get_attribute("value")
-            text = opt.inner_text().strip()
-            if val and text:
-                location_mapping[f"prov:{text.lower()}"] = val
-
-        def _select_province(name):
-            key = f"prov:{name}"
-            if key in location_mapping:
-                prov_select.select_option(location_mapping[key])
-                return True
-            for map_key, map_val in location_mapping.items():
-                if map_key.startswith("prov:") and name in map_key:
-                    prov_select.select_option(map_val)
-                    return True
-            return False
-
-        for prov_name_lower in target_provinces:
-            if _select_province(prov_name_lower):
-                time.sleep(2)
-                break
-        else:
-            for opt in prov_options:
-                val = opt.get_attribute("value")
-                if val:
-                    prov_select.select_option(val)
-                    time.sleep(2)
-                    break
-
-        muni_select = page.locator("select").nth(1)
-        muni_options = muni_select.locator("option").all()
-        for opt in muni_options:
-            val = opt.get_attribute("value")
-            text = opt.inner_text().strip()
-            if val and text and val != muni_select.get_attribute("value"):
-                location_mapping[f"muni:{text.lower()}"] = val
-
-        selected_muni_id = None
-        for opt in muni_options:
-            val = opt.get_attribute("value")
-            if val and val != muni_select.get_attribute("value"):
-                selected_muni_id = val
-                muni_select.select_option(val)
-                time.sleep(2)
-                break
-
-        cookies = context.cookies()
-        browser.close()
-
-    if not captured_url:
-        raise RuntimeError(
-            "Could not discover idealista API endpoint. "
-            "The page loaded but no JSON API call was intercepted."
-        )
-
-    if selected_muni_id and selected_muni_id in captured_url:
-        captured_url = captured_url.replace(selected_muni_id, "{location_id}")
-
-    session = requests.Session()
-    for c in cookies:
-        session.cookies.set(c["name"], c["value"])
-
-    return {
-        "session": session,
-        "api_pattern": captured_url,
-        "headers": {k: v for k, v in captured_headers.items()
-                    if k.lower() in ("accept", "content-type", "x-requested-with",
-                                     "user-agent", "referer")},
-        "location_mapping": location_mapping,
+def _kebab(name):
+    s = name.lower().strip()
+    s = s.replace("/", "-").replace(" ", "-")
+    accents = {
+        "á": "a", "é": "e", "í": "i", "ó": "o", "ú": "u",
+        "à": "a", "è": "e", "ì": "i", "ò": "o", "ù": "u",
+        "ä": "a", "ë": "e", "ï": "i", "ö": "o", "ü": "u",
+        "ñ": "n",
     }
+    for a, b in accents.items():
+        s = s.replace(a, b)
+    s = re.sub(r"-+", "-", s)
+    s = s.strip("-")
+    return s
 
 
-def _load_cookies_and_discover(cookie_file):
-    """Load cookies from a file and attempt to use them for discovery."""
-    raise RuntimeError(
-        "A cookie file alone is insufficient for API discovery. "
-        "The cookie file must be used together with Playwright to "
-        "bypass DataDome and discover the API URL pattern and "
-        "location IDs.\n"
-        "To use saved cookies:\n"
-        "  1. Pass --cookie-file <path>\n"
-        "  2. The cookie file must contain cookies from an idealista "
-        "session where the captcha was already solved\n"
-        "If you keep seeing this error, the cookie file may be "
-        "expired or invalid."
+def _build_location_tree(page, api_key):
+    """Build full hierarchy: comunidad → provincia → municipio using get-location-children."""
+
+    def fetch_children(loc_id):
+        url = f"{API_REST}/get-location-children/{loc_id}/?apiKey={api_key}"
+        return page.evaluate(
+            """(url) => fetch(url).then(r => r.json()).then(data =>
+                data.map(item => ({
+                    serial: item.serial,
+                    location_id: item.location_id,
+                    name: item.name,
+                    zone_level_id: item.zone_level_id,
+                    final_location: item.final_location,
+                }))
+            )""",
+            url,
+        )
+
+    root = fetch_children(1)
+    tree = {}
+    for com in root:
+        com_slug = _kebab(com["name"])
+        tree[com_slug] = {
+            "serial": com["serial"],
+            "name": com["name"],
+            "provinces": {},
+        }
+        provs = fetch_children(com["serial"])
+        for prov in provs:
+            prov_slug = _kebab(prov["name"])
+            tree[com_slug]["provinces"][prov_slug] = {
+                "serial": prov["serial"],
+                "name": prov["name"],
+                "municipios": {},
+            }
+            munis = fetch_children(prov["serial"])
+            for muni in munis:
+                if muni.get("final_location") == "1":
+                    tree[com_slug]["provinces"][prov_slug]["municipios"][_kebab(muni["name"])] = {
+                        "serial": muni["serial"],
+                        "name": muni["name"],
+                    }
+    return tree
+
+
+def _learn_url_patterns(page, tree, target_provinces):
+    """For each target province, submit form once to discover URL slug pattern."""
+
+    target_munis = {}
+    for target_raw in target_provinces:
+        target = _kebab(target_raw)
+        found_province = None
+        found_com = None
+        for com_slug, com_data in tree.items():
+            for prov_slug, prov_data in com_data["provinces"].items():
+                if target == prov_slug or target in prov_slug or prov_slug in target:
+                    found_province = prov_data
+                    found_com = com_slug
+                    break
+            if found_province:
+                break
+
+        if not found_province:
+            print(f"  WARNING: Could not find province '{target_raw}' in tree")
+            continue
+
+        muni_slugs = list(found_province["municipios"].keys())
+        if not muni_slugs:
+            continue
+
+        # Use the first municipality as a probe
+        first_muni_slug = muni_slugs[0]
+        first_muni = found_province["municipios"][first_muni_slug]
+
+        url = _submit_form_get_url(page, found_com, found_province["serial"], first_muni["serial"])
+        print(f"  URL pattern for {target_raw}: {url}")
+
+        # Parse slugs from URL
+        m = re.search(r"/venta/([^/]+)/([^/]+)/([^/]+)/", url)
+        if m:
+            com_url_slug, prov_url_slug, muni_url_slug = m.group(1), m.group(2), m.group(3)
+        else:
+            com_url_slug, prov_url_slug, muni_url_slug = found_com, _kebab(found_province["name"]), first_muni_slug
+
+        # Build mapping for all municipalities in this province
+        target_munis[target_raw] = []
+        for m_slug, m_data in found_province["municipios"].items():
+            # Determine municipality slug — same pattern as first one
+            if m_slug == first_muni_slug:
+                m_url_slug = muni_url_slug
+            else:
+                m_url_slug = _kebab(m_data["name"])
+                # Apply same disambiguation pattern as first
+                if prov_url_slug == _kebab(found_province["name"]) and m_url_slug == prov_url_slug:
+                    m_url_slug = m_url_slug + "-provincia"
+                elif prov_url_slug == first_muni_slug and m_url_slug == first_muni_slug:
+                    pass
+                elif m_url_slug == _kebab(found_province["name"]):
+                    m_url_slug = m_url_slug + "-provincia"
+
+            target_munis[target_raw].append({
+                "com_slug": com_url_slug,
+                "prov_slug": prov_url_slug,
+                "muni_url_slug": m_url_slug,
+                "serial": m_data["serial"],
+                "name": m_data["name"],
+                "target_name": target_raw,
+            })
+
+    return target_munis
+
+
+def _submit_form_get_url(page, com_slug, prov_serial, muni_serial):
+    """Navigate to main page, select location, submit form, return resulting URL."""
+    page.goto(API_BASE + "/", wait_until="networkidle", timeout=30000)
+    time.sleep(2)
+
+    selects = page.locator("select").all()
+    opts = selects[0].locator("option").all()
+    for opt in opts:
+        if opt.get_attribute("value"):
+            selects[0].select_option(opt.get_attribute("value"))
+            time.sleep(1)
+            break
+
+    # Find comunidad by serial
+    selects = page.locator("select").all()
+    api_key = page.evaluate(
+        """() => {
+            const m = document.documentElement.innerHTML.match(/apiKey=([a-f0-9-]+)/);
+            return m ? m[1] : null;
+        }"""
+    )
+    comunidad_serial = None
+    comunidades_raw = page.evaluate(
+        """(apiKey) => fetch('https://www.idealista.com/press-room/property-price-reports/rest/get-location-children/1/?apiKey=' + apiKey)
+            .then(r => r.json())
+            .then(data => data.map(i => ({serial: i.serial, name: i.name})))""",
+        api_key,
+    )
+    for c in comunidades_raw:
+        if _kebab(c["name"]) == com_slug:
+            comunidad_serial = c["serial"]
+            break
+
+    if not comunidad_serial:
+        raise ValueError(f"Comunidad '{com_slug}' not found")
+
+    selects = page.locator("select").all()
+    selects[0].select_option(comunidad_serial)
+    time.sleep(3)
+
+    selects = page.locator("select").all()
+    selects[1].select_option(prov_serial)
+    time.sleep(3)
+
+    selects = page.locator("select").all()
+    selects[2].select_option(muni_serial)
+    time.sleep(2)
+
+    page.click("#edit-submit")
+    time.sleep(5)
+    return page.url
+
+
+def _scrape_price_from_page(page):
+    """Extract price data from current page."""
+    title = page.title()
+    m = re.search(r"en (.+?) — idealista", title)
+    location_name = m.group(1) if m else ""
+
+    price_data = page.evaluate(
+        """() => {
+            const el = document.querySelector('.price-indicator-current-values__list');
+            return el ? el.innerText : '';
+        }"""
     )
 
+    precio_m2 = None
+    for line in price_data.split("\n"):
+        line = line.strip()
+        m2 = re.match(r"([\d.]+)\s*€/m2", line)
+        if m2:
+            precio_m2 = float(m2.group(1).replace(".", ""))
+            break
 
-def fetch_municipio_price(muni_name, api_config):
-    """Fetch price data for a municipality via the discovered idealista API.
+    # Parse table
+    rows = page.evaluate(
+        """() => {
+            const block = document.querySelector('.price-indicator-table-block--children');
+            if (!block) return [];
+            const table = block.querySelector('table');
+            if (!table) return [];
+            const trs = table.querySelectorAll('tr');
+            return Array.from(trs).slice(1, 2).map(r =>
+                Array.from(r.querySelectorAll('td')).map(c => c.innerText.trim())
+            );
+        }"""
+    )
 
-    Uses the location_mapping from discover_api() to find the correct
-    location ID and constructs the API URL accordingly.
+    variacion_anual = None
+    variacion_mensual = None
+    variacion_trimestral = None
+    maximo_historico_str = None
+    variacion_maximo = None
+    en_maximo = False
 
-    Args:
-        muni_name: Municipality name as string.
-        api_config: Config dict from discover_api().
-
-    Returns:
-        dict with keys: municipio_nombre, precio_m2, variacion_mensual,
-        variacion_trimestral, variacion_anual, maximo_historico,
-        variacion_maximo, mes_referencia.
-    """
-    session = api_config["session"]
-    headers = api_config["headers"]
-    mapping = api_config["location_mapping"]
-
-    muni_key = f"muni:{muni_name.strip().lower()}"
-    loc_id = mapping.get(muni_key)
-    if not loc_id:
-        for key, val in mapping.items():
-            if key.startswith("muni:") and muni_key[5:] in key:
-                loc_id = val
-                break
-
-    if not loc_id:
-        raise ValueError(f"No location ID found for {muni_name}")
-
-    api_pattern = api_config["api_pattern"]
-    url = api_pattern.replace("{location_id}", loc_id)
-
-    max_retries = 5
-    backoff_base = 2
-    for attempt in range(max_retries):
-        resp = session.get(url, headers=headers, timeout=30)
-        if resp.status_code in (429, 503) and attempt < max_retries - 1:
-            sleep_time = backoff_base ** (attempt + 1)
-            print(f"  Rate limited (HTTP {resp.status_code}), retrying in {sleep_time}s...")
-            time.sleep(sleep_time)
-            continue
-        resp.raise_for_status()
-        break
-    data = resp.json()
-
-    if isinstance(data, list):
-        data = data[0] if data else {}
+    if rows and len(rows[0]) >= 7:
+        variacion_anual = _parse_variacion(rows[0][4]) if rows[0][4] else None
+        variacion_mensual = _parse_variacion(rows[0][2])
+        variacion_trimestral = _parse_variacion(rows[0][3])
+        maximo_historico_str = rows[0][5]
+        variacion_maximo = _parse_variacion(rows[0][6])
+        en_maximo = "0,0 %" in rows[0][6] if rows[0][6] else False
 
     return {
-        "municipio_nombre": muni_name,
-        "precio_m2": data.get("price", 0),
-        "variacion_mensual": data.get("monthlyVariation"),
-        "variacion_trimestral": data.get("quarterlyVariation"),
-        "variacion_anual": data.get("annualVariation"),
-        "maximo_historico": data.get("historicalMax"),
-        "variacion_maximo": data.get("maxVariation"),
-        "mes_referencia": data.get("referenceMonth"),
+        "municipio_nombre": location_name,
+        "precio_m2": precio_m2,
+        "variacion_mensual": variacion_mensual,
+        "variacion_trimestral": variacion_trimestral,
+        "variacion_anual": variacion_anual,
+        "maximo_historico_str": maximo_historico_str,
+        "variacion_maximo": variacion_maximo,
+        "en_maximo": en_maximo,
     }
 
 
-def scrape_all(target_munis, target_provinces, cookie_file=None, rate_limit=1.0):
-    """Scrape price data for all target municipalities."""
-    print("Discovering idealista API...")
-    api_config = discover_api(target_provinces, cookie_file=cookie_file)
-    pattern = api_config.get("api_pattern") or "(cookie-based, URL pattern unknown until API call)"
-    print(f"API discovered: {pattern}")
+def _parse_variacion(s):
+    s = s.strip()
+    m = re.match(r"([+-])\s*([\d,]+)\s*%", s)
+    if m:
+        sign = 1 if m.group(1) == "+" else -1
+        val = float(m.group(2).replace(",", "."))
+        return sign * val
+    return None
 
+
+def scrape_idealista(target_munis_dict):
+    """Scrape price data for all target municipalities via CDP browser.
+
+    Args:
+        target_munis_dict: dict mapping province -> list of {com_slug, prov_slug, muni_url_slug, name}
+
+    Returns:
+        list of dicts with price data per municipality.
+    """
     results = []
-    total = len(target_munis)
-    for i, muni in enumerate(target_munis, 1):
-        try:
-            data = fetch_municipio_price(muni, api_config)
-            results.append(data)
-            print(f"  [{i}/{total}] {muni}: {data.get('precio_m2', 'N/A')} \u20ac/m2")
-        except Exception as e:
-            print(f"  [{i}/{total}] {muni}: ERROR - {e}")
-            results.append({
-                "municipio_nombre": muni,
-                "precio_m2": None,
-                "variacion_mensual": None,
-                "variacion_trimestral": None,
-                "variacion_anual": None,
-                "maximo_historico": None,
-                "variacion_maximo": None,
-                "mes_referencia": None,
-            })
-        delay = max(0.1, rate_limit + random.uniform(-0.5, 0.5))
-        time.sleep(delay)
+    total = sum(len(munis) for munis in target_munis_dict.values())
+
+    with sync_playwright() as p:
+        browser = p.chromium.connect_over_cdp("http://localhost:9222")
+        context = browser.contexts[0]
+        page = context.new_page()
+
+        done = 0
+        for prov, munis in target_munis_dict.items():
+            if not munis:
+                continue
+            com_slug = munis[0]["com_slug"]
+            prov_slug = munis[0]["prov_slug"]
+
+            for m_data in munis:
+                done += 1
+                m_url_slug = m_data["muni_url_slug"]
+                url = f"{API_BASE}/venta/{com_slug}/{prov_slug}/{m_url_slug}/"
+
+                try:
+                    page.goto(url, wait_until="networkidle", timeout=30000)
+                    time.sleep(2)
+
+                    data = _scrape_price_from_page(page)
+                    results.append(data)
+                    precio_str = f'{data["precio_m2"]} €/m2' if data["precio_m2"] else "N/A"
+                    print(f"  [{done}/{total}] {m_data['name']}: {precio_str}")
+                except Exception as e:
+                    print(f"  [{done}/{total}] {m_data['name']}: ERROR - {e}")
+                    results.append({
+                        "municipio_nombre": m_data["name"],
+                        "precio_m2": None,
+                        "variacion_mensual": None,
+                        "variacion_trimestral": None,
+                        "variacion_anual": None,
+                        "maximo_historico_str": None,
+                        "variacion_maximo": None,
+                        "en_maximo": None,
+                    })
+
+                delay = random.uniform(0.5, 1.5)
+                time.sleep(delay)
+
+        browser.close()
 
     return results
-
-
-def extract_municipios_from_csv(csv_path):
-    """Extract unique municipio names from the input CSV."""
-    import pandas as pd
-    df = pd.read_csv(csv_path)
-    munis = set()
-    for names in df["municipio_nombre"].str.split(", "):
-        for n in names:
-            munis.add(n.strip())
-    return sorted(munis)
 
 
 def main():
@@ -302,31 +337,63 @@ def main():
                         help="CSV with municipio_nombre column")
     parser.add_argument("--output", default="data/precios_idealista.csv",
                         help="Output CSV path")
-    parser.add_argument("--rate-limit", type=float, default=1.0,
-                        help="Seconds between API calls")
-    parser.add_argument("--cookie-file",
-                        help="Path to JSON cookie file (bypasses Playwright captcha)")
+    parser.add_argument("--cdp-port", type=int, default=9222,
+                        help="Connect to existing Chrome via CDP")
     args = parser.parse_args()
 
     print("Extracting unique municipios from input...")
-    munis = extract_municipios_from_csv(args.input)
-    print(f"Found {len(munis)} unique municipios to scrape")
+    import pandas as pd
+    df = pd.read_csv(args.input)
+    all_munis = set()
+    for names in df["municipio_nombre"].str.split(", "):
+        for n in names:
+            all_munis.add(n.strip())
+    all_munis = sorted(all_munis)
+    print(f"Found {len(all_munis)} unique municipios")
 
-    results = scrape_all(munis, TARGET_PROVINCES, cookie_file=args.cookie_file, rate_limit=args.rate_limit)
+    print("\nPhase 1: Building location hierarchy...")
+    with sync_playwright() as p:
+        browser = p.chromium.connect_over_cdp(f"http://localhost:{args.cdp_port}")
+        context = browser.contexts[0]
+        page = context.new_page()
+
+        page.goto(API_BASE + "/", wait_until="networkidle", timeout=30000)
+        time.sleep(2)
+
+        api_key = page.evaluate(
+            """() => {
+                const m = document.documentElement.innerHTML.match(/apiKey=([a-f0-9-]+)/);
+                return m ? m[1] : null;
+            }"""
+        )
+        print(f"API Key: {api_key}")
+
+        tree = _build_location_tree(page, api_key)
+        print(f"Tree built: {sum(len(c['provinces']) for c in tree.values())} provinces in {len(tree)} communities")
+
+        print("\nPhase 2: Learning URL patterns for target provinces...")
+        target_munis = _learn_url_patterns(page, tree, TARGET_PROVINCES)
+
+        total_target = sum(len(m) for m in target_munis.values())
+        print(f"Target municipalities: {total_target}")
+
+        browser.close()
+
+    print("\nPhase 3: Scraping prices...")
+    results = scrape_idealista(target_munis)
 
     out_path = Path(args.output)
     out_path.parent.mkdir(parents=True, exist_ok=True)
     with open(out_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=[
             "municipio_nombre", "precio_m2", "variacion_mensual",
-            "variacion_trimestral", "variacion_anual", "maximo_historico",
-            "variacion_maximo", "mes_referencia",
+            "variacion_trimestral", "variacion_anual", "maximo_historico_str",
+            "variacion_maximo", "en_maximo",
         ])
         writer.writeheader()
         writer.writerows(results)
 
-    print(f"Saved {len(results)} records to {out_path}")
-
+    print(f"\nSaved {len(results)} records to {out_path}")
     success = sum(1 for r in results if r["precio_m2"] is not None)
     print(f"Successful: {success}/{len(results)}")
 

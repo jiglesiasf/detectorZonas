@@ -1,71 +1,71 @@
 codigo_postal,provincia,municipio_nombre,poblacion_actual,poblacion_hace_5a,crecimiento_%,supera_20k,crecimiento_positivo,precio_m2,variacion_anual_%,variacion_maximo_%,en_maximo_historico,precio_anual_positivo
-46014,Valencia/València,"València, Xirivella",136027.33333333334,128168.16666666666,6.13,True,True,,,,False,False
-46016,Valencia/València,"Tavernes Blanques, València",129804.83333333334,122293.66666666666,6.14,True,True,,,,False,False
-46135,Valencia/València,"Albalat dels Sorells, Emperador, València",125048.83333333334,117793.66666666666,6.16,True,True,,,,False,False
-46131,Valencia/València,"Bonrepòs i Mirambell, València",124095.83333333334,116807.66666666666,6.24,True,True,,,,False,False
-46015,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,,,,False,False
-46005,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,,,,False,False
-46002,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,,,,False,False
-46006,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,,,,False,False
-46007,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,,,,False,False
-46008,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,,,,False,False
-46009,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,,,,False,False
-46010,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,,,,False,False
-46001,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,,,,False,False
-46011,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,,,,False,False
-46012,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,,,,False,False
-46013,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,,,,False,False
-46018,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,,,,False,False
-46003,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,,,,False,False
-46017,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,,,,False,False
-46019,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,,,,False,False
-46020,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,,,,False,False
-46021,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,,,,False,False
-46022,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,,,,False,False
-46023,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,,,,False,False
-46024,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,,,,False,False
-46025,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,,,,False,False
-46026,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,,,,False,False
-46035,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,,,,False,False
-46112,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,,,,False,False
-46004,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,,,,False,False
-03550,Alicante/Alacant,"Alacant/Alicante, Sant Joan d'Alacant",118997.76923076923,109650.46153846153,8.52,True,True,,,,False,False
-03113,Alicante/Alacant,"Alacant/Alicante, Elx/Elche",104441.61923076924,97021.71153846153,7.65,True,True,,,,False,False
-03409,Alicante/Alacant,"Alacant/Alicante, Cañada, Salinas, Villena",102664.10256410256,95570.21153846153,7.42,True,True,,,,False,False
-03011,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,,,,False,False
-03002,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,,,,False,False
-03003,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,,,,False,False
-03699,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,,,,False,False
-03004,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,,,,False,False
-03005,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,,,,False,False
-03006,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,,,,False,False
-03007,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,,,,False,False
-03008,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,,,,False,False
-03009,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,,,,False,False
-03010,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,,,,False,False
-03138,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,,,,False,False
-03012,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,,,,False,False
-03013,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,,,,False,False
-03014,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,,,,False,False
-03015,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,,,,False,False
-03112,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,,,,False,False
-03540,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,,,,False,False
-03115,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,,,,False,False
-03001,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,,,,False,False
-03114,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,,,,False,False
-03559,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,,,,False,False
-03016,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,,,,False,False
-43100,Tarragona,Tarragona,87480.8,81677.2,7.11,True,True,,,,False,False
-43130,Tarragona,Tarragona,87480.8,81677.2,7.11,True,True,,,,False,False
-43002,Tarragona,Tarragona,87480.8,81677.2,7.11,True,True,,,,False,False
-43001,Tarragona,Tarragona,87480.8,81677.2,7.11,True,True,,,,False,False
-43008,Tarragona,Tarragona,87480.8,81677.2,7.11,True,True,,,,False,False
-43006,Tarragona,Tarragona,87480.8,81677.2,7.11,True,True,,,,False,False
-43005,Tarragona,Tarragona,87480.8,81677.2,7.11,True,True,,,,False,False
-43007,Tarragona,Tarragona,87480.8,81677.2,7.11,True,True,,,,False,False
-43003,Tarragona,Tarragona,87480.8,81677.2,7.11,True,True,,,,False,False
-43004,Tarragona,Tarragona,87480.8,81677.2,7.11,True,True,,,,False,False
-15008,A Coruña,"Arteixo, Coruña, A",81441.29999999999,80244.0,1.49,True,True,,,,False,False
+46014,Valencia/València,"València, Xirivella",136027.33333333334,128168.16666666666,6.13,True,True,2306.7,23.715,0.0,True,True
+46016,Valencia/València,"Tavernes Blanques, València",129804.83333333334,122293.66666666666,6.14,True,True,2907.9,16.99,0.0,True,True
+46135,Valencia/València,"Albalat dels Sorells, Emperador, València",125048.83333333334,117793.66666666666,6.16,True,True,2907.9,16.99,0.0,True,True
+46131,Valencia/València,"Bonrepòs i Mirambell, València",124095.83333333334,116807.66666666666,6.24,True,True,2907.9,16.99,0.0,True,True
+46015,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,2907.9,16.99,0.0,True,True
+46005,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,2907.9,16.99,0.0,True,True
+46002,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,2907.9,16.99,0.0,True,True
+46006,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,2907.9,16.99,0.0,True,True
+46007,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,2907.9,16.99,0.0,True,True
+46008,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,2907.9,16.99,0.0,True,True
+46009,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,2907.9,16.99,0.0,True,True
+46010,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,2907.9,16.99,0.0,True,True
+46001,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,2907.9,16.99,0.0,True,True
+46011,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,2907.9,16.99,0.0,True,True
+46012,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,2907.9,16.99,0.0,True,True
+46013,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,2907.9,16.99,0.0,True,True
+46018,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,2907.9,16.99,0.0,True,True
+46003,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,2907.9,16.99,0.0,True,True
+46017,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,2907.9,16.99,0.0,True,True
+46019,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,2907.9,16.99,0.0,True,True
+46020,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,2907.9,16.99,0.0,True,True
+46021,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,2907.9,16.99,0.0,True,True
+46022,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,2907.9,16.99,0.0,True,True
+46023,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,2907.9,16.99,0.0,True,True
+46024,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,2907.9,16.99,0.0,True,True
+46025,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,2907.9,16.99,0.0,True,True
+46026,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,2907.9,16.99,0.0,True,True
+46035,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,2907.9,16.99,0.0,True,True
+46112,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,2907.9,16.99,0.0,True,True
+46004,Valencia/València,València,119980.83333333334,113069.66666666666,6.11,True,True,2907.9,16.99,0.0,True,True
+03550,Alicante/Alacant,"Alacant/Alicante, Sant Joan d'Alacant",118997.76923076923,109650.46153846153,8.52,True,True,2265.3,11.69,0.0,True,True
+03113,Alicante/Alacant,"Alacant/Alicante, Elx/Elche",104441.61923076924,97021.71153846153,7.65,True,True,1974.7,16.56,-3.855,True,True
+03409,Alicante/Alacant,"Alacant/Alicante, Cañada, Salinas, Villena",102664.10256410256,95570.21153846153,7.42,True,True,1587.8000000000002,14.485,-10.11,True,True
+03011,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,2265.3,11.69,0.0,True,True
+03002,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,2265.3,11.69,0.0,True,True
+03003,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,2265.3,11.69,0.0,True,True
+03699,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,2265.3,11.69,0.0,True,True
+03004,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,2265.3,11.69,0.0,True,True
+03005,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,2265.3,11.69,0.0,True,True
+03006,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,2265.3,11.69,0.0,True,True
+03007,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,2265.3,11.69,0.0,True,True
+03008,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,2265.3,11.69,0.0,True,True
+03009,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,2265.3,11.69,0.0,True,True
+03010,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,2265.3,11.69,0.0,True,True
+03138,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,2265.3,11.69,0.0,True,True
+03012,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,2265.3,11.69,0.0,True,True
+03013,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,2265.3,11.69,0.0,True,True
+03014,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,2265.3,11.69,0.0,True,True
+03015,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,2265.3,11.69,0.0,True,True
+03112,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,2265.3,11.69,0.0,True,True
+03540,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,2265.3,11.69,0.0,True,True
+03115,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,2265.3,11.69,0.0,True,True
+03001,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,2265.3,11.69,0.0,True,True
+03114,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,2265.3,11.69,0.0,True,True
+03559,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,2265.3,11.69,0.0,True,True
+03016,Alicante/Alacant,Alacant/Alicante,92163.76923076923,85283.46153846153,8.07,True,True,2265.3,11.69,0.0,True,True
+43100,Tarragona,Tarragona,87480.8,81677.2,7.11,True,True,1837.8,9.95,-26.93,False,True
+43130,Tarragona,Tarragona,87480.8,81677.2,7.11,True,True,1837.8,9.95,-26.93,False,True
+43002,Tarragona,Tarragona,87480.8,81677.2,7.11,True,True,1837.8,9.95,-26.93,False,True
+43001,Tarragona,Tarragona,87480.8,81677.2,7.11,True,True,1837.8,9.95,-26.93,False,True
+43008,Tarragona,Tarragona,87480.8,81677.2,7.11,True,True,1837.8,9.95,-26.93,False,True
+43006,Tarragona,Tarragona,87480.8,81677.2,7.11,True,True,1837.8,9.95,-26.93,False,True
+43005,Tarragona,Tarragona,87480.8,81677.2,7.11,True,True,1837.8,9.95,-26.93,False,True
+43007,Tarragona,Tarragona,87480.8,81677.2,7.11,True,True,1837.8,9.95,-26.93,False,True
+43003,Tarragona,Tarragona,87480.8,81677.2,7.11,True,True,1837.8,9.95,-26.93,False,True
+43004,Tarragona,Tarragona,87480.8,81677.2,7.11,True,True,1837.8,9.95,-26.93,False,True
+15008,A Coruña,"Arteixo, Coruña, A",81441.29999999999,80244.0,1.49,True,True,1698.7,22.75,0.0,True,True
 15010,A Coruña,"Coruña, A",75707.46666666666,74787.66666666667,1.23,True,True,,,,False,False
 15009,A Coruña,"Coruña, A",75707.46666666666,74787.66666666667,1.23,True,True,,,,False,False
 15004,A Coruña,"Coruña, A",75707.46666666666,74787.66666666667,1.23,True,True,,,,False,False
@@ -81,133 +81,133 @@ codigo_postal,provincia,municipio_nombre,poblacion_actual,poblacion_hace_5a,crec
 15170,A Coruña,"Coruña, A",75707.46666666666,74787.66666666667,1.23,True,True,,,,False,False
 15002,A Coruña,"Coruña, A",75707.46666666666,74787.66666666667,1.23,True,True,,,,False,False
 03690,Alicante/Alacant,Sant Vicent del Raspeig/San Vicente del Raspeig,60247.0,58978.0,2.15,True,True,,,,False,False
-46470,Valencia/València,"Albal, Catarroja, Massanassa",58576.0,54967.0,6.57,True,True,,,,False,False
-03600,Alicante/Alacant,Elda,55222.0,52813.0,4.56,True,True,,,,False,False
+46470,Valencia/València,"Albal, Catarroja, Massanassa",58576.0,54967.0,6.57,True,True,1674.5,29.41,0.0,True,True
+03600,Alicante/Alacant,Elda,55222.0,52813.0,4.56,True,True,980.2,27.63,-16.59,False,True
 12540,Castellón/Castelló,Vila-real,53623.0,51293.0,4.54,True,True,,,,False,False
-12530,Castellón/Castelló,"Benicarló, Borriana/Burriana",53063.0,48733.5,8.88,True,True,,,,False,False
+12530,Castellón/Castelló,"Benicarló, Borriana/Burriana",53063.0,48733.5,8.88,True,True,1268.4,-2.34,-2.34,False,False
 46910,Valencia/València,"Alfafar, Benetússer, Llocnou de la Corona, Sedaví",49973.0,46910.0,6.53,True,True,,,,False,False
-36690,Pontevedra,"Pontevedra, Soutomaior",48852.833333333336,48732.42857142857,0.25,True,True,,,,False,False
-46920,Valencia/València,Mislata,47079.0,44320.0,6.23,True,True,,,,False,False
-36164,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,,,,False,False
-36150,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,,,,False,False
-36143,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,,,,False,False
-36005,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,,,,False,False
-36151,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,,,,False,False
-36004,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,,,,False,False
-36003,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,,,,False,False
-36001,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,,,,False,False
-36002,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,,,,False,False
-36910,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,,,,False,False
-36162,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,,,,False,False
-36152,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,,,,False,False
-36155,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,,,,False,False
-36154,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,,,,False,False
-36157,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,,,,False,False
-36161,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,,,,False,False
-36160,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,,,,False,False
-36153,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,,,,False,False
-36156,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,,,,False,False
-36158,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,,,,False,False
-30820,Murcia,Alcantarilla,43876.0,42345.0,3.62,True,True,,,,False,False
+36690,Pontevedra,"Pontevedra, Soutomaior",48852.833333333336,48732.42857142857,0.25,True,True,2083.6,22.59,0.0,True,True
+46920,Valencia/València,Mislata,47079.0,44320.0,6.23,True,True,2274.1,23.93,-20.15,False,True
+36164,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,2083.6,22.59,0.0,True,True
+36150,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,2083.6,22.59,0.0,True,True
+36143,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,2083.6,22.59,0.0,True,True
+36005,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,2083.6,22.59,0.0,True,True
+36151,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,2083.6,22.59,0.0,True,True
+36004,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,2083.6,22.59,0.0,True,True
+36003,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,2083.6,22.59,0.0,True,True
+36001,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,2083.6,22.59,0.0,True,True
+36002,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,2083.6,22.59,0.0,True,True
+36910,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,2083.6,22.59,0.0,True,True
+36162,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,2083.6,22.59,0.0,True,True
+36152,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,2083.6,22.59,0.0,True,True
+36155,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,2083.6,22.59,0.0,True,True
+36154,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,2083.6,22.59,0.0,True,True
+36157,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,2083.6,22.59,0.0,True,True
+36161,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,2083.6,22.59,0.0,True,True
+36160,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,2083.6,22.59,0.0,True,True
+36153,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,2083.6,22.59,0.0,True,True
+36156,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,2083.6,22.59,0.0,True,True
+36158,Pontevedra,Pontevedra,45058.333333333336,45019.42857142857,0.09,True,True,2083.6,22.59,0.0,True,True
+30820,Murcia,Alcantarilla,43876.0,42345.0,3.62,True,True,1085.4,21.49,-33.52,False,True
 12560,Castellón/Castelló,"Benicàssim/Benicasim, Castelló de la Plana/Castellón de la Plana",43502.875,40147.0,8.36,True,True,,,,False,False
-46100,Valencia/València,Burjassot,41299.0,38632.0,6.9,True,True,,,,False,False
-30592,Murcia,"Murcia, San Javier, Torre-Pacheco",40036.70389610389,37419.148051948054,7.0,True,True,,,,False,False
-46530,Valencia/València,"Puçol, Sagunt/Sagunto",39916.75,36530.25,9.27,True,True,,,,False,False
-03130,Alicante/Alacant,Santa Pola,39709.0,33303.0,19.24,True,True,,,,False,False
+46100,Valencia/València,Burjassot,41299.0,38632.0,6.9,True,True,1940.6,22.72,-7.05,False,True
+30592,Murcia,"Murcia, San Javier, Torre-Pacheco",40036.70389610389,37419.148051948054,7.0,True,True,1610.2666666666664,14.68,-20.566666666666666,False,True
+46530,Valencia/València,"Puçol, Sagunt/Sagunto",39916.75,36530.25,9.27,True,True,1627.6,18.91,-4.77,False,True
+03130,Alicante/Alacant,Santa Pola,39709.0,33303.0,19.24,True,True,2488.7,20.56,0.0,True,True
 03570,Alicante/Alacant,"Vila Joiosa, la/Villajoyosa",37449.0,35199.0,6.39,True,True,,,,False,False
-43850,Tarragona,Cambrils,37042.0,34734.0,6.64,True,True,,,,False,False
-46870,Valencia/València,Ontinyent,37012.0,35761.0,3.5,True,True,,,,False,False
-30530,Murcia,Cieza,35577.0,35283.0,0.83,True,True,,,,False,False
-30834,Murcia,"Lorca, Murcia",35078.98068181818,33446.97840909091,4.88,True,True,,,,False,False
-46960,Valencia/València,Aldaia,34630.0,32204.0,7.53,True,True,,,,False,False
-30835,Murcia,"Cartagena, Murcia",34552.495104895104,33018.521678321675,4.65,True,True,,,,False,False
-30385,Murcia,"Cartagena, Murcia",34552.495104895104,33018.521678321675,4.65,True,True,,,,False,False
-03610,Alicante/Alacant,Petrer,34022.0,34241.0,-0.64,True,False,,,,False,False
-46940,Valencia/València,Manises,32609.0,31240.0,4.38,True,True,,,,False,False
+43850,Tarragona,Cambrils,37042.0,34734.0,6.64,True,True,2423.2,11.71,-12.66,False,True
+46870,Valencia/València,Ontinyent,37012.0,35761.0,3.5,True,True,1040.9,16.84,-19.43,False,True
+30530,Murcia,Cieza,35577.0,35283.0,0.83,True,True,949.7,-3.79,-29.06,False,False
+30834,Murcia,"Lorca, Murcia",35078.98068181818,33446.97840909091,4.88,True,True,1388.15,13.0,-16.87,False,True
+46960,Valencia/València,Aldaia,34630.0,32204.0,7.53,True,True,1602.1,24.8,-7.97,False,True
+30835,Murcia,"Cartagena, Murcia",34552.495104895104,33018.521678321675,4.65,True,True,1535.4,11.865,-20.72,False,True
+30385,Murcia,"Cartagena, Murcia",34552.495104895104,33018.521678321675,4.65,True,True,1535.4,11.865,-20.72,False,True
+03610,Alicante/Alacant,Petrer,34022.0,34241.0,-0.64,True,False,1113.7,25.63,-4.67,False,True
+46940,Valencia/València,Manises,32609.0,31240.0,4.38,True,True,1746.6,14.31,-7.53,False,True
 12600,Castellón/Castelló,"Vall d'Uixó, la",32242.0,31681.0,1.77,True,True,,,,False,False
-43840,Tarragona,Salou,31491.0,28526.0,10.39,True,True,,,,False,False
+43840,Tarragona,Salou,31491.0,28526.0,10.39,True,True,2555.4,15.0,0.0,True,True
 03560,Alicante/Alacant,"Campello, el",31419.0,28930.0,8.6,True,True,,,,False,False
-46800,Valencia/València,Xàtiva,31008.0,29623.0,4.68,True,True,,,,False,False
-46250,Valencia/València,"Alcúdia, l', Sagunt/Sagunto",30844.75,28900.25,6.73,True,True,,,,False,False
-12500,Castellón/Castelló,Vinaròs,30529.0,28833.0,5.88,True,True,,,,False,False
-46909,Valencia/València,Torrent,30309.333333333332,27987.333333333332,8.3,True,True,,,,False,False
-46901,Valencia/València,Torrent,30309.333333333332,27987.333333333332,8.3,True,True,,,,False,False
-46900,Valencia/València,Torrent,30309.333333333332,27987.333333333332,8.3,True,True,,,,False,False
-46970,Valencia/València,Alaquàs,30166.0,29711.0,1.53,True,True,,,,False,False
+46800,Valencia/València,Xàtiva,31008.0,29623.0,4.68,True,True,1236.8,25.04,-12.59,False,True
+46250,Valencia/València,"Alcúdia, l', Sagunt/Sagunto",30844.75,28900.25,6.73,True,True,1627.6,18.91,-4.77,False,True
+12500,Castellón/Castelló,Vinaròs,30529.0,28833.0,5.88,True,True,1632.0,24.19,-25.38,False,True
+46909,Valencia/València,Torrent,30309.333333333332,27987.333333333332,8.3,True,True,1880.5,22.23,0.0,True,True
+46901,Valencia/València,Torrent,30309.333333333332,27987.333333333332,8.3,True,True,1880.5,22.23,0.0,True,True
+46900,Valencia/València,Torrent,30309.333333333332,27987.333333333332,8.3,True,True,1880.5,22.23,0.0,True,True
+46970,Valencia/València,Alaquàs,30166.0,29711.0,1.53,True,True,1603.2,28.07,-0.42,False,True
 30740,Murcia,San Pedro del Pinatar,29674.0,25932.0,14.43,True,True,,,,False,False
 12550,Castellón/Castelló,Almassora,29159.0,26742.0,9.04,True,True,,,,False,False
-30010,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30011,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30837,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30100,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30012,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30008,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30107,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30108,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30009,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30589,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30007,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30006,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30005,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30120,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30004,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30003,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30002,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30168,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30169,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30001,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30179,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30331,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30110,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30150,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30139,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30588,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30590,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30580,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30164,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30579,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30163,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30162,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30165,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30161,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30830,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30160,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30158,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30831,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30157,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30156,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30832,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30155,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30154,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30153,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30833,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30166,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30167,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30152,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30836,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30570,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
-30151,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,,,,False,False
+30010,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30011,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30837,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30100,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30012,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30008,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30107,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30108,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30009,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30589,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30007,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30006,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30005,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30120,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30004,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30003,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30002,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30168,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30169,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30001,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30179,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30331,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30110,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30150,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30139,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30588,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30590,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30580,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30164,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30579,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30163,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30162,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30165,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30161,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30830,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30160,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30158,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30831,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30157,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30156,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30832,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30155,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30154,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30153,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30833,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30166,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30167,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30152,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30836,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30570,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
+30151,Murcia,Murcia,28893.418181818182,27477.29090909091,5.15,True,True,1574.8,9.64,-14.49,False,True
 03110,Alicante/Alacant,Mutxamel,28621.0,25645.0,11.6,True,True,,,,False,False
 46117,Valencia/València,Bétera,28560.0,24604.0,16.08,True,True,,,,False,False
-46680,Valencia/València,Algemesí,28306.0,27430.0,3.19,True,True,,,,False,False
+46680,Valencia/València,Algemesí,28306.0,27430.0,3.19,True,True,984.0,26.82,-25.34,False,True
 46200,Valencia/València,Paiporta,28136.0,26514.0,6.12,True,True,,,,False,False
 03710,Alicante/Alacant,Calp,27616.0,23326.0,18.39,True,True,,,,False,False
 46185,Valencia/València,"Pobla de Vallbona, la",27471.0,24858.0,10.51,True,True,,,,False,False
-46930,Valencia/València,Quart de Poblet,26967.0,25062.0,7.6,True,True,,,,False,False
-46780,Valencia/València,Oliva,26813.0,25224.0,6.3,True,True,,,,False,False
-03660,Alicante/Alacant,Novelda,26606.0,25741.0,3.36,True,True,,,,False,False
-30710,Murcia,"Alcázares, Los, Torre-Pacheco",26333.571428571428,21799.142857142855,20.8,True,True,,,,False,False
+46930,Valencia/València,Quart de Poblet,26967.0,25062.0,7.6,True,True,1855.5,27.01,-1.47,False,True
+46780,Valencia/València,Oliva,26813.0,25224.0,6.3,True,True,1630.5,28.76,-5.47,False,True
+03660,Alicante/Alacant,Novelda,26606.0,25741.0,3.36,True,True,987.6,28.51,-19.35,False,True
+30710,Murcia,"Alcázares, Los, Torre-Pacheco",26333.571428571428,21799.142857142855,20.8,True,True,1351.1,13.01,-30.02,False,True
 46120,Valencia/València,Alboraia/Alboraya,26273.0,24741.0,6.19,True,True,,,,False,False
-03502,Alicante/Alacant,Benidorm,25775.666666666668,23483.333333333332,9.76,True,True,,,,False,False
-03503,Alicante/Alacant,Benidorm,25775.666666666668,23483.333333333332,9.76,True,True,,,,False,False
-03501,Alicante/Alacant,Benidorm,25775.666666666668,23483.333333333332,9.76,True,True,,,,False,False
+03502,Alicante/Alacant,Benidorm,25775.666666666668,23483.333333333332,9.76,True,True,3089.3,9.03,0.0,True,True
+03503,Alicante/Alacant,Benidorm,25775.666666666668,23483.333333333332,9.76,True,True,3089.3,9.03,0.0,True,True
+03501,Alicante/Alacant,Benidorm,25775.666666666668,23483.333333333332,9.76,True,True,3089.3,9.03,0.0,True,True
 12100,Castellón/Castelló,"Alcora, l', Castelló de la Plana/Castellón de la Plana",25629.875,24387.25,5.1,True,True,,,,False,False
 46160,Valencia/València,Llíria,25333.0,23482.0,7.88,True,True,,,,False,False
-30889,Murcia,"Lorca, Águilas",25091.0625,23830.6875,5.29,True,True,,,,False,False
+30889,Murcia,"Lorca, Águilas",25091.0625,23830.6875,5.29,True,True,1331.05,18.119999999999997,-29.9,False,True
 46190,Valencia/València,Riba-roja de Túria,24616.0,22761.0,8.15,True,True,,,,False,False
 03440,Alicante/Alacant,Ibi,24500.0,23564.0,3.97,True,True,,,,False,False
-43206,Tarragona,"Reus, Vila-seca",23915.333333333332,22685.190476190477,5.42,True,True,,,,False,False
-46792,Valencia/València,"Alzira, Carcaixent",23390.0,21791.333333333336,7.34,True,True,,,,False,False
+43206,Tarragona,"Reus, Vila-seca",23915.333333333332,22685.190476190477,5.42,True,True,1640.9,11.88,-17.69,False,True
+46792,Valencia/València,"Alzira, Carcaixent",23390.0,21791.333333333336,7.34,True,True,1224.0,19.87,-24.04,False,True
 12003,Castellón/Castelló,Castelló de la Plana/Castellón de la Plana,22963.875,21783.0,5.42,True,True,,,,False,False
 12005,Castellón/Castelló,Castelló de la Plana/Castellón de la Plana,22963.875,21783.0,5.42,True,True,,,,False,False
 12004,Castellón/Castelló,Castelló de la Plana/Castellón de la Plana,22963.875,21783.0,5.42,True,True,,,,False,False
@@ -216,117 +216,117 @@ codigo_postal,provincia,municipio_nombre,poblacion_actual,poblacion_hace_5a,crec
 12001,Castellón/Castelló,Castelló de la Plana/Castellón de la Plana,22963.875,21783.0,5.42,True,True,,,,False,False
 30565,Murcia,"Torres de Cotillas, Las",22676.0,21753.0,4.24,True,True,,,,False,False
 03680,Alicante/Alacant,Aspe,22397.0,20804.0,7.66,True,True,,,,False,False
-32005,Ourense,"Barbadás, Ourense, San Cibrao das Viñas",22115.345833333333,22104.291666666668,0.05,True,True,,,,False,False
-32940,Ourense,"Barbadás, Ourense, Toén",21546.895833333332,21613.541666666668,-0.31,True,False,,,,False,False
-32002,Ourense,"Barbadás, Ourense",20965.145833333332,21025.291666666668,-0.29,True,False,,,,False,False
-46702,Valencia/València,Gandia,20783.75,18949.5,9.68,True,True,,,,False,False
-46701,Valencia/València,Gandia,20783.75,18949.5,9.68,True,True,,,,False,False
-46730,Valencia/València,Gandia,20783.75,18949.5,9.68,True,True,,,,False,False
-46728,Valencia/València,Gandia,20783.75,18949.5,9.68,True,True,,,,False,False
+32005,Ourense,"Barbadás, Ourense, San Cibrao das Viñas",22115.345833333333,22104.291666666668,0.05,True,True,1602.0,18.61,-2.64,False,True
+32940,Ourense,"Barbadás, Ourense, Toén",21546.895833333332,21613.541666666668,-0.31,True,False,1602.0,18.61,-2.64,False,True
+32002,Ourense,"Barbadás, Ourense",20965.145833333332,21025.291666666668,-0.29,True,False,1602.0,18.61,-2.64,False,True
+46702,Valencia/València,Gandia,20783.75,18949.5,9.68,True,True,1646.5,21.65,-6.73,False,True
+46701,Valencia/València,Gandia,20783.75,18949.5,9.68,True,True,1646.5,21.65,-6.73,False,True
+46730,Valencia/València,Gandia,20783.75,18949.5,9.68,True,True,1646.5,21.65,-6.73,False,True
+46728,Valencia/València,Gandia,20783.75,18949.5,9.68,True,True,1646.5,21.65,-6.73,False,True
 43880,Tarragona,"Vendrell, El",20566.5,19186.5,7.19,True,True,,,,False,False
 43700,Tarragona,"Vendrell, El",20566.5,19186.5,7.19,True,True,,,,False,False
 46460,Valencia/València,Silla,20482.0,19078.0,7.36,True,True,,,,False,False
-03657,Alicante/Alacant,"Pinós, el/Pinoso, Yecla",20357.25,19423.25,4.81,True,True,,,,False,False
-32900,Ourense,"Ourense, San Cibrao das Viñas",20248.5125,20244.625,0.02,True,True,,,,False,False
-03158,Alicante/Alacant,"Catral, Crevillent",19907.0,18743.333333333336,6.21,False,True,,,,False,False
+03657,Alicante/Alacant,"Pinós, el/Pinoso, Yecla",20357.25,19423.25,4.81,True,True,839.3,13.71,-37.55,False,True
+32900,Ourense,"Ourense, San Cibrao das Viñas",20248.5125,20244.625,0.02,True,True,1602.0,18.61,-2.64,False,True
+03158,Alicante/Alacant,"Catral, Crevillent",19907.0,18743.333333333336,6.21,False,True,1020.0,8.78,-26.48,False,True
 46183,Valencia/València,"Eliana, l'",19839.0,18362.0,8.04,False,True,,,,False,False
-32172,Ourense,"Amoeiro, Ourense",19709.0625,19739.625,-0.15,False,False,,,,False,False
-32980,Ourense,"Amoeiro, Ourense",19709.0625,19739.625,-0.15,False,False,,,,False,False
+32172,Ourense,"Amoeiro, Ourense",19709.0625,19739.625,-0.15,False,False,1602.0,18.61,-2.64,False,True
+32980,Ourense,"Amoeiro, Ourense",19709.0625,19739.625,-0.15,False,False,1602.0,18.61,-2.64,False,True
 03530,Alicante/Alacant,"Nucia, la",19121.0,18163.0,5.27,False,True,,,,False,False
-32103,Ourense,Ourense,19098.3125,19165.625,-0.35,False,False,,,,False,False
-32593,Ourense,Ourense,19098.3125,19165.625,-0.35,False,False,,,,False,False
-32960,Ourense,Ourense,19098.3125,19165.625,-0.35,False,False,,,,False,False
-32990,Ourense,Ourense,19098.3125,19165.625,-0.35,False,False,,,,False,False
-32981,Ourense,Ourense,19098.3125,19165.625,-0.35,False,False,,,,False,False
-32970,Ourense,Ourense,19098.3125,19165.625,-0.35,False,False,,,,False,False
-32971,Ourense,Ourense,19098.3125,19165.625,-0.35,False,False,,,,False,False
-32001,Ourense,Ourense,19098.3125,19165.625,-0.35,False,False,,,,False,False
-32004,Ourense,Ourense,19098.3125,19165.625,-0.35,False,False,,,,False,False
-32003,Ourense,Ourense,19098.3125,19165.625,-0.35,False,False,,,,False,False
-03780,Alicante/Alacant,"Dénia, Pego, Ràfol d'Almúnia, el",19034.833333333332,17594.833333333332,8.18,False,True,,,,False,False
-46989,Valencia/València,Paterna,19004.75,17758.75,7.02,False,True,,,,False,False
-46988,Valencia/València,Paterna,19004.75,17758.75,7.02,False,True,,,,False,False
-46980,Valencia/València,Paterna,19004.75,17758.75,7.02,False,True,,,,False,False
-46182,Valencia/València,Paterna,19004.75,17758.75,7.02,False,True,,,,False,False
-30880,Murcia,Águilas,18905.5,17861.0,5.85,False,True,,,,False,False
+32103,Ourense,Ourense,19098.3125,19165.625,-0.35,False,False,1602.0,18.61,-2.64,False,True
+32593,Ourense,Ourense,19098.3125,19165.625,-0.35,False,False,1602.0,18.61,-2.64,False,True
+32960,Ourense,Ourense,19098.3125,19165.625,-0.35,False,False,1602.0,18.61,-2.64,False,True
+32990,Ourense,Ourense,19098.3125,19165.625,-0.35,False,False,1602.0,18.61,-2.64,False,True
+32981,Ourense,Ourense,19098.3125,19165.625,-0.35,False,False,1602.0,18.61,-2.64,False,True
+32970,Ourense,Ourense,19098.3125,19165.625,-0.35,False,False,1602.0,18.61,-2.64,False,True
+32971,Ourense,Ourense,19098.3125,19165.625,-0.35,False,False,1602.0,18.61,-2.64,False,True
+32001,Ourense,Ourense,19098.3125,19165.625,-0.35,False,False,1602.0,18.61,-2.64,False,True
+32004,Ourense,Ourense,19098.3125,19165.625,-0.35,False,False,1602.0,18.61,-2.64,False,True
+32003,Ourense,Ourense,19098.3125,19165.625,-0.35,False,False,1602.0,18.61,-2.64,False,True
+03780,Alicante/Alacant,"Dénia, Pego, Ràfol d'Almúnia, el",19034.833333333332,17594.833333333332,8.18,False,True,2841.8,14.73,-1.15,False,True
+46989,Valencia/València,Paterna,19004.75,17758.75,7.02,False,True,2220.0,20.64,0.0,True,True
+46988,Valencia/València,Paterna,19004.75,17758.75,7.02,False,True,2220.0,20.64,0.0,True,True
+46980,Valencia/València,Paterna,19004.75,17758.75,7.02,False,True,2220.0,20.64,0.0,True,True
+46182,Valencia/València,Paterna,19004.75,17758.75,7.02,False,True,2220.0,20.64,0.0,True,True
+30880,Murcia,Águilas,18905.5,17861.0,5.85,False,True,1460.6,19.88,-40.55,False,True
 03140,Alicante/Alacant,Guardamar del Segura,18564.0,15849.0,17.13,False,True,,,,False,False
-46520,Valencia/València,Sagunt/Sagunto,18257.75,16793.25,8.72,False,True,,,,False,False
-46500,Valencia/València,Sagunt/Sagunto,18257.75,16793.25,8.72,False,True,,,,False,False
+46520,Valencia/València,Sagunt/Sagunto,18257.75,16793.25,8.72,False,True,1627.6,18.91,-4.77,False,True
+46500,Valencia/València,Sagunt/Sagunto,18257.75,16793.25,8.72,False,True,1627.6,18.91,-4.77,False,True
 43830,Tarragona,Torredembarra,18237.0,16567.0,10.08,False,True,,,,False,False
-30510,Murcia,Yecla,18226.5,17417.0,4.65,False,True,,,,False,False
+30510,Murcia,Yecla,18226.5,17417.0,4.65,False,True,839.3,13.71,-37.55,False,True
 46370,Valencia/València,Chiva,17951.0,15414.0,16.46,False,True,,,,False,False
 46760,Valencia/València,Tavernes de la Valldigna,17866.0,17254.0,3.55,False,True,,,,False,False
 03170,Alicante/Alacant,Rojales,17652.0,16671.0,5.88,False,True,,,,False,False
 46130,Valencia/València,Massamagrell,17566.0,16163.0,8.68,False,True,,,,False,False
 46240,Valencia/València,Carlet,16857.0,15740.0,7.1,False,True,,,,False,False
-03190,Alicante/Alacant,"Orihuela, Pilar de la Horadada",16855.777777777777,15534.888888888889,8.5,False,True,,,,False,False
+03190,Alicante/Alacant,"Orihuela, Pilar de la Horadada",16855.777777777777,15534.888888888889,8.5,False,True,2166.2,28.59,0.0,True,True
 43881,Tarragona,Cunit,16385.0,13533.0,21.07,False,True,,,,False,False
 43882,Tarragona,Calafell,16312.0,13800.5,18.2,False,True,,,,False,False
 43820,Tarragona,Calafell,16312.0,13800.5,18.2,False,True,,,,False,False
 43540,Tarragona,"Ràpita, La",16119.0,14953.0,7.8,False,True,,,,False,False
-46600,Valencia/València,Alzira,16078.666666666666,14979.333333333334,7.34,False,True,,,,False,False
-46268,Valencia/València,Alzira,16078.666666666666,14979.333333333334,7.34,False,True,,,,False,False
-46950,Valencia/València,Xirivella,16046.5,15098.5,6.28,False,True,,,,False,False
-43204,Tarragona,Reus,15943.0,15166.857142857143,5.12,False,True,,,,False,False
-43207,Tarragona,Reus,15943.0,15166.857142857143,5.12,False,True,,,,False,False
-43205,Tarragona,Reus,15943.0,15166.857142857143,5.12,False,True,,,,False,False
-43201,Tarragona,Reus,15943.0,15166.857142857143,5.12,False,True,,,,False,False
-43202,Tarragona,Reus,15943.0,15166.857142857143,5.12,False,True,,,,False,False
-43203,Tarragona,Reus,15943.0,15166.857142857143,5.12,False,True,,,,False,False
-30890,Murcia,"Lorca, Puerto Lumbreras",15188.5625,13859.6875,9.59,False,True,,,,False,False
-12580,Castellón/Castelló,Benicarló,15148.0,13681.5,10.72,False,True,,,,False,False
+46600,Valencia/València,Alzira,16078.666666666666,14979.333333333334,7.34,False,True,1224.0,19.87,-24.04,False,True
+46268,Valencia/València,Alzira,16078.666666666666,14979.333333333334,7.34,False,True,1224.0,19.87,-24.04,False,True
+46950,Valencia/València,Xirivella,16046.5,15098.5,6.28,False,True,1705.5,30.44,0.0,True,True
+43204,Tarragona,Reus,15943.0,15166.857142857143,5.12,False,True,1640.9,11.88,-17.69,False,True
+43207,Tarragona,Reus,15943.0,15166.857142857143,5.12,False,True,1640.9,11.88,-17.69,False,True
+43205,Tarragona,Reus,15943.0,15166.857142857143,5.12,False,True,1640.9,11.88,-17.69,False,True
+43201,Tarragona,Reus,15943.0,15166.857142857143,5.12,False,True,1640.9,11.88,-17.69,False,True
+43202,Tarragona,Reus,15943.0,15166.857142857143,5.12,False,True,1640.9,11.88,-17.69,False,True
+43203,Tarragona,Reus,15943.0,15166.857142857143,5.12,False,True,1640.9,11.88,-17.69,False,True
+30890,Murcia,"Lorca, Puerto Lumbreras",15188.5625,13859.6875,9.59,False,True,1201.5,16.36,-19.25,False,True
+12580,Castellón/Castelló,Benicarló,15148.0,13681.5,10.72,False,True,1268.4,-2.34,-2.34,False,False
 46230,Valencia/València,Alginet,14844.0,13827.0,7.36,False,True,,,,False,False
-03317,Alicante/Alacant,"Callosa de Segura, Orihuela",14691.777777777777,13924.888888888889,5.51,False,True,,,,False,False
-30858,Murcia,"Mazarrón, Totana",14664.233333333334,14126.9,3.8,False,True,,,,False,False
-03185,Alicante/Alacant,"Penàguila, Torrevieja",14228.642857142857,12229.785714285714,16.34,False,True,,,,False,False
-03184,Alicante/Alacant,Torrevieja,14076.142857142857,12095.285714285714,16.38,False,True,,,,False,False
-03188,Alicante/Alacant,Torrevieja,14076.142857142857,12095.285714285714,16.38,False,True,,,,False,False
-03182,Alicante/Alacant,Torrevieja,14076.142857142857,12095.285714285714,16.38,False,True,,,,False,False
-03186,Alicante/Alacant,Torrevieja,14076.142857142857,12095.285714285714,16.38,False,True,,,,False,False
-03181,Alicante/Alacant,Torrevieja,14076.142857142857,12095.285714285714,16.38,False,True,,,,False,False
-03183,Alicante/Alacant,Torrevieja,14076.142857142857,12095.285714285714,16.38,False,True,,,,False,False
+03317,Alicante/Alacant,"Callosa de Segura, Orihuela",14691.777777777777,13924.888888888889,5.51,False,True,2166.2,28.59,0.0,True,True
+30858,Murcia,"Mazarrón, Totana",14664.233333333334,14126.9,3.8,False,True,1294.6,10.274999999999999,-28.009999999999998,False,True
+03185,Alicante/Alacant,"Penàguila, Torrevieja",14228.642857142857,12229.785714285714,16.34,False,True,2182.4,15.71,0.0,True,True
+03184,Alicante/Alacant,Torrevieja,14076.142857142857,12095.285714285714,16.38,False,True,2182.4,15.71,0.0,True,True
+03188,Alicante/Alacant,Torrevieja,14076.142857142857,12095.285714285714,16.38,False,True,2182.4,15.71,0.0,True,True
+03182,Alicante/Alacant,Torrevieja,14076.142857142857,12095.285714285714,16.38,False,True,2182.4,15.71,0.0,True,True
+03186,Alicante/Alacant,Torrevieja,14076.142857142857,12095.285714285714,16.38,False,True,2182.4,15.71,0.0,True,True
+03181,Alicante/Alacant,Torrevieja,14076.142857142857,12095.285714285714,16.38,False,True,2182.4,15.71,0.0,True,True
+03183,Alicante/Alacant,Torrevieja,14076.142857142857,12095.285714285714,16.38,False,True,2182.4,15.71,0.0,True,True
 30420,Murcia,"Calasparra, Cehegín",14017.5,13825.25,1.39,False,True,,,,False,False
 03179,Alicante/Alacant,"Almoradí, Formentera del Segura",13916.5,12738.0,9.25,False,True,,,,False,False
 03340,Alicante/Alacant,Albatera,13566.0,12474.0,8.75,False,True,,,,False,False
 46110,Valencia/València,Godella,13533.0,13131.0,3.06,False,True,,,,False,False
-03770,Alicante/Alacant,"Dénia, Verger, el",13384.833333333332,11846.833333333332,12.98,False,True,,,,False,False
-12220,Castellón/Castelló,Onda,13095.0,12490.0,4.84,False,True,,,,False,False
-12200,Castellón/Castelló,Onda,13095.0,12490.0,4.84,False,True,,,,False,False
-30509,Murcia,Molina de Segura,13076.333333333334,12182.5,7.34,False,True,,,,False,False
-30508,Murcia,Molina de Segura,13076.333333333334,12182.5,7.34,False,True,,,,False,False
-30506,Murcia,Molina de Segura,13076.333333333334,12182.5,7.34,False,True,,,,False,False
-30507,Murcia,Molina de Segura,13076.333333333334,12182.5,7.34,False,True,,,,False,False
-30627,Murcia,Molina de Segura,13076.333333333334,12182.5,7.34,False,True,,,,False,False
-30500,Murcia,Molina de Segura,13076.333333333334,12182.5,7.34,False,True,,,,False,False
+03770,Alicante/Alacant,"Dénia, Verger, el",13384.833333333332,11846.833333333332,12.98,False,True,2841.8,14.73,-1.15,False,True
+12220,Castellón/Castelló,Onda,13095.0,12490.0,4.84,False,True,964.4,7.1,-0.21,False,True
+12200,Castellón/Castelló,Onda,13095.0,12490.0,4.84,False,True,964.4,7.1,-0.21,False,True
+30509,Murcia,Molina de Segura,13076.333333333334,12182.5,7.34,False,True,1269.2,13.29,-32.32,False,True
+30508,Murcia,Molina de Segura,13076.333333333334,12182.5,7.34,False,True,1269.2,13.29,-32.32,False,True
+30506,Murcia,Molina de Segura,13076.333333333334,12182.5,7.34,False,True,1269.2,13.29,-32.32,False,True
+30507,Murcia,Molina de Segura,13076.333333333334,12182.5,7.34,False,True,1269.2,13.29,-32.32,False,True
+30627,Murcia,Molina de Segura,13076.333333333334,12182.5,7.34,False,True,1269.2,13.29,-32.32,False,True
+30500,Murcia,Molina de Segura,13076.333333333334,12182.5,7.34,False,True,1269.2,13.29,-32.32,False,True
 03177,Alicante/Alacant,"Daya Vieja, Formentera del Segura, San Fulgencio",12901.0,10936.0,17.97,False,True,,,,False,False
-30369,Murcia,"Cartagena, Unión, La",12785.74358974359,12387.23076923077,3.22,False,True,,,,False,False
+30369,Murcia,"Cartagena, Unión, La",12785.74358974359,12387.23076923077,3.22,False,True,1496.0,14.09,-26.95,False,True
 46180,Valencia/València,Benaguasil,12668.0,11256.0,12.54,False,True,,,,False,False
 12594,Castellón/Castelló,Orpesa/Oropesa del Mar,12640.0,9339.0,35.35,False,True,,,,False,False
 03720,Alicante/Alacant,Benissa,12471.0,11288.0,10.48,False,True,,,,False,False
 03590,Alicante/Alacant,Altea,12296.0,11279.0,9.02,False,True,,,,False,False
 03599,Alicante/Alacant,Altea,12296.0,11279.0,9.02,False,True,,,,False,False
-03290,Alicante/Alacant,Elx/Elche,12277.85,11738.25,4.6,False,True,,,,False,False
-03294,Alicante/Alacant,Elx/Elche,12277.85,11738.25,4.6,False,True,,,,False,False
-03194,Alicante/Alacant,Elx/Elche,12277.85,11738.25,4.6,False,True,,,,False,False
-03296,Alicante/Alacant,Elx/Elche,12277.85,11738.25,4.6,False,True,,,,False,False
-03295,Alicante/Alacant,Elx/Elche,12277.85,11738.25,4.6,False,True,,,,False,False
-03291,Alicante/Alacant,Elx/Elche,12277.85,11738.25,4.6,False,True,,,,False,False
-03205,Alicante/Alacant,Elx/Elche,12277.85,11738.25,4.6,False,True,,,,False,False
-03206,Alicante/Alacant,Elx/Elche,12277.85,11738.25,4.6,False,True,,,,False,False
-03201,Alicante/Alacant,Elx/Elche,12277.85,11738.25,4.6,False,True,,,,False,False
-03202,Alicante/Alacant,Elx/Elche,12277.85,11738.25,4.6,False,True,,,,False,False
-03195,Alicante/Alacant,Elx/Elche,12277.85,11738.25,4.6,False,True,,,,False,False
-03207,Alicante/Alacant,Elx/Elche,12277.85,11738.25,4.6,False,True,,,,False,False
-03208,Alicante/Alacant,Elx/Elche,12277.85,11738.25,4.6,False,True,,,,False,False
-03292,Alicante/Alacant,Elx/Elche,12277.85,11738.25,4.6,False,True,,,,False,False
-03320,Alicante/Alacant,Elx/Elche,12277.85,11738.25,4.6,False,True,,,,False,False
-03293,Alicante/Alacant,Elx/Elche,12277.85,11738.25,4.6,False,True,,,,False,False
-03204,Alicante/Alacant,Elx/Elche,12277.85,11738.25,4.6,False,True,,,,False,False
-03203,Alicante/Alacant,Elx/Elche,12277.85,11738.25,4.6,False,True,,,,False,False
-03139,Alicante/Alacant,Elx/Elche,12277.85,11738.25,4.6,False,True,,,,False,False
+03290,Alicante/Alacant,Elx/Elche,12277.85,11738.25,4.6,False,True,1684.1,21.43,-7.71,False,True
+03294,Alicante/Alacant,Elx/Elche,12277.85,11738.25,4.6,False,True,1684.1,21.43,-7.71,False,True
+03194,Alicante/Alacant,Elx/Elche,12277.85,11738.25,4.6,False,True,1684.1,21.43,-7.71,False,True
+03296,Alicante/Alacant,Elx/Elche,12277.85,11738.25,4.6,False,True,1684.1,21.43,-7.71,False,True
+03295,Alicante/Alacant,Elx/Elche,12277.85,11738.25,4.6,False,True,1684.1,21.43,-7.71,False,True
+03291,Alicante/Alacant,Elx/Elche,12277.85,11738.25,4.6,False,True,1684.1,21.43,-7.71,False,True
+03205,Alicante/Alacant,Elx/Elche,12277.85,11738.25,4.6,False,True,1684.1,21.43,-7.71,False,True
+03206,Alicante/Alacant,Elx/Elche,12277.85,11738.25,4.6,False,True,1684.1,21.43,-7.71,False,True
+03201,Alicante/Alacant,Elx/Elche,12277.85,11738.25,4.6,False,True,1684.1,21.43,-7.71,False,True
+03202,Alicante/Alacant,Elx/Elche,12277.85,11738.25,4.6,False,True,1684.1,21.43,-7.71,False,True
+03195,Alicante/Alacant,Elx/Elche,12277.85,11738.25,4.6,False,True,1684.1,21.43,-7.71,False,True
+03207,Alicante/Alacant,Elx/Elche,12277.85,11738.25,4.6,False,True,1684.1,21.43,-7.71,False,True
+03208,Alicante/Alacant,Elx/Elche,12277.85,11738.25,4.6,False,True,1684.1,21.43,-7.71,False,True
+03292,Alicante/Alacant,Elx/Elche,12277.85,11738.25,4.6,False,True,1684.1,21.43,-7.71,False,True
+03320,Alicante/Alacant,Elx/Elche,12277.85,11738.25,4.6,False,True,1684.1,21.43,-7.71,False,True
+03293,Alicante/Alacant,Elx/Elche,12277.85,11738.25,4.6,False,True,1684.1,21.43,-7.71,False,True
+03204,Alicante/Alacant,Elx/Elche,12277.85,11738.25,4.6,False,True,1684.1,21.43,-7.71,False,True
+03203,Alicante/Alacant,Elx/Elche,12277.85,11738.25,4.6,False,True,1684.1,21.43,-7.71,False,True
+03139,Alicante/Alacant,Elx/Elche,12277.85,11738.25,4.6,False,True,1684.1,21.43,-7.71,False,True
 46450,Valencia/València,Benifaió,12262.0,11989.0,2.28,False,True,,,,False,False
-30859,Murcia,"Aledo, Totana",12242.333333333334,11874.0,3.1,False,True,,,,False,False
-03380,Alicante/Alacant,"Bigastro, Orihuela",12234.777777777777,11270.388888888889,8.56,False,True,,,,False,False
+30859,Murcia,"Aledo, Totana",12242.333333333334,11874.0,3.1,False,True,978.2,7.51,-37.18,False,True
+03380,Alicante/Alacant,"Bigastro, Orihuela",12234.777777777777,11270.388888888889,8.56,False,True,2166.2,28.59,0.0,True,True
 03191,Alicante/Alacant,Pilar de la Horadada,12158.0,11173.5,8.81,False,True,,,,False,False
 43580,Tarragona,Deltebre,12041.0,11578.0,4.0,False,True,,,,False,False
 03420,Alicante/Alacant,Castalla,11908.0,10461.0,13.83,False,True,,,,False,False
@@ -337,118 +337,118 @@ codigo_postal,provincia,municipio_nombre,poblacion_actual,poblacion_hace_5a,crec
 03160,Alicante/Alacant,Almoradí,11482.5,10604.0,8.28,False,True,,,,False,False
 46191,Valencia/València,Vilamarxant,11403.0,9891.0,15.29,False,True,,,,False,False
 46184,Valencia/València,San Antonio de Benagéber,11192.0,9286.0,20.53,False,True,,,,False,False
-30739,Murcia,"San Javier, Torre-Pacheco",11143.285714285714,9941.857142857141,12.08,False,True,,,,False,False
-30850,Murcia,Totana,11119.333333333334,10843.0,2.55,False,True,,,,False,False
+30739,Murcia,"San Javier, Torre-Pacheco",11143.285714285714,9941.857142857141,12.08,False,True,1628.0,17.2,-23.605,False,True
+30850,Murcia,Totana,11119.333333333334,10843.0,2.55,False,True,978.2,7.51,-37.18,False,True
 46116,Valencia/València,Montcada/Moncada,11106.5,11010.5,0.87,False,True,,,,False,False
 46113,Valencia/València,Montcada/Moncada,11106.5,11010.5,0.87,False,True,,,,False,False
 46260,Valencia/València,Alberic,11099.0,10519.0,5.51,False,True,,,,False,False
-27190,Lugo,"Corgo, O, Lugo",11069.354838709678,11149.236559139785,-0.72,False,False,,,,False,False
+27190,Lugo,"Corgo, O, Lugo",11069.354838709678,11149.236559139785,-0.72,False,False,1360.1,9.52,-9.99,False,True
 46133,Valencia/València,Meliana,11055.0,10970.0,0.77,False,True,,,,False,False
-27299,Lugo,"Friol, Lugo",10959.354838709678,11036.90322580645,-0.7,False,False,,,,False,False
-27289,Lugo,"Castro de Rei, Lugo",10925.104838709678,11001.65322580645,-0.7,False,False,,,,False,False
-36210,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,,,,False,False
-36213,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,,,,False,False
-36212,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,,,,False,False
-36214,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,,,,False,False
-36211,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,,,,False,False
-36207,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,,,,False,False
-36209,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,,,,False,False
-36208,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,,,,False,False
-36216,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,,,,False,False
-36201,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,,,,False,False
-36202,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,,,,False,False
-36203,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,,,,False,False
-36204,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,,,,False,False
-36215,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,,,,False,False
-36315,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,,,,False,False
-36310,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,,,,False,False
-36312,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,,,,False,False
-36313,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,,,,False,False
-36314,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,,,,False,False
-36317,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,,,,False,False
-36318,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,,,,False,False
-36330,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,,,,False,False
-36331,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,,,,False,False
-36390,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,,,,False,False
-36392,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,,,,False,False
-36205,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,,,,False,False
-36206,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,,,,False,False
-30370,Murcia,"Cartagena, San Javier",10876.791208791208,10273.945054945056,5.87,False,True,,,,False,False
-30380,Murcia,"Cartagena, San Javier",10876.791208791208,10273.945054945056,5.87,False,True,,,,False,False
+27299,Lugo,"Friol, Lugo",10959.354838709678,11036.90322580645,-0.7,False,False,1360.1,9.52,-9.99,False,True
+27289,Lugo,"Castro de Rei, Lugo",10925.104838709678,11001.65322580645,-0.7,False,False,1360.1,9.52,-9.99,False,True
+36210,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,2302.3,13.9,-8.95,False,True
+36213,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,2302.3,13.9,-8.95,False,True
+36212,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,2302.3,13.9,-8.95,False,True
+36214,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,2302.3,13.9,-8.95,False,True
+36211,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,2302.3,13.9,-8.95,False,True
+36207,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,2302.3,13.9,-8.95,False,True
+36209,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,2302.3,13.9,-8.95,False,True
+36208,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,2302.3,13.9,-8.95,False,True
+36216,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,2302.3,13.9,-8.95,False,True
+36201,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,2302.3,13.9,-8.95,False,True
+36202,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,2302.3,13.9,-8.95,False,True
+36203,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,2302.3,13.9,-8.95,False,True
+36204,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,2302.3,13.9,-8.95,False,True
+36215,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,2302.3,13.9,-8.95,False,True
+36315,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,2302.3,13.9,-8.95,False,True
+36310,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,2302.3,13.9,-8.95,False,True
+36312,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,2302.3,13.9,-8.95,False,True
+36313,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,2302.3,13.9,-8.95,False,True
+36314,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,2302.3,13.9,-8.95,False,True
+36317,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,2302.3,13.9,-8.95,False,True
+36318,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,2302.3,13.9,-8.95,False,True
+36330,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,2302.3,13.9,-8.95,False,True
+36331,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,2302.3,13.9,-8.95,False,True
+36390,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,2302.3,13.9,-8.95,False,True
+36392,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,2302.3,13.9,-8.95,False,True
+36205,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,2302.3,13.9,-8.95,False,True
+36206,Pontevedra,Vigo,10907.0,10988.592592592593,-0.74,False,False,2302.3,13.9,-8.95,False,True
+30370,Murcia,"Cartagena, San Javier",10876.791208791208,10273.945054945056,5.87,False,True,1700.45,17.740000000000002,-22.07,False,True
+30380,Murcia,"Cartagena, San Javier",10876.791208791208,10273.945054945056,5.87,False,True,1700.45,17.740000000000002,-22.07,False,True
 46290,Valencia/València,Alcàsser,10772.0,10196.0,5.65,False,True,,,,False,False
-27185,Lugo,"Guntín, Lugo",10758.454838709678,10841.70322580645,-0.77,False,False,,,,False,False
-27233,Lugo,"Guntín, Lugo",10758.454838709678,10841.70322580645,-0.77,False,False,,,,False,False
-27210,Lugo,"Guntín, Lugo",10758.454838709678,10841.70322580645,-0.77,False,False,,,,False,False
-27181,Lugo,"Guntín, Lugo",10758.454838709678,10841.70322580645,-0.77,False,False,,,,False,False
-27146,Lugo,"Castroverde, Lugo",10673.554838709679,10751.90322580645,-0.73,False,False,,,,False,False
-27293,Lugo,"Castroverde, Lugo",10673.554838709679,10751.90322580645,-0.73,False,False,,,,False,False
-27188,Lugo,"Lugo, Portomarín",10650.243727598567,10735.79211469534,-0.8,False,False,,,,False,False
-03779,Alicante/Alacant,"Dénia, Poblets, els",10633.833333333332,9851.833333333332,7.94,False,True,,,,False,False
+27185,Lugo,"Guntín, Lugo",10758.454838709678,10841.70322580645,-0.77,False,False,1360.1,9.52,-9.99,False,True
+27233,Lugo,"Guntín, Lugo",10758.454838709678,10841.70322580645,-0.77,False,False,1360.1,9.52,-9.99,False,True
+27210,Lugo,"Guntín, Lugo",10758.454838709678,10841.70322580645,-0.77,False,False,1360.1,9.52,-9.99,False,True
+27181,Lugo,"Guntín, Lugo",10758.454838709678,10841.70322580645,-0.77,False,False,1360.1,9.52,-9.99,False,True
+27146,Lugo,"Castroverde, Lugo",10673.554838709679,10751.90322580645,-0.73,False,False,1360.1,9.52,-9.99,False,True
+27293,Lugo,"Castroverde, Lugo",10673.554838709679,10751.90322580645,-0.73,False,False,1360.1,9.52,-9.99,False,True
+27188,Lugo,"Lugo, Portomarín",10650.243727598567,10735.79211469534,-0.8,False,False,1360.1,9.52,-9.99,False,True
+03779,Alicante/Alacant,"Dénia, Poblets, els",10633.833333333332,9851.833333333332,7.94,False,True,2841.8,14.73,-1.15,False,True
 03580,Alicante/Alacant,"Alfàs del Pi, l'",10540.0,10021.0,5.18,False,True,,,,False,False
 03581,Alicante/Alacant,"Alfàs del Pi, l'",10540.0,10021.0,5.18,False,True,,,,False,False
-27191,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,,,,False,False
-27232,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,,,,False,False
-27231,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,,,,False,False
-27230,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,,,,False,False
-27140,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,,,,False,False
-27192,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,,,,False,False
-27160,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,,,,False,False
-27161,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,,,,False,False
-27004,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,,,,False,False
-27182,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,,,,False,False
-27141,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,,,,False,False
-27180,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,,,,False,False
-27169,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,,,,False,False
-27290,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,,,,False,False
-27001,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,,,,False,False
-27294,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,,,,False,False
-27002,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,,,,False,False
-27003,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,,,,False,False
-27297,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,,,,False,False
-27298,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,,,,False,False
-27296,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,,,,False,False
+27191,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,1360.1,9.52,-9.99,False,True
+27232,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,1360.1,9.52,-9.99,False,True
+27231,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,1360.1,9.52,-9.99,False,True
+27230,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,1360.1,9.52,-9.99,False,True
+27140,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,1360.1,9.52,-9.99,False,True
+27192,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,1360.1,9.52,-9.99,False,True
+27160,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,1360.1,9.52,-9.99,False,True
+27161,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,1360.1,9.52,-9.99,False,True
+27004,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,1360.1,9.52,-9.99,False,True
+27182,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,1360.1,9.52,-9.99,False,True
+27141,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,1360.1,9.52,-9.99,False,True
+27180,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,1360.1,9.52,-9.99,False,True
+27169,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,1360.1,9.52,-9.99,False,True
+27290,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,1360.1,9.52,-9.99,False,True
+27001,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,1360.1,9.52,-9.99,False,True
+27294,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,1360.1,9.52,-9.99,False,True
+27002,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,1360.1,9.52,-9.99,False,True
+27003,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,1360.1,9.52,-9.99,False,True
+27297,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,1360.1,9.52,-9.99,False,True
+27298,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,1360.1,9.52,-9.99,False,True
+27296,Lugo,Lugo,10508.354838709678,10578.90322580645,-0.67,False,False,1360.1,9.52,-9.99,False,True
 30609,Murcia,Archena,10454.0,9714.0,7.62,False,True,,,,False,False
 30600,Murcia,Archena,10454.0,9714.0,7.62,False,True,,,,False,False
 03630,Alicante/Alacant,Sax,10346.0,9859.0,4.94,False,True,,,,False,False
-03330,Alicante/Alacant,Crevillent,10307.0,9845.333333333334,4.69,False,True,,,,False,False
-03339,Alicante/Alacant,Crevillent,10307.0,9845.333333333334,4.69,False,True,,,,False,False
+03330,Alicante/Alacant,Crevillent,10307.0,9845.333333333334,4.69,False,True,1020.0,8.78,-26.48,False,True
+03339,Alicante/Alacant,Crevillent,10307.0,9845.333333333334,4.69,False,True,1020.0,8.78,-26.48,False,True
 43879,Tarragona,"Amposta, Masdenverge, Sant Jaume d'Enveja",10134.833333333332,9337.333333333332,8.54,False,True,,,,False,False
 46192,Valencia/València,Montserrat,10062.0,8188.0,22.89,False,True,,,,False,False
 03360,Alicante/Alacant,Callosa de Segura,9994.0,9563.5,4.5,False,True,,,,False,False
 46138,Valencia/València,Rafelbunyol,9974.0,9149.0,9.02,False,True,,,,False,False
 03509,Alicante/Alacant,Finestrat,9919.0,7103.0,39.65,False,True,,,,False,False
 46360,Valencia/València,Buñol,9858.0,9498.0,3.79,False,True,,,,False,False
-46410,Valencia/València,Sueca,9731.333333333334,9188.666666666666,5.91,False,True,,,,False,False
-46419,Valencia/València,Sueca,9731.333333333334,9188.666666666666,5.91,False,True,,,,False,False
-46420,Valencia/València,Sueca,9731.333333333334,9188.666666666666,5.91,False,True,,,,False,False
-30878,Murcia,"Lorca, Mazarrón",9730.4625,9253.5875,5.15,False,True,,,,False,False
-30876,Murcia,"Lorca, Mazarrón",9730.4625,9253.5875,5.15,False,True,,,,False,False
+46410,Valencia/València,Sueca,9731.333333333334,9188.666666666666,5.91,False,True,1486.7,23.69,-8.79,False,True
+46419,Valencia/València,Sueca,9731.333333333334,9188.666666666666,5.91,False,True,1486.7,23.69,-8.79,False,True
+46420,Valencia/València,Sueca,9731.333333333334,9188.666666666666,5.91,False,True,1486.7,23.69,-8.79,False,True
+30878,Murcia,"Lorca, Mazarrón",9730.4625,9253.5875,5.15,False,True,1406.25,14.7,-19.045,False,True
+30876,Murcia,"Lorca, Mazarrón",9730.4625,9253.5875,5.15,False,True,1406.25,14.7,-19.045,False,True
 30189,Murcia,"Bullas, Cehegín",9640.0,9468.75,1.81,False,True,,,,False,False
 27880,Lugo,Burela,9630.0,9498.0,1.39,False,True,,,,False,False
-03369,Alicante/Alacant,"Orihuela, Rafal",9546.777777777777,8914.388888888889,7.09,False,True,,,,False,False
+03369,Alicante/Alacant,"Orihuela, Rafal",9546.777777777777,8914.388888888889,7.09,False,True,2166.2,28.59,0.0,True,True
 46540,Valencia/València,"Puig de Santa Maria, el",9490.0,8718.0,8.86,False,True,,,,False,False
 15319,A Coruña,"Bergondo, Betanzos, Paderne",9418.5,9050.2,4.07,False,True,,,,False,False
-30868,Murcia,"Cartagena, Mazarrón",9203.976923076923,8825.13076923077,4.29,False,True,,,,False,False
-30529,Murcia,Jumilla,9191.333333333334,8664.666666666666,6.08,False,True,,,,False,False
-30528,Murcia,Jumilla,9191.333333333334,8664.666666666666,6.08,False,True,,,,False,False
-30520,Murcia,Jumilla,9191.333333333334,8664.666666666666,6.08,False,True,,,,False,False
+30868,Murcia,"Cartagena, Mazarrón",9203.976923076923,8825.13076923077,4.29,False,True,1553.5,13.565,-22.895,False,True
+30529,Murcia,Jumilla,9191.333333333334,8664.666666666666,6.08,False,True,845.4,11.16,-31.7,False,True
+30528,Murcia,Jumilla,9191.333333333334,8664.666666666666,6.08,False,True,845.4,11.16,-31.7,False,True
+30520,Murcia,Jumilla,9191.333333333334,8664.666666666666,6.08,False,True,845.4,11.16,-31.7,False,True
 46440,Valencia/València,Almussafes,9070.0,8979.0,1.01,False,True,,,,False,False
 30891,Murcia,Puerto Lumbreras,9003.0,7890.0,14.11,False,True,,,,False,False
 43813,Tarragona,"Alió, Valls",9002.0,8617.0,4.47,False,True,,,,False,False
 46380,Valencia/València,Cheste,8951.0,8735.0,2.47,False,True,,,,False,False
 03750,Alicante/Alacant,Pedreguer,8849.0,7881.0,12.28,False,True,,,,False,False
 46850,Valencia/València,"Olleria, l'",8818.0,8320.0,5.99,False,True,,,,False,False
-03818,Alicante/Alacant,Alcoi/Alcoy,8781.142857142857,8479.142857142857,3.56,False,True,,,,False,False
-03819,Alicante/Alacant,Alcoi/Alcoy,8781.142857142857,8479.142857142857,3.56,False,True,,,,False,False
-03804,Alicante/Alacant,Alcoi/Alcoy,8781.142857142857,8479.142857142857,3.56,False,True,,,,False,False
-03800,Alicante/Alacant,Alcoi/Alcoy,8781.142857142857,8479.142857142857,3.56,False,True,,,,False,False
-03801,Alicante/Alacant,Alcoi/Alcoy,8781.142857142857,8479.142857142857,3.56,False,True,,,,False,False
-03802,Alicante/Alacant,Alcoi/Alcoy,8781.142857142857,8479.142857142857,3.56,False,True,,,,False,False
-03803,Alicante/Alacant,Alcoi/Alcoy,8781.142857142857,8479.142857142857,3.56,False,True,,,,False,False
+03818,Alicante/Alacant,Alcoi/Alcoy,8781.142857142857,8479.142857142857,3.56,False,True,1041.1,18.13,-21.21,False,True
+03819,Alicante/Alacant,Alcoi/Alcoy,8781.142857142857,8479.142857142857,3.56,False,True,1041.1,18.13,-21.21,False,True
+03804,Alicante/Alacant,Alcoi/Alcoy,8781.142857142857,8479.142857142857,3.56,False,True,1041.1,18.13,-21.21,False,True
+03800,Alicante/Alacant,Alcoi/Alcoy,8781.142857142857,8479.142857142857,3.56,False,True,1041.1,18.13,-21.21,False,True
+03801,Alicante/Alacant,Alcoi/Alcoy,8781.142857142857,8479.142857142857,3.56,False,True,1041.1,18.13,-21.21,False,True
+03802,Alicante/Alacant,Alcoi/Alcoy,8781.142857142857,8479.142857142857,3.56,False,True,1041.1,18.13,-21.21,False,True
+03803,Alicante/Alacant,Alcoi/Alcoy,8781.142857142857,8479.142857142857,3.56,False,True,1041.1,18.13,-21.21,False,True
 12598,Castellón/Castelló,Peníscola/Peñíscola,8774.0,7683.0,14.2,False,True,,,,False,False
-03639,Alicante/Alacant,Villena,8678.0,8538.75,1.63,False,True,,,,False,False
-03400,Alicante/Alacant,Villena,8678.0,8538.75,1.63,False,True,,,,False,False
-03408,Alicante/Alacant,Villena,8678.0,8538.75,1.63,False,True,,,,False,False
+03639,Alicante/Alacant,Villena,8678.0,8538.75,1.63,False,True,910.3,17.28,-20.22,False,True
+03400,Alicante/Alacant,Villena,8678.0,8538.75,1.63,False,True,910.3,17.28,-20.22,False,True
+03408,Alicante/Alacant,Villena,8678.0,8538.75,1.63,False,True,910.3,17.28,-20.22,False,True
 46119,Valencia/València,Nàquera/Náquera,8556.0,6897.0,24.05,False,True,,,,False,False
 43800,Tarragona,Valls,8506.0,8159.0,4.25,False,True,,,,False,False
 43491,Tarragona,Valls,8506.0,8159.0,4.25,False,True,,,,False,False
@@ -470,11 +470,11 @@ codigo_postal,provincia,municipio_nombre,poblacion_actual,poblacion_hace_5a,crec
 43481,Tarragona,Vila-seca,7972.333333333333,7518.333333333333,6.04,False,True,,,,False,False
 30564,Murcia,Lorquí,7946.0,7246.0,9.66,False,True,,,,False,False
 46132,Valencia/València,Almàssera,7887.0,7438.0,6.04,False,True,,,,False,False
-15884,A Coruña,"Oroso, Santiago de Compostela",7883.117647058823,7639.014705882353,3.2,False,True,,,,False,False
-15688,A Coruña,"Oroso, Santiago de Compostela",7883.117647058823,7639.014705882353,3.2,False,True,,,,False,False
-03709,Alicante/Alacant,Dénia,7876.833333333333,7137.833333333333,10.35,False,True,,,,False,False
-03700,Alicante/Alacant,Dénia,7876.833333333333,7137.833333333333,10.35,False,True,,,,False,False
-03749,Alicante/Alacant,Dénia,7876.833333333333,7137.833333333333,10.35,False,True,,,,False,False
+15884,A Coruña,"Oroso, Santiago de Compostela",7883.117647058823,7639.014705882353,3.2,False,True,2365.0,13.38,0.0,True,True
+15688,A Coruña,"Oroso, Santiago de Compostela",7883.117647058823,7639.014705882353,3.2,False,True,2365.0,13.38,0.0,True,True
+03709,Alicante/Alacant,Dénia,7876.833333333333,7137.833333333333,10.35,False,True,2841.8,14.73,-1.15,False,True
+03700,Alicante/Alacant,Dénia,7876.833333333333,7137.833333333333,10.35,False,True,2841.8,14.73,-1.15,False,True
+03749,Alicante/Alacant,Dénia,7876.833333333333,7137.833333333333,10.35,False,True,2841.8,14.73,-1.15,False,True
 46111,Valencia/València,Rocafort,7751.0,7314.0,5.97,False,True,,,,False,False
 03350,Alicante/Alacant,Cox,7722.0,7386.0,4.55,False,True,,,,False,False
 46389,Valencia/València,Turís,7717.0,6722.0,14.8,False,True,,,,False,False
@@ -482,17 +482,17 @@ codigo_postal,provincia,municipio_nombre,poblacion_actual,poblacion_hace_5a,crec
 43549,Tarragona,Amposta,7693.333333333333,7038.333333333333,9.31,False,True,,,,False,False
 43870,Tarragona,Amposta,7693.333333333333,7038.333333333333,9.31,False,True,,,,False,False
 03100,Alicante/Alacant,Xixona/Jijona,7669.0,6879.0,11.48,False,True,,,,False,False
-03730,Alicante/Alacant,Xàbia/Jávea,7660.5,7004.0,9.37,False,True,,,,False,False
-03737,Alicante/Alacant,Xàbia/Jávea,7660.5,7004.0,9.37,False,True,,,,False,False
-03738,Alicante/Alacant,Xàbia/Jávea,7660.5,7004.0,9.37,False,True,,,,False,False
-03739,Alicante/Alacant,Xàbia/Jávea,7660.5,7004.0,9.37,False,True,,,,False,False
+03730,Alicante/Alacant,Xàbia/Jávea,7660.5,7004.0,9.37,False,True,3685.1,22.53,0.0,True,True
+03737,Alicante/Alacant,Xàbia/Jávea,7660.5,7004.0,9.37,False,True,3685.1,22.53,0.0,True,True
+03738,Alicante/Alacant,Xàbia/Jávea,7660.5,7004.0,9.37,False,True,3685.1,22.53,0.0,True,True
+03739,Alicante/Alacant,Xàbia/Jávea,7660.5,7004.0,9.37,False,True,3685.1,22.53,0.0,True,True
 43860,Tarragona,"Ametlla de Mar, L'",7446.0,6866.0,8.45,False,True,,,,False,False
-03689,Alicante/Alacant,"Fondó de les Neus, el/Hondón de las Nieves, Hondón de los Frailes, Orihuela",7400.777777777777,6906.388888888889,7.16,False,True,,,,False,False
+03689,Alicante/Alacant,"Fondó de les Neus, el/Hondón de las Nieves, Hondón de los Frailes, Orihuela",7400.777777777777,6906.388888888889,7.16,False,True,2166.2,28.59,0.0,True,True
 03450,Alicante/Alacant,Banyeres de Mariola,7347.0,7090.0,3.62,False,True,,,,False,False
 46740,Valencia/València,Carcaixent,7311.333333333333,6812.0,7.33,False,True,,,,False,False
 46749,Valencia/València,Carcaixent,7311.333333333333,6812.0,7.33,False,True,,,,False,False
 03193,Alicante/Alacant,San Miguel de Salinas,7177.0,6313.0,13.69,False,True,,,,False,False
-30387,Murcia,"Cartagena, Moratalla",7162.676923076922,7102.03076923077,0.85,False,True,,,,False,False
+30387,Murcia,"Cartagena, Moratalla",7162.676923076922,7102.03076923077,0.85,False,True,1496.0,14.09,-26.95,False,True
 12520,Castellón/Castelló,Nules,7157.5,6618.0,8.15,False,True,,,,False,False
 12529,Castellón/Castelló,Nules,7157.5,6618.0,8.15,False,True,,,,False,False
 30364,Murcia,"Unión, La",7126.666666666667,6846.0,4.1,False,True,,,,False,False
@@ -506,10 +506,10 @@ codigo_postal,provincia,municipio_nombre,poblacion_actual,poblacion_hace_5a,crec
 46659,Valencia/València,Canals,6873.0,6758.0,1.7,False,True,,,,False,False
 46136,Valencia/València,Museros,6871.0,6596.0,4.17,False,True,,,,False,False
 12590,Castellón/Castelló,Almenara,6813.0,6090.0,11.87,False,True,,,,False,False
-03316,Alicante/Alacant,"Benferri, Orihuela",6796.777777777777,6326.388888888889,7.44,False,True,,,,False,False
+03316,Alicante/Alacant,"Benferri, Orihuela",6796.777777777777,6326.388888888889,7.44,False,True,2166.2,28.59,0.0,True,True
 03740,Alicante/Alacant,Gata de Gorgos,6773.0,6243.0,8.49,False,True,,,,False,False
 15300,A Coruña,Betanzos,6766.5,6526.5,3.68,False,True,,,,False,False
-30335,Murcia,"Fuente Álamo de Murcia, Mazarrón",6740.066666666667,6081.733333333334,10.82,False,True,,,,False,False
+30335,Murcia,"Fuente Álamo de Murcia, Mazarrón",6740.066666666667,6081.733333333334,10.82,False,True,1611.0,13.04,-18.84,False,True
 30550,Murcia,Abarán,6614.0,6511.0,1.58,False,True,,,,False,False
 30559,Murcia,Abarán,6614.0,6511.0,1.58,False,True,,,,False,False
 03640,Alicante/Alacant,Monòver/Monóvar,6558.0,6106.0,7.4,False,True,,,,False,False
@@ -518,52 +518,52 @@ codigo_postal,provincia,municipio_nombre,poblacion_actual,poblacion_hace_5a,crec
 30562,Murcia,Ceutí,6544.5,6003.5,9.01,False,True,,,,False,False
 03725,Alicante/Alacant,Teulada,6456.0,5639.0,14.49,False,True,,,,False,False
 03724,Alicante/Alacant,Teulada,6456.0,5639.0,14.49,False,True,,,,False,False
-36629,Pontevedra,"Vilagarcía de Arousa, Vilanova de Arousa",6429.166666666667,6402.125,0.42,False,True,,,,False,False
+36629,Pontevedra,"Vilagarcía de Arousa, Vilanova de Arousa",6429.166666666667,6402.125,0.42,False,True,1454.7,7.77,-10.15,False,True
 46860,Valencia/València,Albaida,6322.0,5914.0,6.9,False,True,,,,False,False
-30893,Murcia,Lorca,6185.5625,5969.6875,3.62,False,True,,,,False,False
-30814,Murcia,Lorca,6185.5625,5969.6875,3.62,False,True,,,,False,False
-30800,Murcia,Lorca,6185.5625,5969.6875,3.62,False,True,,,,False,False
-30813,Murcia,Lorca,6185.5625,5969.6875,3.62,False,True,,,,False,False
-30818,Murcia,Lorca,6185.5625,5969.6875,3.62,False,True,,,,False,False
-30810,Murcia,Lorca,6185.5625,5969.6875,3.62,False,True,,,,False,False
-30811,Murcia,Lorca,6185.5625,5969.6875,3.62,False,True,,,,False,False
-30812,Murcia,Lorca,6185.5625,5969.6875,3.62,False,True,,,,False,False
-30817,Murcia,Lorca,6185.5625,5969.6875,3.62,False,True,,,,False,False
-30816,Murcia,Lorca,6185.5625,5969.6875,3.62,False,True,,,,False,False
-30815,Murcia,Lorca,6185.5625,5969.6875,3.62,False,True,,,,False,False
+30893,Murcia,Lorca,6185.5625,5969.6875,3.62,False,True,1201.5,16.36,-19.25,False,True
+30814,Murcia,Lorca,6185.5625,5969.6875,3.62,False,True,1201.5,16.36,-19.25,False,True
+30800,Murcia,Lorca,6185.5625,5969.6875,3.62,False,True,1201.5,16.36,-19.25,False,True
+30813,Murcia,Lorca,6185.5625,5969.6875,3.62,False,True,1201.5,16.36,-19.25,False,True
+30818,Murcia,Lorca,6185.5625,5969.6875,3.62,False,True,1201.5,16.36,-19.25,False,True
+30810,Murcia,Lorca,6185.5625,5969.6875,3.62,False,True,1201.5,16.36,-19.25,False,True
+30811,Murcia,Lorca,6185.5625,5969.6875,3.62,False,True,1201.5,16.36,-19.25,False,True
+30812,Murcia,Lorca,6185.5625,5969.6875,3.62,False,True,1201.5,16.36,-19.25,False,True
+30817,Murcia,Lorca,6185.5625,5969.6875,3.62,False,True,1201.5,16.36,-19.25,False,True
+30816,Murcia,Lorca,6185.5625,5969.6875,3.62,False,True,1201.5,16.36,-19.25,False,True
+30815,Murcia,Lorca,6185.5625,5969.6875,3.62,False,True,1201.5,16.36,-19.25,False,True
 46770,Valencia/València,Xeraco,6149.0,5720.0,7.5,False,True,,,,False,False
 46610,Valencia/València,Guadassuar,6039.0,5902.0,2.32,False,True,,,,False,False
 30180,Murcia,Bullas,6013.5,5776.5,4.1,False,True,,,,False,False
 43110,Tarragona,"Canonja, La",6001.0,5956.0,0.76,False,True,,,,False,False
-43897,Tarragona,Tortosa,5999.5,5573.166666666667,7.65,False,True,,,,False,False
-43500,Tarragona,Tortosa,5999.5,5573.166666666667,7.65,False,True,,,,False,False
-43527,Tarragona,Tortosa,5999.5,5573.166666666667,7.65,False,True,,,,False,False
-43510,Tarragona,Tortosa,5999.5,5573.166666666667,7.65,False,True,,,,False,False
-43590,Tarragona,Tortosa,5999.5,5573.166666666667,7.65,False,True,,,,False,False
-43517,Tarragona,Tortosa,5999.5,5573.166666666667,7.65,False,True,,,,False,False
-15701,A Coruña,Santiago de Compostela,5939.117647058823,5755.764705882353,3.19,False,True,,,,False,False
-15703,A Coruña,Santiago de Compostela,5939.117647058823,5755.764705882353,3.19,False,True,,,,False,False
-15706,A Coruña,Santiago de Compostela,5939.117647058823,5755.764705882353,3.19,False,True,,,,False,False
-15705,A Coruña,Santiago de Compostela,5939.117647058823,5755.764705882353,3.19,False,True,,,,False,False
-15702,A Coruña,Santiago de Compostela,5939.117647058823,5755.764705882353,3.19,False,True,,,,False,False
-15704,A Coruña,Santiago de Compostela,5939.117647058823,5755.764705882353,3.19,False,True,,,,False,False
-15707,A Coruña,Santiago de Compostela,5939.117647058823,5755.764705882353,3.19,False,True,,,,False,False
-15897,A Coruña,Santiago de Compostela,5939.117647058823,5755.764705882353,3.19,False,True,,,,False,False
-15898,A Coruña,Santiago de Compostela,5939.117647058823,5755.764705882353,3.19,False,True,,,,False,False
-15890,A Coruña,Santiago de Compostela,5939.117647058823,5755.764705882353,3.19,False,True,,,,False,False
-15893,A Coruña,Santiago de Compostela,5939.117647058823,5755.764705882353,3.19,False,True,,,,False,False
-15896,A Coruña,Santiago de Compostela,5939.117647058823,5755.764705882353,3.19,False,True,,,,False,False
-15820,A Coruña,Santiago de Compostela,5939.117647058823,5755.764705882353,3.19,False,True,,,,False,False
-15892,A Coruña,Santiago de Compostela,5939.117647058823,5755.764705882353,3.19,False,True,,,,False,False
-15899,A Coruña,Santiago de Compostela,5939.117647058823,5755.764705882353,3.19,False,True,,,,False,False
-30700,Murcia,Torre-Pacheco,5925.571428571428,5209.142857142857,13.75,False,True,,,,False,False
-30708,Murcia,Torre-Pacheco,5925.571428571428,5209.142857142857,13.75,False,True,,,,False,False
-30709,Murcia,Torre-Pacheco,5925.571428571428,5209.142857142857,13.75,False,True,,,,False,False
-30591,Murcia,Torre-Pacheco,5925.571428571428,5209.142857142857,13.75,False,True,,,,False,False
+43897,Tarragona,Tortosa,5999.5,5573.166666666667,7.65,False,True,1084.5,9.61,-28.59,False,True
+43500,Tarragona,Tortosa,5999.5,5573.166666666667,7.65,False,True,1084.5,9.61,-28.59,False,True
+43527,Tarragona,Tortosa,5999.5,5573.166666666667,7.65,False,True,1084.5,9.61,-28.59,False,True
+43510,Tarragona,Tortosa,5999.5,5573.166666666667,7.65,False,True,1084.5,9.61,-28.59,False,True
+43590,Tarragona,Tortosa,5999.5,5573.166666666667,7.65,False,True,1084.5,9.61,-28.59,False,True
+43517,Tarragona,Tortosa,5999.5,5573.166666666667,7.65,False,True,1084.5,9.61,-28.59,False,True
+15701,A Coruña,Santiago de Compostela,5939.117647058823,5755.764705882353,3.19,False,True,2365.0,13.38,0.0,True,True
+15703,A Coruña,Santiago de Compostela,5939.117647058823,5755.764705882353,3.19,False,True,2365.0,13.38,0.0,True,True
+15706,A Coruña,Santiago de Compostela,5939.117647058823,5755.764705882353,3.19,False,True,2365.0,13.38,0.0,True,True
+15705,A Coruña,Santiago de Compostela,5939.117647058823,5755.764705882353,3.19,False,True,2365.0,13.38,0.0,True,True
+15702,A Coruña,Santiago de Compostela,5939.117647058823,5755.764705882353,3.19,False,True,2365.0,13.38,0.0,True,True
+15704,A Coruña,Santiago de Compostela,5939.117647058823,5755.764705882353,3.19,False,True,2365.0,13.38,0.0,True,True
+15707,A Coruña,Santiago de Compostela,5939.117647058823,5755.764705882353,3.19,False,True,2365.0,13.38,0.0,True,True
+15897,A Coruña,Santiago de Compostela,5939.117647058823,5755.764705882353,3.19,False,True,2365.0,13.38,0.0,True,True
+15898,A Coruña,Santiago de Compostela,5939.117647058823,5755.764705882353,3.19,False,True,2365.0,13.38,0.0,True,True
+15890,A Coruña,Santiago de Compostela,5939.117647058823,5755.764705882353,3.19,False,True,2365.0,13.38,0.0,True,True
+15893,A Coruña,Santiago de Compostela,5939.117647058823,5755.764705882353,3.19,False,True,2365.0,13.38,0.0,True,True
+15896,A Coruña,Santiago de Compostela,5939.117647058823,5755.764705882353,3.19,False,True,2365.0,13.38,0.0,True,True
+15820,A Coruña,Santiago de Compostela,5939.117647058823,5755.764705882353,3.19,False,True,2365.0,13.38,0.0,True,True
+15892,A Coruña,Santiago de Compostela,5939.117647058823,5755.764705882353,3.19,False,True,2365.0,13.38,0.0,True,True
+15899,A Coruña,Santiago de Compostela,5939.117647058823,5755.764705882353,3.19,False,True,2365.0,13.38,0.0,True,True
+30700,Murcia,Torre-Pacheco,5925.571428571428,5209.142857142857,13.75,False,True,1351.1,13.01,-30.02,False,True
+30708,Murcia,Torre-Pacheco,5925.571428571428,5209.142857142857,13.75,False,True,1351.1,13.01,-30.02,False,True
+30709,Murcia,Torre-Pacheco,5925.571428571428,5209.142857142857,13.75,False,True,1351.1,13.01,-30.02,False,True
+30591,Murcia,Torre-Pacheco,5925.571428571428,5209.142857142857,13.75,False,True,1351.1,13.01,-30.02,False,True
 15146,A Coruña,"Laracha, A",5890.5,5703.0,3.29,False,True,,,,False,False
 15145,A Coruña,"Laracha, A",5890.5,5703.0,3.29,False,True,,,,False,False
 43893,Tarragona,Altafulla,5870.0,5307.0,10.61,False,True,,,,False,False
-30413,Murcia,"Caravaca de la Cruz, Moratalla",5857.9333333333325,5842.133333333333,0.27,False,True,,,,False,False
+30413,Murcia,"Caravaca de la Cruz, Moratalla",5857.9333333333325,5842.133333333333,0.27,False,True,862.0,5.73,-33.44,False,True
 30892,Murcia,Librilla,5854.0,5325.0,9.93,False,True,,,,False,False
 03520,Alicante/Alacant,Polop,5828.0,5064.0,15.09,False,True,,,,False,False
 03390,Alicante/Alacant,Benejúzar,5811.0,5435.0,6.92,False,True,,,,False,False
@@ -574,63 +574,63 @@ codigo_postal,provincia,municipio_nombre,poblacion_actual,poblacion_hace_5a,crec
 03187,Alicante/Alacant,"Montesinos, Los",5786.0,5061.0,14.33,False,True,,,,False,False
 46830,Valencia/València,Benigànim,5759.0,5779.0,-0.35,False,False,,,,False,False
 12596,Castellón/Castelló,Torreblanca,5744.0,5574.0,3.05,False,True,,,,False,False
-15141,A Coruña,Arteixo,5733.833333333333,5456.333333333333,5.09,False,True,,,,False,False
-15690,A Coruña,Arteixo,5733.833333333333,5456.333333333333,5.09,False,True,,,,False,False
-15144,A Coruña,Arteixo,5733.833333333333,5456.333333333333,5.09,False,True,,,,False,False
-15142,A Coruña,Arteixo,5733.833333333333,5456.333333333333,5.09,False,True,,,,False,False
-15140,A Coruña,Arteixo,5733.833333333333,5456.333333333333,5.09,False,True,,,,False,False
+15141,A Coruña,Arteixo,5733.833333333333,5456.333333333333,5.09,False,True,1698.7,22.75,0.0,True,True
+15690,A Coruña,Arteixo,5733.833333333333,5456.333333333333,5.09,False,True,1698.7,22.75,0.0,True,True
+15144,A Coruña,Arteixo,5733.833333333333,5456.333333333333,5.09,False,True,1698.7,22.75,0.0,True,True
+15142,A Coruña,Arteixo,5733.833333333333,5456.333333333333,5.09,False,True,1698.7,22.75,0.0,True,True
+15140,A Coruña,Arteixo,5733.833333333333,5456.333333333333,5.09,False,True,1698.7,22.75,0.0,True,True
 43470,Tarragona,"Selva del Camp, La",5732.0,5683.0,0.86,False,True,,,,False,False
 43720,Tarragona,"Arboç, L'",5721.0,5609.0,2.0,False,True,,,,False,False
-30594,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,,,,False,False
-30593,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,,,,False,False
-30383,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,,,,False,False
-30382,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,,,,False,False
-30392,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,,,,False,False
-30310,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,,,,False,False
-30205,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,,,,False,False
-30399,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,,,,False,False
-30398,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,,,,False,False
-30397,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,,,,False,False
-30351,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,,,,False,False
-30396,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,,,,False,False
-30395,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,,,,False,False
-30394,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,,,,False,False
-30368,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,,,,False,False
-30390,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,,,,False,False
-30393,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,,,,False,False
-30367,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,,,,False,False
-30366,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,,,,False,False
-30204,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,,,,False,False
-30300,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,,,,False,False
-30365,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,,,,False,False
-30386,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,,,,False,False
-30202,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,,,,False,False
-30350,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,,,,False,False
-30381,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,,,,False,False
-30201,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,,,,False,False
-30203,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,,,,False,False
-30391,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,,,,False,False
-30330,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,,,,False,False
-30384,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,,,,False,False
-30319,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,,,,False,False
+30594,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,1496.0,14.09,-26.95,False,True
+30593,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,1496.0,14.09,-26.95,False,True
+30383,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,1496.0,14.09,-26.95,False,True
+30382,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,1496.0,14.09,-26.95,False,True
+30392,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,1496.0,14.09,-26.95,False,True
+30310,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,1496.0,14.09,-26.95,False,True
+30205,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,1496.0,14.09,-26.95,False,True
+30399,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,1496.0,14.09,-26.95,False,True
+30398,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,1496.0,14.09,-26.95,False,True
+30397,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,1496.0,14.09,-26.95,False,True
+30351,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,1496.0,14.09,-26.95,False,True
+30396,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,1496.0,14.09,-26.95,False,True
+30395,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,1496.0,14.09,-26.95,False,True
+30394,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,1496.0,14.09,-26.95,False,True
+30368,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,1496.0,14.09,-26.95,False,True
+30390,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,1496.0,14.09,-26.95,False,True
+30393,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,1496.0,14.09,-26.95,False,True
+30367,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,1496.0,14.09,-26.95,False,True
+30366,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,1496.0,14.09,-26.95,False,True
+30204,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,1496.0,14.09,-26.95,False,True
+30300,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,1496.0,14.09,-26.95,False,True
+30365,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,1496.0,14.09,-26.95,False,True
+30386,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,1496.0,14.09,-26.95,False,True
+30202,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,1496.0,14.09,-26.95,False,True
+30350,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,1496.0,14.09,-26.95,False,True
+30381,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,1496.0,14.09,-26.95,False,True
+30201,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,1496.0,14.09,-26.95,False,True
+30203,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,1496.0,14.09,-26.95,False,True
+30391,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,1496.0,14.09,-26.95,False,True
+30330,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,1496.0,14.09,-26.95,False,True
+30384,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,1496.0,14.09,-26.95,False,True
+30319,Murcia,Cartagena,5659.076923076923,5541.2307692307695,2.13,False,True,1496.0,14.09,-26.95,False,True
 12549,Castellón/Castelló,Betxí,5659.0,5618.0,0.73,False,True,,,,False,False
 15318,A Coruña,Abegondo,5631.0,5398.0,4.32,False,True,,,,False,False
 15684,A Coruña,"Ordes, Oroso, Tordoia",5592.666666666667,5494.583333333333,1.79,False,True,,,,False,False
 15839,A Coruña,"Baña, A, Brión, Negreira",5552.583333333334,5476.333333333333,1.39,False,True,,,,False,False
 46690,Valencia/València,"Alcúdia de Crespins, l'",5548.0,5113.0,8.51,False,True,,,,False,False
-15229,A Coruña,Ames,5546.0,5350.666666666667,3.65,False,True,,,,False,False
-15870,A Coruña,Ames,5546.0,5350.666666666667,3.65,False,True,,,,False,False
-15895,A Coruña,Ames,5546.0,5350.666666666667,3.65,False,True,,,,False,False
-15220,A Coruña,Ames,5546.0,5350.666666666667,3.65,False,True,,,,False,False
-15864,A Coruña,Ames,5546.0,5350.666666666667,3.65,False,True,,,,False,False
-15228,A Coruña,Ames,5546.0,5350.666666666667,3.65,False,True,,,,False,False
-15171,A Coruña,Oleiros,5541.857142857143,5219.142857142857,6.18,False,True,,,,False,False
-15176,A Coruña,Oleiros,5541.857142857143,5219.142857142857,6.18,False,True,,,,False,False
-15179,A Coruña,Oleiros,5541.857142857143,5219.142857142857,6.18,False,True,,,,False,False
-15173,A Coruña,Oleiros,5541.857142857143,5219.142857142857,6.18,False,True,,,,False,False
-15177,A Coruña,Oleiros,5541.857142857143,5219.142857142857,6.18,False,True,,,,False,False
-15172,A Coruña,Oleiros,5541.857142857143,5219.142857142857,6.18,False,True,,,,False,False
-15178,A Coruña,Oleiros,5541.857142857143,5219.142857142857,6.18,False,True,,,,False,False
+15229,A Coruña,Ames,5546.0,5350.666666666667,3.65,False,True,1872.4,22.61,0.0,True,True
+15870,A Coruña,Ames,5546.0,5350.666666666667,3.65,False,True,1872.4,22.61,0.0,True,True
+15895,A Coruña,Ames,5546.0,5350.666666666667,3.65,False,True,1872.4,22.61,0.0,True,True
+15220,A Coruña,Ames,5546.0,5350.666666666667,3.65,False,True,1872.4,22.61,0.0,True,True
+15864,A Coruña,Ames,5546.0,5350.666666666667,3.65,False,True,1872.4,22.61,0.0,True,True
+15228,A Coruña,Ames,5546.0,5350.666666666667,3.65,False,True,1872.4,22.61,0.0,True,True
+15171,A Coruña,Oleiros,5541.857142857143,5219.142857142857,6.18,False,True,2108.4,6.59,-2.63,False,True
+15176,A Coruña,Oleiros,5541.857142857143,5219.142857142857,6.18,False,True,2108.4,6.59,-2.63,False,True
+15179,A Coruña,Oleiros,5541.857142857143,5219.142857142857,6.18,False,True,2108.4,6.59,-2.63,False,True
+15173,A Coruña,Oleiros,5541.857142857143,5219.142857142857,6.18,False,True,2108.4,6.59,-2.63,False,True
+15177,A Coruña,Oleiros,5541.857142857143,5219.142857142857,6.18,False,True,2108.4,6.59,-2.63,False,True
+15172,A Coruña,Oleiros,5541.857142857143,5219.142857142857,6.18,False,True,2108.4,6.59,-2.63,False,True
+15178,A Coruña,Oleiros,5541.857142857143,5219.142857142857,6.18,False,True,2108.4,6.59,-2.63,False,True
 43560,Tarragona,"Sénia, La",5516.0,5640.0,-2.2,False,False,,,,False,False
 30149,Murcia,Santomera,5481.0,5423.333333333333,1.06,False,True,,,,False,False
 30148,Murcia,Santomera,5481.0,5423.333333333333,1.06,False,True,,,,False,False
@@ -639,36 +639,36 @@ codigo_postal,provincia,municipio_nombre,poblacion_actual,poblacion_hace_5a,crec
 43460,Tarragona,Alcover,5362.0,5144.0,4.24,False,True,,,,False,False
 46620,Valencia/València,Ayora,5282.0,5283.0,-0.02,False,False,,,,False,False
 03698,Alicante/Alacant,Agost,5225.0,4794.0,8.99,False,True,,,,False,False
-30729,Murcia,San Javier,5217.714285714285,4732.714285714285,10.25,False,True,,,,False,False
-30720,Murcia,San Javier,5217.714285714285,4732.714285714285,10.25,False,True,,,,False,False
-30730,Murcia,San Javier,5217.714285714285,4732.714285714285,10.25,False,True,,,,False,False
+30729,Murcia,San Javier,5217.714285714285,4732.714285714285,10.25,False,True,1904.9,21.39,-17.19,False,True
+30720,Murcia,San Javier,5217.714285714285,4732.714285714285,10.25,False,True,1904.9,21.39,-17.19,False,True
+30730,Murcia,San Javier,5217.714285714285,4732.714285714285,10.25,False,True,1904.9,21.39,-17.19,False,True
 30561,Murcia,Alguazas,5215.5,4880.5,6.86,False,True,,,,False,False
 30560,Murcia,Alguazas,5215.5,4880.5,6.86,False,True,,,,False,False
 43530,Tarragona,Alcanar,5052.0,4717.0,7.1,False,True,,,,False,False
 43569,Tarragona,Alcanar,5052.0,4717.0,7.1,False,True,,,,False,False
 46713,Valencia/València,Bellreguard,5032.0,4618.0,8.96,False,True,,,,False,False
 43151,Tarragona,"Pallaresos, Els",5028.0,4850.0,3.67,False,True,,,,False,False
-15573,A Coruña,Narón,4994.125,4882.0,2.3,False,True,,,,False,False
-15578,A Coruña,Narón,4994.125,4882.0,2.3,False,True,,,,False,False
-15570,A Coruña,Narón,4994.125,4882.0,2.3,False,True,,,,False,False
-15572,A Coruña,Narón,4994.125,4882.0,2.3,False,True,,,,False,False
-15540,A Coruña,Narón,4994.125,4882.0,2.3,False,True,,,,False,False
-15596,A Coruña,Narón,4994.125,4882.0,2.3,False,True,,,,False,False
-15597,A Coruña,Narón,4994.125,4882.0,2.3,False,True,,,,False,False
-15541,A Coruña,Narón,4994.125,4882.0,2.3,False,True,,,,False,False
-15401,A Coruña,Ferrol,4951.307692307692,5043.076923076923,-1.82,False,False,,,,False,False
-15404,A Coruña,Ferrol,4951.307692307692,5043.076923076923,-1.82,False,False,,,,False,False
-15405,A Coruña,Ferrol,4951.307692307692,5043.076923076923,-1.82,False,False,,,,False,False
-15403,A Coruña,Ferrol,4951.307692307692,5043.076923076923,-1.82,False,False,,,,False,False
-15402,A Coruña,Ferrol,4951.307692307692,5043.076923076923,-1.82,False,False,,,,False,False
-15407,A Coruña,Ferrol,4951.307692307692,5043.076923076923,-1.82,False,False,,,,False,False
-15406,A Coruña,Ferrol,4951.307692307692,5043.076923076923,-1.82,False,False,,,,False,False
-15594,A Coruña,Ferrol,4951.307692307692,5043.076923076923,-1.82,False,False,,,,False,False
-15595,A Coruña,Ferrol,4951.307692307692,5043.076923076923,-1.82,False,False,,,,False,False
-15592,A Coruña,Ferrol,4951.307692307692,5043.076923076923,-1.82,False,False,,,,False,False
-15590,A Coruña,Ferrol,4951.307692307692,5043.076923076923,-1.82,False,False,,,,False,False
-15593,A Coruña,Ferrol,4951.307692307692,5043.076923076923,-1.82,False,False,,,,False,False
-15591,A Coruña,Ferrol,4951.307692307692,5043.076923076923,-1.82,False,False,,,,False,False
+15573,A Coruña,Narón,4994.125,4882.0,2.3,False,True,1113.8,18.82,-14.49,False,True
+15578,A Coruña,Narón,4994.125,4882.0,2.3,False,True,1113.8,18.82,-14.49,False,True
+15570,A Coruña,Narón,4994.125,4882.0,2.3,False,True,1113.8,18.82,-14.49,False,True
+15572,A Coruña,Narón,4994.125,4882.0,2.3,False,True,1113.8,18.82,-14.49,False,True
+15540,A Coruña,Narón,4994.125,4882.0,2.3,False,True,1113.8,18.82,-14.49,False,True
+15596,A Coruña,Narón,4994.125,4882.0,2.3,False,True,1113.8,18.82,-14.49,False,True
+15597,A Coruña,Narón,4994.125,4882.0,2.3,False,True,1113.8,18.82,-14.49,False,True
+15541,A Coruña,Narón,4994.125,4882.0,2.3,False,True,1113.8,18.82,-14.49,False,True
+15401,A Coruña,Ferrol,4951.307692307692,5043.076923076923,-1.82,False,False,1133.3,23.28,-12.46,False,True
+15404,A Coruña,Ferrol,4951.307692307692,5043.076923076923,-1.82,False,False,1133.3,23.28,-12.46,False,True
+15405,A Coruña,Ferrol,4951.307692307692,5043.076923076923,-1.82,False,False,1133.3,23.28,-12.46,False,True
+15403,A Coruña,Ferrol,4951.307692307692,5043.076923076923,-1.82,False,False,1133.3,23.28,-12.46,False,True
+15402,A Coruña,Ferrol,4951.307692307692,5043.076923076923,-1.82,False,False,1133.3,23.28,-12.46,False,True
+15407,A Coruña,Ferrol,4951.307692307692,5043.076923076923,-1.82,False,False,1133.3,23.28,-12.46,False,True
+15406,A Coruña,Ferrol,4951.307692307692,5043.076923076923,-1.82,False,False,1133.3,23.28,-12.46,False,True
+15594,A Coruña,Ferrol,4951.307692307692,5043.076923076923,-1.82,False,False,1133.3,23.28,-12.46,False,True
+15595,A Coruña,Ferrol,4951.307692307692,5043.076923076923,-1.82,False,False,1133.3,23.28,-12.46,False,True
+15592,A Coruña,Ferrol,4951.307692307692,5043.076923076923,-1.82,False,False,1133.3,23.28,-12.46,False,True
+15590,A Coruña,Ferrol,4951.307692307692,5043.076923076923,-1.82,False,False,1133.3,23.28,-12.46,False,True
+15593,A Coruña,Ferrol,4951.307692307692,5043.076923076923,-1.82,False,False,1133.3,23.28,-12.46,False,True
+15591,A Coruña,Ferrol,4951.307692307692,5043.076923076923,-1.82,False,False,1133.3,23.28,-12.46,False,True
 03726,Alicante/Alacant,"Poble Nou de Benitatxell, el/Benitachell",4911.0,4452.0,10.31,False,True,,,,False,False
 43300,Tarragona,Mont-roig del Camp,4871.666666666667,4153.333333333333,17.3,False,True,,,,False,False
 43892,Tarragona,Mont-roig del Camp,4871.666666666667,4153.333333333333,17.3,False,True,,,,False,False
@@ -678,25 +678,25 @@ codigo_postal,provincia,municipio_nombre,poblacion_actual,poblacion_hace_5a,crec
 15883,A Coruña,Teo,4742.0,4658.0,1.8,False,True,,,,False,False
 15886,A Coruña,Teo,4742.0,4658.0,1.8,False,True,,,,False,False
 15866,A Coruña,Teo,4742.0,4658.0,1.8,False,True,,,,False,False
-36617,Pontevedra,Vilagarcía de Arousa,4736.0,4695.625,0.86,False,True,,,,False,False
-36610,Pontevedra,Vilagarcía de Arousa,4736.0,4695.625,0.86,False,True,,,,False,False
-36613,Pontevedra,Vilagarcía de Arousa,4736.0,4695.625,0.86,False,True,,,,False,False
-36600,Pontevedra,Vilagarcía de Arousa,4736.0,4695.625,0.86,False,True,,,,False,False
-36611,Pontevedra,Vilagarcía de Arousa,4736.0,4695.625,0.86,False,True,,,,False,False
-36618,Pontevedra,Vilagarcía de Arousa,4736.0,4695.625,0.86,False,True,,,,False,False
-36619,Pontevedra,Vilagarcía de Arousa,4736.0,4695.625,0.86,False,True,,,,False,False
-03322,Alicante/Alacant,Orihuela,4697.777777777777,4361.388888888889,7.71,False,True,,,,False,False
-03325,Alicante/Alacant,Orihuela,4697.777777777777,4361.388888888889,7.71,False,True,,,,False,False
-03315,Alicante/Alacant,Orihuela,4697.777777777777,4361.388888888889,7.71,False,True,,,,False,False
-03119,Alicante/Alacant,Orihuela,4697.777777777777,4361.388888888889,7.71,False,True,,,,False,False
-03313,Alicante/Alacant,Orihuela,4697.777777777777,4361.388888888889,7.71,False,True,,,,False,False
-03189,Alicante/Alacant,Orihuela,4697.777777777777,4361.388888888889,7.71,False,True,,,,False,False
-03321,Alicante/Alacant,Orihuela,4697.777777777777,4361.388888888889,7.71,False,True,,,,False,False
-03314,Alicante/Alacant,Orihuela,4697.777777777777,4361.388888888889,7.71,False,True,,,,False,False
-03312,Alicante/Alacant,Orihuela,4697.777777777777,4361.388888888889,7.71,False,True,,,,False,False
-03319,Alicante/Alacant,Orihuela,4697.777777777777,4361.388888888889,7.71,False,True,,,,False,False
-03311,Alicante/Alacant,Orihuela,4697.777777777777,4361.388888888889,7.71,False,True,,,,False,False
-03300,Alicante/Alacant,Orihuela,4697.777777777777,4361.388888888889,7.71,False,True,,,,False,False
+36617,Pontevedra,Vilagarcía de Arousa,4736.0,4695.625,0.86,False,True,1454.7,7.77,-10.15,False,True
+36610,Pontevedra,Vilagarcía de Arousa,4736.0,4695.625,0.86,False,True,1454.7,7.77,-10.15,False,True
+36613,Pontevedra,Vilagarcía de Arousa,4736.0,4695.625,0.86,False,True,1454.7,7.77,-10.15,False,True
+36600,Pontevedra,Vilagarcía de Arousa,4736.0,4695.625,0.86,False,True,1454.7,7.77,-10.15,False,True
+36611,Pontevedra,Vilagarcía de Arousa,4736.0,4695.625,0.86,False,True,1454.7,7.77,-10.15,False,True
+36618,Pontevedra,Vilagarcía de Arousa,4736.0,4695.625,0.86,False,True,1454.7,7.77,-10.15,False,True
+36619,Pontevedra,Vilagarcía de Arousa,4736.0,4695.625,0.86,False,True,1454.7,7.77,-10.15,False,True
+03322,Alicante/Alacant,Orihuela,4697.777777777777,4361.388888888889,7.71,False,True,2166.2,28.59,0.0,True,True
+03325,Alicante/Alacant,Orihuela,4697.777777777777,4361.388888888889,7.71,False,True,2166.2,28.59,0.0,True,True
+03315,Alicante/Alacant,Orihuela,4697.777777777777,4361.388888888889,7.71,False,True,2166.2,28.59,0.0,True,True
+03119,Alicante/Alacant,Orihuela,4697.777777777777,4361.388888888889,7.71,False,True,2166.2,28.59,0.0,True,True
+03313,Alicante/Alacant,Orihuela,4697.777777777777,4361.388888888889,7.71,False,True,2166.2,28.59,0.0,True,True
+03189,Alicante/Alacant,Orihuela,4697.777777777777,4361.388888888889,7.71,False,True,2166.2,28.59,0.0,True,True
+03321,Alicante/Alacant,Orihuela,4697.777777777777,4361.388888888889,7.71,False,True,2166.2,28.59,0.0,True,True
+03314,Alicante/Alacant,Orihuela,4697.777777777777,4361.388888888889,7.71,False,True,2166.2,28.59,0.0,True,True
+03312,Alicante/Alacant,Orihuela,4697.777777777777,4361.388888888889,7.71,False,True,2166.2,28.59,0.0,True,True
+03319,Alicante/Alacant,Orihuela,4697.777777777777,4361.388888888889,7.71,False,True,2166.2,28.59,0.0,True,True
+03311,Alicante/Alacant,Orihuela,4697.777777777777,4361.388888888889,7.71,False,True,2166.2,28.59,0.0,True,True
+03300,Alicante/Alacant,Orihuela,4697.777777777777,4361.388888888889,7.71,False,True,2166.2,28.59,0.0,True,True
 03830,Alicante/Alacant,Muro de Alcoy,4686.0,4657.5,0.61,False,True,,,,False,False
 03839,Alicante/Alacant,Muro de Alcoy,4686.0,4657.5,0.61,False,True,,,,False,False
 46670,Valencia/València,"Pobla Llarga, la",4665.0,4452.0,4.78,False,True,,,,False,False
@@ -707,28 +707,28 @@ codigo_postal,provincia,municipio_nombre,poblacion_actual,poblacion_hace_5a,crec
 46139,Valencia/València,"Pobla de Farnals, la",4627.5,4064.0,13.87,False,True,,,,False,False
 46812,Valencia/València,Aielo de Malferit,4624.0,4625.0,-0.02,False,False,,,,False,False
 12539,Castellón/Castelló,"Alqueries, les/Alquerías del Niño Perdido",4605.0,4464.0,3.16,False,True,,,,False,False
-15108,A Coruña,Carballo,4588.571428571428,4489.857142857143,2.2,False,True,,,,False,False
-15106,A Coruña,Carballo,4588.571428571428,4489.857142857143,2.2,False,True,,,,False,False
-15102,A Coruña,Carballo,4588.571428571428,4489.857142857143,2.2,False,True,,,,False,False
-15100,A Coruña,Carballo,4588.571428571428,4489.857142857143,2.2,False,True,,,,False,False
-15107,A Coruña,Carballo,4588.571428571428,4489.857142857143,2.2,False,True,,,,False,False
-15105,A Coruña,Carballo,4588.571428571428,4489.857142857143,2.2,False,True,,,,False,False
-15109,A Coruña,Carballo,4588.571428571428,4489.857142857143,2.2,False,True,,,,False,False
+15108,A Coruña,Carballo,4588.571428571428,4489.857142857143,2.2,False,True,993.5,0.5,-23.37,False,True
+15106,A Coruña,Carballo,4588.571428571428,4489.857142857143,2.2,False,True,993.5,0.5,-23.37,False,True
+15102,A Coruña,Carballo,4588.571428571428,4489.857142857143,2.2,False,True,993.5,0.5,-23.37,False,True
+15100,A Coruña,Carballo,4588.571428571428,4489.857142857143,2.2,False,True,993.5,0.5,-23.37,False,True
+15107,A Coruña,Carballo,4588.571428571428,4489.857142857143,2.2,False,True,993.5,0.5,-23.37,False,True
+15105,A Coruña,Carballo,4588.571428571428,4489.857142857143,2.2,False,True,993.5,0.5,-23.37,False,True
+15109,A Coruña,Carballo,4588.571428571428,4489.857142857143,2.2,False,True,993.5,0.5,-23.37,False,True
 46550,Valencia/València,Albuixech,4482.0,4151.0,7.97,False,True,,,,False,False
 36635,Pontevedra,"Cambados, Ribadumia",4479.4,4445.866666666667,0.75,False,True,,,,False,False
-15198,A Coruña,Culleredo,4464.857142857143,4383.571428571428,1.85,False,True,,,,False,False
-15199,A Coruña,Culleredo,4464.857142857143,4383.571428571428,1.85,False,True,,,,False,False
-15189,A Coruña,Culleredo,4464.857142857143,4383.571428571428,1.85,False,True,,,,False,False
-15174,A Coruña,Culleredo,4464.857142857143,4383.571428571428,1.85,False,True,,,,False,False
-15180,A Coruña,Culleredo,4464.857142857143,4383.571428571428,1.85,False,True,,,,False,False
-15670,A Coruña,Culleredo,4464.857142857143,4383.571428571428,1.85,False,True,,,,False,False
-15139,A Coruña,Culleredo,4464.857142857143,4383.571428571428,1.85,False,True,,,,False,False
-36947,Pontevedra,Cangas,4451.833333333333,4430.333333333333,0.49,False,True,,,,False,False
-36946,Pontevedra,Cangas,4451.833333333333,4430.333333333333,0.49,False,True,,,,False,False
-36948,Pontevedra,Cangas,4451.833333333333,4430.333333333333,0.49,False,True,,,,False,False
-36945,Pontevedra,Cangas,4451.833333333333,4430.333333333333,0.49,False,True,,,,False,False
-36940,Pontevedra,Cangas,4451.833333333333,4430.333333333333,0.49,False,True,,,,False,False
-36949,Pontevedra,Cangas,4451.833333333333,4430.333333333333,0.49,False,True,,,,False,False
+15198,A Coruña,Culleredo,4464.857142857143,4383.571428571428,1.85,False,True,1967.7,17.71,0.0,True,True
+15199,A Coruña,Culleredo,4464.857142857143,4383.571428571428,1.85,False,True,1967.7,17.71,0.0,True,True
+15189,A Coruña,Culleredo,4464.857142857143,4383.571428571428,1.85,False,True,1967.7,17.71,0.0,True,True
+15174,A Coruña,Culleredo,4464.857142857143,4383.571428571428,1.85,False,True,1967.7,17.71,0.0,True,True
+15180,A Coruña,Culleredo,4464.857142857143,4383.571428571428,1.85,False,True,1967.7,17.71,0.0,True,True
+15670,A Coruña,Culleredo,4464.857142857143,4383.571428571428,1.85,False,True,1967.7,17.71,0.0,True,True
+15139,A Coruña,Culleredo,4464.857142857143,4383.571428571428,1.85,False,True,1967.7,17.71,0.0,True,True
+36947,Pontevedra,Cangas,4451.833333333333,4430.333333333333,0.49,False,True,1748.3,10.21,-0.78,False,True
+36946,Pontevedra,Cangas,4451.833333333333,4430.333333333333,0.49,False,True,1748.3,10.21,-0.78,False,True
+36948,Pontevedra,Cangas,4451.833333333333,4430.333333333333,0.49,False,True,1748.3,10.21,-0.78,False,True
+36945,Pontevedra,Cangas,4451.833333333333,4430.333333333333,0.49,False,True,1748.3,10.21,-0.78,False,True
+36940,Pontevedra,Cangas,4451.833333333333,4430.333333333333,0.49,False,True,1748.3,10.21,-0.78,False,True
+36949,Pontevedra,Cangas,4451.833333333333,4430.333333333333,0.49,False,True,1748.3,10.21,-0.78,False,True
 15685,A Coruña,"Frades, Mesía, Ordes",4445.5,4508.333333333334,-1.39,False,False,,,,False,False
 15218,A Coruña,"Lousame, Noia, Porto do Son",4442.466666666666,4524.177777777778,-1.81,False,False,,,,False,False
 43718,Tarragona,"Albinyana, Masllorenç, Montmell, El, Santa Oliva",4440.166666666666,3942.8333333333335,12.61,False,True,,,,False,False
@@ -740,11 +740,11 @@ codigo_postal,provincia,municipio_nombre,poblacion_actual,poblacion_hace_5a,crec
 36995,Pontevedra,Poio,4358.5,4268.25,2.11,False,True,,,,False,False
 36163,Pontevedra,Poio,4358.5,4268.25,2.11,False,True,,,,False,False
 36993,Pontevedra,Poio,4358.5,4268.25,2.11,False,True,,,,False,False
-30412,Murcia,Caravaca de la Cruz,4354.333333333333,4281.333333333333,1.71,False,True,,,,False,False
-30411,Murcia,Caravaca de la Cruz,4354.333333333333,4281.333333333333,1.71,False,True,,,,False,False
-30400,Murcia,Caravaca de la Cruz,4354.333333333333,4281.333333333333,1.71,False,True,,,,False,False
-30410,Murcia,Caravaca de la Cruz,4354.333333333333,4281.333333333333,1.71,False,True,,,,False,False
-30195,Murcia,Caravaca de la Cruz,4354.333333333333,4281.333333333333,1.71,False,True,,,,False,False
+30412,Murcia,Caravaca de la Cruz,4354.333333333333,4281.333333333333,1.71,False,True,862.0,5.73,-33.44,False,True
+30411,Murcia,Caravaca de la Cruz,4354.333333333333,4281.333333333333,1.71,False,True,862.0,5.73,-33.44,False,True
+30400,Murcia,Caravaca de la Cruz,4354.333333333333,4281.333333333333,1.71,False,True,862.0,5.73,-33.44,False,True
+30410,Murcia,Caravaca de la Cruz,4354.333333333333,4281.333333333333,1.71,False,True,862.0,5.73,-33.44,False,True
+30195,Murcia,Caravaca de la Cruz,4354.333333333333,4281.333333333333,1.71,False,True,862.0,5.73,-33.44,False,True
 03829,Alicante/Alacant,"Alqueria d'Asnar, l', Cocentaina",4351.666666666666,4333.0,0.43,False,True,,,,False,False
 36969,Pontevedra,"Meaño, Sanxenxo",4311.916666666666,4232.833333333334,1.87,False,True,,,,False,False
 43529,Tarragona,Roquetes,4303.5,4039.5,6.54,False,True,,,,False,False
@@ -795,11 +795,11 @@ codigo_postal,provincia,municipio_nombre,poblacion_actual,poblacion_hace_5a,crec
 46114,Valencia/València,Vinalesa,3572.0,3412.0,4.69,False,True,,,,False,False
 43891,Tarragona,Vandellòs i l'Hospitalet de l'Infant,3571.5,3301.5,8.18,False,True,,,,False,False
 43890,Tarragona,Vandellòs i l'Hospitalet de l'Infant,3571.5,3301.5,8.18,False,True,,,,False,False
-30877,Murcia,Mazarrón,3544.9,3283.9,7.95,False,True,,,,False,False
-30875,Murcia,Mazarrón,3544.9,3283.9,7.95,False,True,,,,False,False
-30870,Murcia,Mazarrón,3544.9,3283.9,7.95,False,True,,,,False,False
-30860,Murcia,Mazarrón,3544.9,3283.9,7.95,False,True,,,,False,False
-30879,Murcia,Mazarrón,3544.9,3283.9,7.95,False,True,,,,False,False
+30877,Murcia,Mazarrón,3544.9,3283.9,7.95,False,True,1611.0,13.04,-18.84,False,True
+30875,Murcia,Mazarrón,3544.9,3283.9,7.95,False,True,1611.0,13.04,-18.84,False,True
+30870,Murcia,Mazarrón,3544.9,3283.9,7.95,False,True,1611.0,13.04,-18.84,False,True
+30860,Murcia,Mazarrón,3544.9,3283.9,7.95,False,True,1611.0,13.04,-18.84,False,True
+30879,Murcia,Mazarrón,3544.9,3283.9,7.95,False,True,1611.0,13.04,-18.84,False,True
 15650,A Coruña,Cambre,3537.8571428571427,3513.4285714285716,0.7,False,True,,,,False,False
 15659,A Coruña,Cambre,3537.8571428571427,3513.4285714285716,0.7,False,True,,,,False,False
 15181,A Coruña,Cambre,3537.8571428571427,3513.4285714285716,0.7,False,True,,,,False,False
@@ -813,13 +813,13 @@ codigo_postal,provincia,municipio_nombre,poblacion_actual,poblacion_hace_5a,crec
 43894,Tarragona,Camarles,3465.0,3194.0,8.48,False,True,,,,False,False
 15110,A Coruña,"Cabana de Bergantiños, Ponteceso",3447.4,3591.7,-4.02,False,False,,,,False,False
 43761,Tarragona,"Pobla de Montornès, La",3440.0,2884.0,19.28,False,True,,,,False,False
-36911,Pontevedra,Marín,3427.285714285714,3463.1428571428573,-1.04,False,False,,,,False,False
-36912,Pontevedra,Marín,3427.285714285714,3463.1428571428573,-1.04,False,False,,,,False,False
-36900,Pontevedra,Marín,3427.285714285714,3463.1428571428573,-1.04,False,False,,,,False,False
-36914,Pontevedra,Marín,3427.285714285714,3463.1428571428573,-1.04,False,False,,,,False,False
-36915,Pontevedra,Marín,3427.285714285714,3463.1428571428573,-1.04,False,False,,,,False,False
-36920,Pontevedra,Marín,3427.285714285714,3463.1428571428573,-1.04,False,False,,,,False,False
-36913,Pontevedra,Marín,3427.285714285714,3463.1428571428573,-1.04,False,False,,,,False,False
+36911,Pontevedra,Marín,3427.285714285714,3463.1428571428573,-1.04,False,False,1414.7,31.14,-7.22,False,True
+36912,Pontevedra,Marín,3427.285714285714,3463.1428571428573,-1.04,False,False,1414.7,31.14,-7.22,False,True
+36900,Pontevedra,Marín,3427.285714285714,3463.1428571428573,-1.04,False,False,1414.7,31.14,-7.22,False,True
+36914,Pontevedra,Marín,3427.285714285714,3463.1428571428573,-1.04,False,False,1414.7,31.14,-7.22,False,True
+36915,Pontevedra,Marín,3427.285714285714,3463.1428571428573,-1.04,False,False,1414.7,31.14,-7.22,False,True
+36920,Pontevedra,Marín,3427.285714285714,3463.1428571428573,-1.04,False,False,1414.7,31.14,-7.22,False,True
+36913,Pontevedra,Marín,3427.285714285714,3463.1428571428573,-1.04,False,False,1414.7,31.14,-7.22,False,True
 43711,Tarragona,Banyeres del Penedès,3395.0,3207.0,5.86,False,True,,,,False,False
 43770,Tarragona,Móra la Nova,3350.0,3108.0,7.79,False,True,,,,False,False
 15686,A Coruña,"Frades, Mesía, Trazo",3340.5,3489.8333333333335,-4.28,False,False,,,,False,False
@@ -881,15 +881,15 @@ codigo_postal,provincia,municipio_nombre,poblacion_actual,poblacion_hace_5a,crec
 36378,Pontevedra,Gondomar,3013.2,2940.4,2.48,False,True,,,,False,False
 36316,Pontevedra,Gondomar,3013.2,2940.4,2.48,False,True,,,,False,False
 36388,Pontevedra,Gondomar,3013.2,2940.4,2.48,False,True,,,,False,False
-15967,A Coruña,Ribeira,3011.3333333333335,2983.1111111111113,0.95,False,True,,,,False,False
-15966,A Coruña,Ribeira,3011.3333333333335,2983.1111111111113,0.95,False,True,,,,False,False
-15960,A Coruña,Ribeira,3011.3333333333335,2983.1111111111113,0.95,False,True,,,,False,False
-15993,A Coruña,Ribeira,3011.3333333333335,2983.1111111111113,0.95,False,True,,,,False,False
-15959,A Coruña,Ribeira,3011.3333333333335,2983.1111111111113,0.95,False,True,,,,False,False
-15968,A Coruña,Ribeira,3011.3333333333335,2983.1111111111113,0.95,False,True,,,,False,False
-15969,A Coruña,Ribeira,3011.3333333333335,2983.1111111111113,0.95,False,True,,,,False,False
-15965,A Coruña,Ribeira,3011.3333333333335,2983.1111111111113,0.95,False,True,,,,False,False
-15950,A Coruña,Ribeira,3011.3333333333335,2983.1111111111113,0.95,False,True,,,,False,False
+15967,A Coruña,Ribeira,3011.3333333333335,2983.1111111111113,0.95,False,True,1398.2,13.66,-15.59,False,True
+15966,A Coruña,Ribeira,3011.3333333333335,2983.1111111111113,0.95,False,True,1398.2,13.66,-15.59,False,True
+15960,A Coruña,Ribeira,3011.3333333333335,2983.1111111111113,0.95,False,True,1398.2,13.66,-15.59,False,True
+15993,A Coruña,Ribeira,3011.3333333333335,2983.1111111111113,0.95,False,True,1398.2,13.66,-15.59,False,True
+15959,A Coruña,Ribeira,3011.3333333333335,2983.1111111111113,0.95,False,True,1398.2,13.66,-15.59,False,True
+15968,A Coruña,Ribeira,3011.3333333333335,2983.1111111111113,0.95,False,True,1398.2,13.66,-15.59,False,True
+15969,A Coruña,Ribeira,3011.3333333333335,2983.1111111111113,0.95,False,True,1398.2,13.66,-15.59,False,True
+15965,A Coruña,Ribeira,3011.3333333333335,2983.1111111111113,0.95,False,True,1398.2,13.66,-15.59,False,True
+15950,A Coruña,Ribeira,3011.3333333333335,2983.1111111111113,0.95,False,True,1398.2,13.66,-15.59,False,True
 46196,Valencia/València,Catadau,3005.0,2804.0,7.17,False,True,,,,False,False
 36990,Pontevedra,Sanxenxo,3002.6666666666665,2902.3333333333335,3.46,False,True,,,,False,False
 36970,Pontevedra,Sanxenxo,3002.6666666666665,2902.3333333333335,3.46,False,True,,,,False,False
@@ -908,7 +908,7 @@ codigo_postal,provincia,municipio_nombre,poblacion_actual,poblacion_hace_5a,crec
 46313,Valencia/València,Utiel,2915.75,2864.5,1.79,False,True,,,,False,False
 46321,Valencia/València,Utiel,2915.75,2864.5,1.79,False,True,,,,False,False
 46300,Valencia/València,Utiel,2915.75,2864.5,1.79,False,True,,,,False,False
-36817,Pontevedra,"Pazos de Borbén, Redondela",2913.833333333333,2930.9166666666665,-0.58,False,False,,,,False,False
+36817,Pontevedra,"Pazos de Borbén, Redondela",2913.833333333333,2930.9166666666665,-0.58,False,False,1381.3,15.85,-32.86,False,True
 36685,Pontevedra,"Estrada, A, Ponteareas",2888.2,2886.0666666666666,0.07,False,True,,,,False,False
 30629,Murcia,Fortuna,2859.25,2572.25,11.16,False,True,,,,False,False
 30628,Murcia,Fortuna,2859.25,2572.25,11.16,False,True,,,,False,False
@@ -999,17 +999,17 @@ codigo_postal,provincia,municipio_nombre,poblacion_actual,poblacion_hace_5a,crec
 43712,Tarragona,Llorenç del Penedès,2425.0,2395.0,1.25,False,True,,,,False,False
 46790,Valencia/València,Xeresa,2418.0,2197.0,10.06,False,True,,,,False,False
 43810,Tarragona,"Pla de Santa Maria, El",2408.0,2348.0,2.56,False,True,,,,False,False
-36811,Pontevedra,Redondela,2406.1666666666665,2436.75,-1.26,False,False,,,,False,False
-36810,Pontevedra,Redondela,2406.1666666666665,2436.75,-1.26,False,False,,,,False,False
-36813,Pontevedra,Redondela,2406.1666666666665,2436.75,-1.26,False,False,,,,False,False
-36800,Pontevedra,Redondela,2406.1666666666665,2436.75,-1.26,False,False,,,,False,False
-36818,Pontevedra,Redondela,2406.1666666666665,2436.75,-1.26,False,False,,,,False,False
-36812,Pontevedra,Redondela,2406.1666666666665,2436.75,-1.26,False,False,,,,False,False
-36320,Pontevedra,Redondela,2406.1666666666665,2436.75,-1.26,False,False,,,,False,False
-36816,Pontevedra,Redondela,2406.1666666666665,2436.75,-1.26,False,False,,,,False,False
-36693,Pontevedra,Redondela,2406.1666666666665,2436.75,-1.26,False,False,,,,False,False
-36815,Pontevedra,Redondela,2406.1666666666665,2436.75,-1.26,False,False,,,,False,False
-36814,Pontevedra,Redondela,2406.1666666666665,2436.75,-1.26,False,False,,,,False,False
+36811,Pontevedra,Redondela,2406.1666666666665,2436.75,-1.26,False,False,1381.3,15.85,-32.86,False,True
+36810,Pontevedra,Redondela,2406.1666666666665,2436.75,-1.26,False,False,1381.3,15.85,-32.86,False,True
+36813,Pontevedra,Redondela,2406.1666666666665,2436.75,-1.26,False,False,1381.3,15.85,-32.86,False,True
+36800,Pontevedra,Redondela,2406.1666666666665,2436.75,-1.26,False,False,1381.3,15.85,-32.86,False,True
+36818,Pontevedra,Redondela,2406.1666666666665,2436.75,-1.26,False,False,1381.3,15.85,-32.86,False,True
+36812,Pontevedra,Redondela,2406.1666666666665,2436.75,-1.26,False,False,1381.3,15.85,-32.86,False,True
+36320,Pontevedra,Redondela,2406.1666666666665,2436.75,-1.26,False,False,1381.3,15.85,-32.86,False,True
+36816,Pontevedra,Redondela,2406.1666666666665,2436.75,-1.26,False,False,1381.3,15.85,-32.86,False,True
+36693,Pontevedra,Redondela,2406.1666666666665,2436.75,-1.26,False,False,1381.3,15.85,-32.86,False,True
+36815,Pontevedra,Redondela,2406.1666666666665,2436.75,-1.26,False,False,1381.3,15.85,-32.86,False,True
+36814,Pontevedra,Redondela,2406.1666666666665,2436.75,-1.26,False,False,1381.3,15.85,-32.86,False,True
 46811,Valencia/València,Enguera,2403.5,2388.5,0.63,False,True,,,,False,False
 46810,Valencia/València,Enguera,2403.5,2388.5,0.63,False,True,,,,False,False
 46511,Valencia/València,Benifairó de les Valls,2359.0,2213.0,6.6,False,True,,,,False,False
