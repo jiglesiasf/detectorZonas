@@ -230,7 +230,7 @@ def fetch_municipio_price(muni_name, api_config):
     for attempt in range(max_retries):
         resp = session.get(url, headers=headers, timeout=30)
         if resp.status_code in (429, 503) and attempt < max_retries - 1:
-            sleep_time = backoff_base ** attempt
+            sleep_time = backoff_base ** (attempt + 1)
             print(f"  Rate limited (HTTP {resp.status_code}), retrying in {sleep_time}s...")
             time.sleep(sleep_time)
             continue
@@ -279,7 +279,7 @@ def scrape_all(target_munis, target_provinces, cookie_file=None, rate_limit=1.0)
                 "variacion_maximo": None,
                 "mes_referencia": None,
             })
-        delay = rate_limit + random.uniform(0, rate_limit * 0.5)
+        delay = max(0.1, rate_limit + random.uniform(-0.5, 0.5))
         time.sleep(delay)
 
     return results
