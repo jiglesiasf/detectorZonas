@@ -1,61 +1,67 @@
 import csv
 import json
-import re
-import sys
+import subprocess
 import time
 from pathlib import Path
 
-import requests
-
 OVERPASS_URL = "https://overpass-api.de/api/interpreter"
+TARGET_PREFIXES = {"03", "12", "46", "15", "27", "32", "36", "30", "43"}
 
-# (provincia_name in OSM, provincia_id)
-PROVINCES = [
-    ("Alicante/Alacant", "03"),
-    ("Castellón/Castelló", "12"),
-    ("Valencia/València", "46"),
-    ("A Coruña", "15"),
-    ("Lugo", "27"),
-    ("Ourense", "32"),
-    ("Pontevedra", "36"),
-    ("Murcia", "30"),
-    ("Tarragona", "43"),
-]
+SUPERMARKET_NAMES = {"Mercadona", "Carrefour", "Alcampo", "Gadis", "Eroski", "Consum"}
 
-SUPERMARKET_NAMES = "Mercadona|Carrefour|Alcampo|Gadis|Eroski|Consum"
-
-QUERIES = {
-    "supermercado": f"""
+SCHOOL_QUERY = """
 [out:json];
-area["name"="{{prov}}"]["admin_level"="6"]->.a;
-node(area.a)[shop=supermarket][name~"{SUPERMARKET_NAMES}"];
+area["ISO3166-1"="ES"]->.es;
+nwr(area.es)[amenity=school];
 out center;
-""",
-    "colegio": """
+"""
+
+UNIVERSIDAD_QUERY = """
 [out:json];
-area["name"="{prov}"]["admin_level"="6"]->.a;
-node(area.a)[amenity=school];
+area["ISO3166-1"="ES"]->.es;
+nwr(area.es)[amenity=university];
 out center;
-""",
-    "instituto": """
+"""
+
+SUPERMERCADO_QUERY = """
 [out:json];
-area["name"="{prov}"]["admin_level"="6"]->.a;
-node(area.a)[amenity=school][school=secondary];
+area["ISO3166-1"="ES"]->.es;
+nwr(area.es)[shop=supermarket];
 out center;
-""",
-    "universidad": """
-[out:json];
-area["name"="{prov}"]["admin_level"="6"]->.a;
-node(area.a)[amenity=university];
-out center;
-""",
-}
+"""
 
 
-def query_overpass(query):
-    resp = requests.post(OVERPASS_URL, data={"data": query}, timeout=60)
-    resp.raise_for_status()
-    return resp.json()
+def query_overpass(query, timeout=300):
+    for attempt in range(3):
+        try:
+            result = subprocess.run(
+                ["curl", "-s", "--max-time", str(timeout),
+                 "--data-urlencode", f"data={query}",
+                 OVERPASS_URL],
+                capture_output=True, text=True, timeout=timeout + 30
+            )
+            if result.returncode != 0:
+                if attempt < 2:
+                    time.sleep(10)
+                    continue
+                raise RuntimeError(f"curl failed: {result.stderr}")
+            data = json.loads(result.stdout)
+            remark = data.get("osm3s", {}).get("remark", "")
+            if "runtime error" in remark:
+                if attempt < 2:
+                    print(f"  Server busy, retrying in 30s...")
+                    time.sleep(30)
+                    continue
+                raise RuntimeError(f"Overpass error: {remark}")
+            return data
+        except json.JSONDecodeError:
+            if attempt < 2:
+                retry_after = (attempt + 1) * 20
+                print(f"  JSON error, retrying in {retry_after}s...")
+                time.sleep(retry_after)
+                continue
+            raise
+    return {"elements": []}
 
 
 def extract_cp(tags):
@@ -66,47 +72,110 @@ def extract_cp(tags):
     return ""
 
 
+def is_target_cp(cp):
+    return cp[:2] in TARGET_PREFIXES
+
+
+def is_instituto(tags):
+    if tags.get("school") == "secondary":
+        return True
+    name = tags.get("name", "")
+    upper = name.upper()
+    if "IES " in upper or upper.startswith("IES") or upper.startswith("I.E.S."):
+        return True
+    if "INSTITUTO" in upper or "INSTITUT " in upper:
+        return True
+    if "EDUCACIÓN SECUNDARIA" in upper or "EDUCACIÓ SECUNDÀRIA" in upper:
+        return True
+    return False
+
+
+def filter_supermarket(tags):
+    name = tags.get("name", "")
+    for chain in SUPERMARKET_NAMES:
+        if chain.lower() in name.lower():
+            return True
+    return False
+
+
+def process_elements(elements, tipo, extra_filter=None):
+    matched = 0
+    no_cp = 0
+    wrong_prov = 0
+    filtered = 0
+    results = []
+
+    for el in elements:
+        tags = el.get("tags", {})
+        if extra_filter and not extra_filter(tags):
+            filtered += 1
+            continue
+        cp = extract_cp(tags)
+        if not cp:
+            no_cp += 1
+            continue
+        if not is_target_cp(cp):
+            wrong_prov += 1
+            continue
+        results.append({
+            "codigo_postal": cp,
+            "tipo": tipo,
+            "nombre": tags.get("name", ""),
+        })
+        matched += 1
+
+    return results, matched, no_cp, wrong_prov, filtered
+
+
 def scrape():
     all_pois = []
-    total = len(PROVINCES) * len(QUERIES)
-    done = 0
+    t0 = time.time()
 
-    for prov_name, prov_id in PROVINCES:
-        # Try OSM name variants for dual names
-        prov_variants = [prov_name]
-        if "/" in prov_name:
-            parts = prov_name.split("/")
-            prov_variants.append(f"{parts[1]}/{parts[0]}")
+    print("Querying supermercados...", flush=True)
+    try:
+        data = query_overpass(SUPERMERCADO_QUERY)
+        el = data.get("elements", [])
+        print(f"  {len(el)} elements in {time.time()-t0:.0f}s", flush=True)
+        results, *stats = process_elements(el, "supermercado", filter_supermarket)
+        all_pois.extend(results)
+        print(f"  Target CPs: {stats[0]}, No CP: {stats[1]}, "
+              f"Wrong prov: {stats[2]}, Filtered: {stats[3]}", flush=True)
+    except Exception as e:
+        print(f"  Error: {e}", flush=True)
+    time.sleep(5)
 
-        for tipo, query_template in QUERIES.items():
-            results = None
-            for variant in prov_variants:
-                q = query_template.format(prov=variant)
-                try:
-                    results = query_overpass(q)
-                    if results and len(results.get("elements", [])) > 0:
-                        break
-                except requests.RequestException:
-                    continue
+    t0 = time.time()
+    print("Querying escuelas (colegios + institutos)...", flush=True)
+    try:
+        data = query_overpass(SCHOOL_QUERY)
+        el = data.get("elements", [])
+        print(f"  {len(el)} elements in {time.time()-t0:.0f}s", flush=True)
 
-            if not results:
-                done += 1
-                continue
+        colegio_results, *cs = process_elements(el, "colegio")
+        all_pois.extend(colegio_results)
+        print(f"  Colegios -> Target CPs: {cs[0]}, No CP: {cs[1]}, "
+              f"Wrong prov: {cs[2]}", flush=True)
 
-            for el in results.get("elements", []):
-                tags = el.get("tags", {})
-                cp = extract_cp(tags)
-                if not cp:
-                    continue
-                all_pois.append({
-                    "codigo_postal": cp,
-                    "tipo": tipo,
-                    "nombre": tags.get("name", ""),
-                })
+        instituto_results, *ins = process_elements(el, "instituto", is_instituto)
+        all_pois.extend(instituto_results)
+        print(f"  Institutos -> Target CPs: {ins[0]}, No CP: {ins[1]}, "
+              f"Wrong prov: {ins[2]}, Filtered: {ins[3]}", flush=True)
+    except Exception as e:
+        print(f"  Error: {e}", flush=True)
+    time.sleep(5)
 
-            done += 1
-            print(f"  [{done}/{total}] {prov_name} - {tipo}: {len(results.get('elements', []))} POIs")
-            time.sleep(1)
+    t0 = time.time()
+    print("Querying universidades...", flush=True)
+    try:
+        data = query_overpass(UNIVERSIDAD_QUERY, timeout=120)
+        el = data.get("elements", [])
+        print(f"  {len(el)} elements in {time.time()-t0:.0f}s", flush=True)
+        results, *stats = process_elements(el, "universidad")
+        all_pois.extend(results)
+        print(f"  Target CPs: {stats[0]}, No CP: {stats[1]}, "
+              f"Wrong prov: {stats[2]}", flush=True)
+    except Exception as e:
+        print(f"  Error: {e}", flush=True)
 
     out_path = Path("data/pois_osm.csv")
     out_path.parent.mkdir(parents=True, exist_ok=True)
@@ -115,12 +184,12 @@ def scrape():
         writer.writeheader()
         writer.writerows(all_pois)
 
-    print(f"\nSaved {len(all_pois)} POIs to {out_path}")
+    print(f"\nSaved {len(all_pois)} POIs to {out_path}", flush=True)
     cps = set(p["codigo_postal"] for p in all_pois)
-    print(f"Unique CPs: {len(cps)}")
-    for tipo in ("supermercado", "colegio", "instituto", "universidad"):
-        count = sum(1 for p in all_pois if p["tipo"] == tipo)
-        print(f"  {tipo}: {count}")
+    print(f"Unique CPs: {len(cps)}", flush=True)
+    for t in ("supermercado", "colegio", "instituto", "universidad"):
+        count = sum(1 for p in all_pois if p["tipo"] == t)
+        print(f"  {t}: {count}", flush=True)
 
 
 if __name__ == "__main__":
