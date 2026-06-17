@@ -3,6 +3,7 @@ import pandas as pd
 import requests
 import time
 import sys
+from pathlib import Path
 
 PROVINCES = {
     "03": ("Alicante/Alacant", 2856),
@@ -38,6 +39,41 @@ def load_cp_mapping():
                       dtype={"codigo_postal": str, "municipio_id": str, "municipio_nombre": str})
     df["codigo_postal"] = df["codigo_postal"].str.zfill(5)
     return df
+
+
+def load_idealista():
+    df = pd.read_csv("data/precios_idealista.csv")
+    df["municipio_nombre"] = df["municipio_nombre"].str.strip().str.lower()
+    df["en_maximo_historico"] = df["variacion_maximo"].fillna(100).abs() < 0.01
+    df["precio_anual_positivo"] = df["variacion_anual"].fillna(-1) > 0
+    return df
+
+
+def merge_idealista(cp_df, idealista_df):
+    def lookup_prices(muni_str):
+        munis = [m.strip().lower() for m in str(muni_str).split(", ")]
+        matched = idealista_df[idealista_df["municipio_nombre"].isin(munis)]
+        if matched.empty:
+            return pd.Series({
+                "precio_m2": None,
+                "variacion_anual": None,
+                "variacion_maximo": None,
+                "en_maximo_historico": False,
+                "precio_anual_positivo": False,
+            })
+        return pd.Series({
+            "precio_m2": matched["precio_m2"].mean(),
+            "variacion_anual": matched["variacion_anual"].mean(),
+            "variacion_maximo": matched["variacion_maximo"].mean(),
+            "en_maximo_historico": matched["en_maximo_historico"].any(),
+            "precio_anual_positivo": matched["precio_anual_positivo"].all(),
+        })
+
+    merged = cp_df.join(
+        cp_df["municipio_nombre"].apply(lookup_prices)
+    )
+    return merged
+
 
 def main():
     year_actual = 2025
@@ -185,19 +221,44 @@ def main():
     grouped["provincia"] = grouped["provincia_id"].map(prov_names)
     grouped = grouped.sort_values("pob_act", ascending=False)
 
+    # Load and merge idealista price data
+    if Path("data/precios_idealista.csv").exists():
+        print("Merging idealista price data...")
+        idealista_df = load_idealista()
+        grouped = merge_idealista(grouped, idealista_df)
+    else:
+        print("WARNING: precios_idealista.csv not found, skipping price filters")
+        grouped["precio_m2"] = None
+        grouped["variacion_anual"] = None
+        grouped["variacion_maximo"] = None
+        grouped["en_maximo_historico"] = False
+        grouped["precio_anual_positivo"] = False
+
     cols = ["codigo_postal", "provincia", "municipio_nombre",
-            "pob_act", "pob_5a", "crecimiento_%", "supera_20k", "crecimiento_positivo"]
+            "pob_act", "pob_5a", "crecimiento_%", "supera_20k", "crecimiento_positivo",
+            "precio_m2", "variacion_anual", "variacion_maximo",
+            "en_maximo_historico", "precio_anual_positivo"]
     grouped = grouped[cols]
     grouped.columns = ["codigo_postal", "provincia", "municipio_nombre",
                        "poblacion_actual", "poblacion_hace_5a",
-                       "crecimiento_%", "supera_20k", "crecimiento_positivo"]
+                       "crecimiento_%", "supera_20k", "crecimiento_positivo",
+                       "precio_m2", "variacion_anual_%", "variacion_maximo_%",
+                       "en_maximo_historico", "precio_anual_positivo"]
 
     print(f"\nCPs totales: {len(grouped)}")
     print(f"CPs >20K hab: {grouped['supera_20k'].sum()}")
     print(f"CPs crecimiento positivo: {grouped['crecimiento_positivo'].sum()}")
 
-    filtered = grouped[grouped["supera_20k"] & grouped["crecimiento_positivo"]]
-    print(f"CPs cumplen AMBOS: {len(filtered)}")
+    if "precio_m2" in grouped.columns and grouped["precio_m2"].notna().any():
+        filtered = grouped[
+            grouped["supera_20k"]
+            & grouped["crecimiento_positivo"]
+            & grouped["precio_anual_positivo"]
+            & ~grouped["en_maximo_historico"]
+        ]
+    else:
+        filtered = grouped[grouped["supera_20k"] & grouped["crecimiento_positivo"]]
+    print(f"CPs cumplen TODOS los filtros: {len(filtered)}")
 
     grouped.to_csv("data/poblacion_por_cp_completo.csv", index=False)
     filtered.to_csv("data/poblacion_por_cp_filtrado.csv", index=False)
