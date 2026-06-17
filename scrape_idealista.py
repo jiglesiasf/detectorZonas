@@ -110,10 +110,19 @@ def _discover_via_playwright(target_provinces):
             if val and text:
                 location_mapping[f"prov:{text.lower()}"] = val
 
-        for prov_name_lower in target_provinces:
-            key = f"prov:{prov_name_lower}"
+        def _select_province(name):
+            key = f"prov:{name}"
             if key in location_mapping:
                 prov_select.select_option(location_mapping[key])
+                return True
+            for map_key, map_val in location_mapping.items():
+                if map_key.startswith("prov:") and name in map_key:
+                    prov_select.select_option(map_val)
+                    return True
+            return False
+
+        for prov_name_lower in target_provinces:
+            if _select_province(prov_name_lower):
                 time.sleep(2)
                 break
         else:
@@ -132,9 +141,11 @@ def _discover_via_playwright(target_provinces):
             if val and text and val != muni_select.get_attribute("value"):
                 location_mapping[f"muni:{text.lower()}"] = val
 
+        selected_muni_id = None
         for opt in muni_options:
             val = opt.get_attribute("value")
             if val and val != muni_select.get_attribute("value"):
+                selected_muni_id = val
                 muni_select.select_option(val)
                 time.sleep(2)
                 break
@@ -147,6 +158,9 @@ def _discover_via_playwright(target_provinces):
             "Could not discover idealista API endpoint. "
             "The page loaded but no JSON API call was intercepted."
         )
+
+    if selected_muni_id and selected_muni_id in captured_url:
+        captured_url = captured_url.replace(selected_muni_id, "{location_id}")
 
     session = requests.Session()
     for c in cookies:
@@ -164,29 +178,18 @@ def _discover_via_playwright(target_provinces):
 
 def _load_cookies_and_discover(cookie_file):
     """Load cookies from a file and attempt to use them for discovery."""
-    with open(cookie_file, encoding="utf-8") as f:
-        cookies = json.load(f)
-
-    session = requests.Session()
-    for c in cookies:
-        session.cookies.set(c.get("name", c.get("key", "")),
-                            c.get("value", ""))
-
-    session.headers.update({
-        "User-Agent": ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-                       "AppleWebKit/537.36 (KHTML, like Gecko) "
-                       "Chrome/120.0.0.0 Safari/537.36"),
-        "Accept": "application/json",
-        "Accept-Language": "es-ES,es;q=0.9,en;q=0.8",
-    })
-
-    config = {
-        "session": session,
-        "api_pattern": None,
-        "headers": dict(session.headers),
-        "location_mapping": {},
-    }
-    return config
+    raise RuntimeError(
+        "A cookie file alone is insufficient for API discovery. "
+        "The cookie file must be used together with Playwright to "
+        "bypass DataDome and discover the API URL pattern and "
+        "location IDs.\n"
+        "To use saved cookies:\n"
+        "  1. Pass --cookie-file <path>\n"
+        "  2. The cookie file must contain cookies from an idealista "
+        "session where the captcha was already solved\n"
+        "If you keep seeing this error, the cookie file may be "
+        "expired or invalid."
+    )
 
 
 def fetch_municipio_price(muni_name, api_config):
@@ -220,17 +223,19 @@ def fetch_municipio_price(muni_name, api_config):
         raise ValueError(f"No location ID found for {muni_name}")
 
     api_pattern = api_config["api_pattern"]
-    existing_ids = set(mapping.values())
-    for eid in sorted(existing_ids, key=len, reverse=True):
-        if eid in api_pattern:
-            url = api_pattern.replace(eid, loc_id)
-            break
-    else:
-        separator = "&" if "?" in api_pattern else "?"
-        url = f"{api_pattern}{separator}locationId={loc_id}"
+    url = api_pattern.replace("{location_id}", loc_id)
 
-    resp = session.get(url, headers=headers, timeout=30)
-    resp.raise_for_status()
+    max_retries = 5
+    backoff_base = 2
+    for attempt in range(max_retries):
+        resp = session.get(url, headers=headers, timeout=30)
+        if resp.status_code in (429, 503) and attempt < max_retries - 1:
+            sleep_time = backoff_base ** attempt
+            print(f"  Rate limited (HTTP {resp.status_code}), retrying in {sleep_time}s...")
+            time.sleep(sleep_time)
+            continue
+        resp.raise_for_status()
+        break
     data = resp.json()
 
     if isinstance(data, list):
@@ -248,7 +253,7 @@ def fetch_municipio_price(muni_name, api_config):
     }
 
 
-def scrape_all(target_munis, target_provinces, cookie_file=None):
+def scrape_all(target_munis, target_provinces, cookie_file=None, rate_limit=1.0):
     """Scrape price data for all target municipalities."""
     print("Discovering idealista API...")
     api_config = discover_api(target_provinces, cookie_file=cookie_file)
@@ -274,8 +279,8 @@ def scrape_all(target_munis, target_provinces, cookie_file=None):
                 "variacion_maximo": None,
                 "mes_referencia": None,
             })
-        delay = 1.0 + random.uniform(-0.5, 0.5)
-        time.sleep(max(0.1, delay))
+        delay = rate_limit + random.uniform(0, rate_limit * 0.5)
+        time.sleep(delay)
 
     return results
 
@@ -307,7 +312,7 @@ def main():
     munis = extract_municipios_from_csv(args.input)
     print(f"Found {len(munis)} unique municipios to scrape")
 
-    results = scrape_all(munis, TARGET_PROVINCES, cookie_file=args.cookie_file)
+    results = scrape_all(munis, TARGET_PROVINCES, cookie_file=args.cookie_file, rate_limit=args.rate_limit)
 
     out_path = Path(args.output)
     out_path.parent.mkdir(parents=True, exist_ok=True)
