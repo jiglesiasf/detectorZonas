@@ -3,6 +3,7 @@ import pandas as pd
 import requests
 import time
 import sys
+from pathlib import Path
 
 PROVINCES = {
     "03": ("Alicante/Alacant", 2856),
@@ -38,6 +39,114 @@ def load_cp_mapping():
                       dtype={"codigo_postal": str, "municipio_id": str, "municipio_nombre": str})
     df["codigo_postal"] = df["codigo_postal"].str.zfill(5)
     return df
+
+
+def load_idealista():
+    df = pd.read_csv("data/precios_idealista.csv")
+    df["municipio_nombre"] = df["municipio_nombre"].str.strip().str.lower()
+    df["en_maximo_historico"] = df["variacion_maximo"].fillna(100).abs() < 0.01
+    df["precio_anual_positivo"] = df["variacion_anual"].fillna(-1) > 0
+    return df
+
+
+def merge_idealista(cp_df, idealista_df):
+    def lookup_prices(muni_str):
+        munis = [m.strip().lower() for m in str(muni_str).split(", ")]
+        matched = idealista_df[idealista_df["municipio_nombre"].isin(munis)]
+        if matched.empty:
+            return pd.Series({
+                "precio_m2": None,
+                "variacion_anual": None,
+                "variacion_maximo": None,
+                "en_maximo_historico": False,
+                "precio_anual_positivo": False,
+            })
+        return pd.Series({
+            "precio_m2": matched["precio_m2"].mean(),
+            "variacion_anual": matched["variacion_anual"].mean(),
+            "variacion_maximo": matched["variacion_maximo"].mean(),
+            "en_maximo_historico": matched["en_maximo_historico"].any(),
+            "precio_anual_positivo": matched["precio_anual_positivo"].all(),
+        })
+
+    merged = cp_df.join(
+        cp_df["municipio_nombre"].apply(lookup_prices)
+    )
+    return merged
+
+
+def normalize_name(name):
+    """Normalize municipality name for matching across data sources."""
+    import re
+    s = name.strip().lower()
+    m = re.match(r"^(.+?)\s*\((.+?)\)\s*$", s)
+    if m:
+        s = f"{m.group(2).strip()} {m.group(1).strip()}"
+    s = re.sub(r"\s*\(.*?\)\s*", " ", s).strip()
+    accents = {"á":"a","é":"e","í":"i","ó":"o","ú":"u","à":"a","è":"e","ì":"i","ò":"o","ù":"u","ü":"u","ñ":"n"}
+    for a, b in accents.items():
+        s = s.replace(a, b)
+    s = re.sub(r"\s+", " ", s).strip()
+    return s
+
+
+def normalize_names(name):
+    """Return all normalized variants of a name (handles slash ordering)."""
+    base = normalize_name(name)
+    variants = {base}
+    if "/" in base:
+        parts = base.split("/")
+        variants.add(f"{parts[0]}/{parts[1]}")
+        variants.add(f"{parts[1]}/{parts[0]}")
+    return variants
+
+
+def load_mivau():
+    """Load MIVAU price data, return dict normalized_name -> row."""
+    df = pd.read_csv("data/precios_mivau.csv")
+    df["precio_anual_positivo"] = df["variacion_anual"].fillna(-1) > 0
+    mapping = {}
+    for _, row in df.iterrows():
+        mapping[row["nombre_normalizado"]] = row
+    return df, mapping
+
+
+def merge_mivau(cp_df, mivau_mapping):
+    def lookup_prices(muni_str):
+        munis = str(muni_str).split(", ")
+        matched = []
+        for m in munis:
+            variants = normalize_names(m)
+            for v in variants:
+                if v in mivau_mapping:
+                    matched.append(mivau_mapping[v])
+                    break
+        if not matched:
+            return pd.Series({
+                "precio_m2": None,
+                "variacion_anual": None,
+                "variacion_maximo": None,
+                "en_maximo_historico": False,
+                "precio_anual_positivo": False,
+            })
+        prices = [r["precio_m2"] for r in matched if pd.notna(r["precio_m2"])]
+        vars_anual = [r["variacion_anual"] for r in matched if pd.notna(r["variacion_anual"])]
+        vars_max = [r["variacion_maximo"] for r in matched if pd.notna(r["variacion_maximo"])]
+        en_max = [r["en_maximo_historico"] for r in matched]
+        prec_pos = [r["precio_anual_positivo"] for r in matched]
+        return pd.Series({
+            "precio_m2": sum(prices) / len(prices) if prices else None,
+            "variacion_anual": sum(vars_anual) / len(vars_anual) if vars_anual else None,
+            "variacion_maximo": sum(vars_max) / len(vars_max) if vars_max else None,
+            "en_maximo_historico": any(en_max),
+            "precio_anual_positivo": all(prec_pos) if prec_pos else False,
+        })
+
+    merged = cp_df.join(
+        cp_df["municipio_nombre"].apply(lookup_prices)
+    )
+    return merged
+
 
 def main():
     year_actual = 2025
@@ -185,19 +294,51 @@ def main():
     grouped["provincia"] = grouped["provincia_id"].map(prov_names)
     grouped = grouped.sort_values("pob_act", ascending=False)
 
+    # Try loading MIVAU price data; fall back to idealista if unavailable
+    mivau_path = Path("data/precios_mivau.csv")
+    idealista_path = Path("data/precios_idealista.csv")
+    if mivau_path.exists():
+        print("Merging MIVAU price data...")
+        mivau_df, mivau_mapping = load_mivau()
+        grouped = merge_mivau(grouped, mivau_mapping)
+        print(f"  MIVAU coverage: {grouped['precio_m2'].notna().sum()} CPs")
+    elif idealista_path.exists():
+        print("Merging idealista price data...")
+        idealista_df = load_idealista()
+        grouped = merge_idealista(grouped, idealista_df)
+    else:
+        print("WARNING: No price data found, skipping price filters")
+        grouped["precio_m2"] = None
+        grouped["variacion_anual"] = None
+        grouped["variacion_maximo"] = None
+        grouped["en_maximo_historico"] = False
+        grouped["precio_anual_positivo"] = False
+
     cols = ["codigo_postal", "provincia", "municipio_nombre",
-            "pob_act", "pob_5a", "crecimiento_%", "supera_20k", "crecimiento_positivo"]
+            "pob_act", "pob_5a", "crecimiento_%", "supera_20k", "crecimiento_positivo",
+            "precio_m2", "variacion_anual", "variacion_maximo",
+            "en_maximo_historico", "precio_anual_positivo"]
     grouped = grouped[cols]
     grouped.columns = ["codigo_postal", "provincia", "municipio_nombre",
                        "poblacion_actual", "poblacion_hace_5a",
-                       "crecimiento_%", "supera_20k", "crecimiento_positivo"]
+                       "crecimiento_%", "supera_20k", "crecimiento_positivo",
+                       "precio_m2", "variacion_anual_%", "variacion_maximo_%",
+                       "en_maximo_historico", "precio_anual_positivo"]
 
     print(f"\nCPs totales: {len(grouped)}")
     print(f"CPs >20K hab: {grouped['supera_20k'].sum()}")
     print(f"CPs crecimiento positivo: {grouped['crecimiento_positivo'].sum()}")
 
-    filtered = grouped[grouped["supera_20k"] & grouped["crecimiento_positivo"]]
-    print(f"CPs cumplen AMBOS: {len(filtered)}")
+    if "precio_m2" in grouped.columns and grouped["precio_m2"].notna().any():
+        filtered = grouped[
+            grouped["supera_20k"]
+            & grouped["crecimiento_positivo"]
+            & grouped["precio_anual_positivo"]
+            & ~grouped["en_maximo_historico"]
+        ]
+    else:
+        filtered = grouped[grouped["supera_20k"] & grouped["crecimiento_positivo"]]
+    print(f"CPs cumplen TODOS los filtros: {len(filtered)}")
 
     grouped.to_csv("data/poblacion_por_cp_completo.csv", index=False)
     filtered.to_csv("data/poblacion_por_cp_filtrado.csv", index=False)
