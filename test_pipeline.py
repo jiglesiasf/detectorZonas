@@ -67,6 +67,26 @@ class TestPipeline(unittest.TestCase):
             self.assertIn(prov, df["provincia"].unique(),
                           f"Province missing in complete: {prov}")
 
+    def test_complete_has_price_columns(self):
+        df = pd.read_csv(self.complete_path)
+        price_cols = ["precio_m2", "variacion_anual_%", "variacion_maximo_%",
+                      "en_maximo_historico", "precio_anual_positivo"]
+        for col in price_cols:
+            self.assertIn(col, df.columns, f"Missing column: {col}")
+
+    def test_filtered_enforces_price_filter(self):
+        df = pd.read_csv(self.filtered_path)
+        if len(df) > 0 and df["precio_m2"].notna().any():
+            self.assertTrue((df["precio_anual_positivo"] == True).all())
+            self.assertTrue((df["en_maximo_historico"] == False).all())
+
+    def test_price_columns_have_valid_types(self):
+        df = pd.read_csv(self.complete_path)
+        valid = df.dropna(subset=["precio_m2"])
+        if len(valid) > 0:
+            self.assertTrue((valid["precio_m2"] > 0).all())
+            self.assertTrue((valid["variacion_anual_%"].notna().all()))
+
 
 if __name__ == "__main__":
     unittest.main()
