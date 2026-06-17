@@ -14,6 +14,10 @@ for _, row in df.iterrows():
         "crec": round(row["crecimiento_%"], 2),
         "sup20k": bool(row["supera_20k"]),
         "crecPos": bool(row["crecimiento_positivo"]),
+        "precio": round(row["precio_m2"]) if pd.notna(row.get("precio_m2")) else None,
+        "varAnual": round(row["variacion_anual_%"], 1) if pd.notna(row.get("variacion_anual_%")) else None,
+        "enMax": bool(row["en_maximo_historico"]) if pd.notna(row.get("en_maximo_historico")) else False,
+        "precPos": bool(row["precio_anual_positivo"]) if pd.notna(row.get("precio_anual_positivo")) else False,
     })
 
 data_json = json.dumps(records, ensure_ascii=False)
@@ -48,6 +52,7 @@ tr:hover td{{background:#f8faff}}
 .badge-pop{{background:#e3fcef;color:#0a7b3e}}
 .badge-grow{{background:#fff3cd;color:#856404}}
 .badge-both{{background:#dbeafe;color:#1e40af}}
+.badge-max{{background:#fce4ec;color:#b71c1c}}
 .province-tag{{font-size:11px;color:#666}}
 .empty{{text-align:center;padding:40px;color:#999;font-size:15px}}
 .th-sort{{margin-left:4px;opacity:.4}}
@@ -64,6 +69,8 @@ th.sorted .th-sort{{opacity:1}}
 <div class="filters">
 <label><input type="checkbox" id="filter20k" checked onchange="render()"> <span>Más de 20K habitantes</span></label>
 <label><input type="checkbox" id="filterCrec" checked onchange="render()"> <span>Crecimiento demográfico positivo</span></label>
+<label><input type="checkbox" id="filterPrecio" checked onchange="render()"> <span>Precio anual positivo</span></label>
+<label><input type="checkbox" id="filterNoMax" checked onchange="render()"> <span>No en máximo histórico</span></label>
 <input type="text" class="search-input" id="search" placeholder="Buscar CP o municipio..." oninput="render()">
 <span class="counter" id="counter"></span>
 </div>
@@ -77,6 +84,8 @@ th.sorted .th-sort{{opacity:1}}
 <th onclick="sort('muni')">Municipio <span class="th-sort">▲</span></th>
 <th onclick="sort('pob')" class="sorted">Población <span class="th-sort">▼</span></th>
 <th onclick="sort('crec')">Crecimiento <span class="th-sort">▲</span></th>
+<th onclick="sort('precio')">Precio (€/m²) <span class="th-sort">▲</span></th>
+<th onclick="sort('varAnual')">Var. Anual <span class="th-sort">▲</span></th>
 <th>Filtros</th>
 </tr>
 </thead>
@@ -94,11 +103,15 @@ let sortDir = -1;
 function render() {{
     const f20k = document.getElementById('filter20k').checked;
     const fCrec = document.getElementById('filterCrec').checked;
+    const fPrecio = document.getElementById('filterPrecio').checked;
+    const fNoMax = document.getElementById('filterNoMax').checked;
     const q = document.getElementById('search').value.toLowerCase().trim();
 
     let items = DATA.filter(d => {{
         if (f20k && !d.sup20k) return false;
         if (fCrec && !d.crecPos) return false;
+        if (fPrecio && d.precPos === false) return false;
+        if (fNoMax && d.enMax) return false;
         if (q && !d.cp.includes(q) && !d.muni.toLowerCase().includes(q) && !d.prov.toLowerCase().includes(q)) return false;
         return true;
     }});
@@ -110,12 +123,16 @@ function render() {{
         const badges = [];
         if (d.sup20k) badges.push('<span class="badge badge-pop">>20K</span>');
         if (d.crecPos) badges.push('<span class="badge badge-grow">+' + d.crec + '%</span>');
+        if (d.enMax) badges.push('<span class="badge badge-max">Máx. histórico</span>');
         const crecClass = d.crec > 0 ? 'color:#0a7b3e' : 'color:#d32f2f';
-        return '<tr><td><strong>' + d.cp + '</strong></td><td><span class="province-tag">' + d.prov + '</span></td><td>' + d.muni + '</td><td>' + d.pob.toLocaleString() + '</td><td style="' + crecClass + ';font-weight:600">' + (d.crec > 0 ? '+' : '') + d.crec + '%</td><td>' + badges.join(' ') + '</td></tr>';
+        const priceDisplay = d.precio ? d.precio.toLocaleString() + ' €' : '—';
+        const varAnualDisplay = d.varAnual !== null ? (d.varAnual > 0 ? '+' : '') + d.varAnual + '%' : '—';
+        const varAnualClass = d.varAnual !== null && d.varAnual > 0 ? 'color:#0a7b3e' : 'color:#d32f2f';
+        return '<tr><td><strong>' + d.cp + '</strong></td><td><span class="province-tag">' + d.prov + '</span></td><td>' + d.muni + '</td><td>' + d.pob.toLocaleString() + '</td><td style="' + crecClass + ';font-weight:600">' + (d.crec > 0 ? '+' : '') + d.crec + '%</td><td style="font-weight:600">' + priceDisplay + '</td><td style="' + varAnualClass + ';font-weight:600">' + varAnualDisplay + '</td><td>' + badges.join(' ') + '</td></tr>';
     }}).join('');
 
     if (items.length === 0) {{
-        tbody.innerHTML = '<tr><td colspan="6" class="empty">No se encontraron CPs con los filtros seleccionados</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="8" class="empty">No se encontraron CPs con los filtros seleccionados</td></tr>';
     }}
 
     document.getElementById('counter').textContent = 'Mostrando ' + items.length + ' de ' + DATA.length + ' CPs';
