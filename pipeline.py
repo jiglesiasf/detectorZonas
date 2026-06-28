@@ -314,11 +314,10 @@ def main():
             print(f"  '{r['municipio_nombre_api']}' (prov {r['provincia_id']})")
         print()
 
-    matched["n_cps"] = matched["municipio_id"].map(
-        lambda mid: len(muni_cps.get(mid, []))
-    )
-    matched["pob_act_cp"] = matched["pob_act"] / matched["n_cps"].clip(lower=1)
-    matched["pob_5a_cp"] = matched["pob_5a"] / matched["n_cps"].clip(lower=1)
+    # Use full municipal population (not divided by CP count) so that each CP
+    # shows the population of its municipality, making supera_20k filtering correct.
+    matched["pob_act_cp"] = matched["pob_act"]
+    matched["pob_5a_cp"] = matched["pob_5a"]
 
     # --- Build CP-level results ---
     rows = []
@@ -338,12 +337,12 @@ def main():
 
     wide = pd.DataFrame(rows)
 
-    # A CP can belong to multiple municipios -> group again and sum shares
+    # A CP can belong to multiple municipios -> group and max population (avoids double-count)
     grouped = wide.groupby("codigo_postal").agg(
         municipio_nombre=("municipio_nombre", lambda x: ", ".join(sorted(set(x)))),
         provincia_id=("provincia_id", "first"),
-        pob_act=("pob_act", "sum"),
-        pob_5a=("pob_5a", "sum"),
+        pob_act=("pob_act", "max"),
+        pob_5a=("pob_5a", "max"),
         pct_crecimiento=("crecimiento_%", "mean"),
     ).reset_index()
 
