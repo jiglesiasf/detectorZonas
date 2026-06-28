@@ -1,6 +1,7 @@
 import unittest
 import pandas as pd
 import os
+from pathlib import Path
 
 
 class TestPipeline(unittest.TestCase):
@@ -85,7 +86,87 @@ class TestPipeline(unittest.TestCase):
         valid = df.dropna(subset=["precio_m2"])
         if len(valid) > 0:
             self.assertTrue((valid["precio_m2"] > 0).all())
-            self.assertTrue((valid["variacion_anual_%"].notna().all()))
+            # variacion_anual may be null for Notariado-only CPs (no MIVAU fallback)
+
+
+class TestNotariadoIntegration(unittest.TestCase):
+
+    def setUp(self):
+        self.complete_path = "data/poblacion_por_cp_completo.csv"
+        self.notariado_path = "data/precios_notariado.csv"
+
+    def test_fuente_precio_column_exists(self):
+        df = pd.read_csv(self.complete_path)
+        self.assertIn("fuente_precio", df.columns, "Missing column: fuente_precio")
+
+    def test_fuente_precio_has_valid_values(self):
+        df = pd.read_csv(self.complete_path)
+        valid = df["fuente_precio"].dropna().unique()
+        for v in valid:
+            self.assertIn(v, ["notariado", "mivau"],
+                          f"Unexpected fuente_precio value: {v}")
+
+    def test_notariado_is_primary_source(self):
+        """When Notariado has price for a CP, fuente_precio should be notariado."""
+        df = pd.read_csv(self.complete_path)
+        notariado_rows = df[df["fuente_precio"] == "notariado"]
+        if len(notariado_rows) > 0:
+            self.assertTrue((notariado_rows["precio_m2"].notna()).all(),
+                            "Notariado-sourced CPs should have precio_m2")
+
+    def test_merge_notariado_priority(self):
+        """Unit test: merge_notariado should fill prices by CP match, not municipio."""
+        from pipeline import merge_notariado, load_notariado
+
+        notariado_path = Path(self.notariado_path)
+        if not notariado_path.exists():
+            self.skipTest("precios_notariado.csv not available")
+
+        notariado_df = load_notariado()
+        sample_cp = notariado_df["codigo_postal"].iloc[0]
+        sample_price = notariado_df["precio_m2"].iloc[0]
+
+        cp_df = pd.DataFrame({
+            "codigo_postal": [sample_cp, "99999"],
+            "municipio_nombre": ["Test", "Unknown"],
+        })
+        result = merge_notariado(cp_df, notariado_df)
+        self.assertEqual(result.loc[0, "precio_m2"], sample_price)
+        self.assertTrue(pd.isna(result.loc[1, "precio_m2"]))
+
+    def test_merge_mivau_variacion_fills_vars(self):
+        """Unit test: merge_mivau_variacion fills variacion columns from MIVAU."""
+        from pipeline import load_mivau, merge_mivau_variacion
+
+        mivau_path = Path("data/precios_mivau.csv")
+        if not mivau_path.exists():
+            self.skipTest("precios_mivau.csv not available")
+
+        _, mivau_mapping = load_mivau()
+        cp_df = pd.DataFrame({
+            "codigo_postal": ["46001"],
+            "municipio_nombre": ["València"],
+            "precio_m2": [2500.0],
+        })
+        result = merge_mivau_variacion(cp_df, mivau_mapping)
+        self.assertIn("variacion_anual", result.columns)
+        self.assertIn("en_maximo_historico", result.columns)
+
+    def test_fuente_precio_mivau_fallback(self):
+        """When notariado unavailable, all CPs should have fuente_precio='mivau'."""
+        df = pd.read_csv(self.complete_path)
+        if not os.path.exists(self.notariado_path):
+            unique_sources = df["fuente_precio"].dropna().unique()
+            if len(unique_sources) > 0:
+                self.assertEqual(set(unique_sources), {"mivau"})
+
+    def test_no_bc_to_existing_price_columns(self):
+        """Adding fuente_precio should not break existing price columns."""
+        df = pd.read_csv(self.complete_path)
+        expected = ["precio_m2", "variacion_anual_%", "variacion_maximo_%",
+                    "en_maximo_historico", "precio_anual_positivo", "fuente_precio"]
+        for col in expected:
+            self.assertIn(col, df.columns)
 
 
 class TestAmenityIntegration(unittest.TestCase):
@@ -127,6 +208,17 @@ class TestAmenityIntegration(unittest.TestCase):
         df = pd.read_csv(self.complete_path)
         self.assertGreater(df["tiene_supermercado"].sum(), 100,
                            "Expected 100+ CPs with supermarkets")
+
+    def test_mercadona_column_exists(self):
+        df = pd.read_csv(self.complete_path)
+        self.assertIn("tiene_mercadona", df.columns,
+                       "Missing column: tiene_mercadona")
+
+    def test_mercadona_is_boolean(self):
+        df = pd.read_csv(self.complete_path)
+        col = df["tiene_mercadona"].dropna()
+        self.assertTrue(col.isin([True, False]).all(),
+                        "tiene_mercadona contains non-boolean values")
 
 
 if __name__ == "__main__":

@@ -148,6 +148,75 @@ def merge_mivau(cp_df, mivau_mapping):
     return merged
 
 
+def load_notariado():
+    """Load Notariado price data (CP-level)."""
+    df = pd.read_csv("data/precios_notariado.csv", dtype={"codigo_postal": str})
+    df["codigo_postal"] = df["codigo_postal"].str.zfill(5)
+    return df
+
+
+def merge_notariado(cp_df, notariado_df):
+    """Merge Notariado prices directly by codigo_postal (CP-level)."""
+    notariado_map = dict(zip(notariado_df["codigo_postal"], notariado_df["precio_m2"]))
+
+    def lookup_price(cp):
+        price = notariado_map.get(cp)
+        if pd.notna(price):
+            return price
+        return None
+
+    cp_df["precio_m2"] = cp_df["codigo_postal"].apply(lookup_price)
+    return cp_df
+
+
+def merge_mivau_variacion(cp_df, mivau_mapping):
+    """Fill variacion_anual/variacion_maximo from MIVAU for CPs (complements Notariado).
+    Also fallback precio_m2 from MIVAU for CPs without Notariado data.
+    """
+    def lookup_vars(muni_str):
+        munis = str(muni_str).split(", ")
+        matched = []
+        for m in munis:
+            variants = normalize_names(m)
+            for v in variants:
+                if v in mivau_mapping:
+                    matched.append(mivau_mapping[v])
+                    break
+        if not matched:
+            return pd.Series({
+                "variacion_anual": None,
+                "variacion_maximo": None,
+                "en_maximo_historico": False,
+                "precio_anual_positivo": False,
+            })
+        vars_anual = [r["variacion_anual"] for r in matched if pd.notna(r["variacion_anual"])]
+        vars_max = [r["variacion_maximo"] for r in matched if pd.notna(r["variacion_maximo"])]
+        en_max = [r["en_maximo_historico"] for r in matched]
+        prec_pos = [r["precio_anual_positivo"] for r in matched]
+        return pd.Series({
+            "variacion_anual": sum(vars_anual) / len(vars_anual) if vars_anual else None,
+            "variacion_maximo": sum(vars_max) / len(vars_max) if vars_max else None,
+            "en_maximo_historico": any(en_max),
+            "precio_anual_positivo": all(prec_pos) if prec_pos else False,
+        })
+
+    merged = cp_df.join(
+        cp_df["municipio_nombre"].apply(lookup_vars)
+    )
+
+    # Fallback precio_m2 from MIVAU for CPs without Notariado data
+    for i, row in merged.iterrows():
+        if pd.isna(row["precio_m2"]):
+            munis = str(row["municipio_nombre"]).split(", ")
+            for m in munis:
+                variants = normalize_names(m)
+                for v in variants:
+                    if v in mivau_mapping:
+                        merged.at[i, "precio_m2"] = mivau_mapping[v]["precio_m2"]
+                        break
+    return merged
+
+
 def main():
     year_actual = 2025
     year_pasado = 2020
@@ -294,12 +363,30 @@ def main():
     grouped["provincia"] = grouped["provincia_id"].map(prov_names)
     grouped = grouped.sort_values("pob_act", ascending=False)
 
-    # Try loading MIVAU price data; fall back to idealista if unavailable
+    # Try loading Notariado price data (CP-level, highest priority);
+    # fall back to MIVAU (municipio-level), then idealista.
+    notariado_path = Path("data/precios_notariado.csv")
     mivau_path = Path("data/precios_mivau.csv")
     idealista_path = Path("data/precios_idealista.csv")
+
+    # Always load MIVAU for variacion_anual/variacion_maximo even when Notariado is primary
+    mivau_loaded = False
     if mivau_path.exists():
-        print("Merging MIVAU price data...")
+        print("Loading MIVAU price data (for variación)...")
         mivau_df, mivau_mapping = load_mivau()
+        mivau_loaded = True
+
+    if notariado_path.exists():
+        print("Loading NOTARIADO price data (primary source, CP-level)...")
+        notariado_df = load_notariado()
+        grouped = merge_notariado(grouped, notariado_df)
+        # Fill in variacion/en_maximo from MIVAU for CPs where Notariado has precio_m2
+        if mivau_loaded:
+            grouped = merge_mivau_variacion(grouped, mivau_mapping)
+            print(f"  Notariado price coverage: {grouped['precio_m2'].notna().sum()} CPs")
+            print(f"  MIVAU variación coverage: {grouped['variacion_anual'].notna().sum()} CPs")
+    elif mivau_loaded:
+        print("Merging MIVAU price data...")
         grouped = merge_mivau(grouped, mivau_mapping)
         print(f"  MIVAU coverage: {grouped['precio_m2'].notna().sum()} CPs")
     elif idealista_path.exists():
@@ -313,6 +400,18 @@ def main():
         grouped["variacion_maximo"] = None
         grouped["en_maximo_historico"] = False
         grouped["precio_anual_positivo"] = False
+
+    # Set fuente_precio (track which source provided the price)
+    notariado_has_price = notariado_path.exists() and notariado_df["precio_m2"].notna().any()
+    if notariado_has_price:
+        notariado_cps_with_price = set(notariado_df[notariado_df["precio_m2"].notna()]["codigo_postal"])
+        grouped["fuente_precio"] = grouped["codigo_postal"].apply(
+            lambda cp: "notariado" if cp in notariado_cps_with_price else ("mivau" if mivau_loaded else None)
+        )
+    elif mivau_loaded:
+        grouped["fuente_precio"] = "mivau"
+    else:
+        grouped["fuente_precio"] = None
 
     amenity_types = ["supermercado", "colegio", "instituto", "universidad", "centro_salud"]
     amenity_path = Path("data/pois_osm.csv")
@@ -338,17 +437,29 @@ def main():
             grouped[f"tiene_{atype}"] = False
         grouped["tiene_todos_servicios"] = False
 
-    amenity_cols = [f"tiene_{t}" for t in amenity_types] + ["tiene_todos_servicios"]
+    mercadona_path = Path("data/mercadona_cps.csv")
+    if mercadona_path.exists():
+        mercadona = pd.read_csv(mercadona_path, dtype={"codigo_postal": str})
+        mercadona["codigo_postal"] = mercadona["codigo_postal"].str.zfill(5)
+        cp_mercadona = set(mercadona[mercadona["tiene_mercadona"] == True]["codigo_postal"])
+        grouped["tiene_mercadona"] = grouped["codigo_postal"].isin(cp_mercadona)
+        print(f"CPs con Mercadona: {grouped['tiene_mercadona'].sum()}")
+    else:
+        print("WARNING: Mercadona data not found, skipping")
+        grouped["tiene_mercadona"] = False
+
+    amenity_cols = [f"tiene_{t}" for t in amenity_types] + ["tiene_todos_servicios", "tiene_mercadona"]
     cols = ["codigo_postal", "provincia", "municipio_nombre",
             "pob_act", "pob_5a", "crecimiento_%", "supera_20k", "crecimiento_positivo",
             "precio_m2", "variacion_anual", "variacion_maximo",
-            "en_maximo_historico", "precio_anual_positivo"] + amenity_cols
+            "en_maximo_historico", "precio_anual_positivo", "fuente_precio"] + amenity_cols
     grouped = grouped[cols]
     grouped.columns = ["codigo_postal", "provincia", "municipio_nombre",
                        "poblacion_actual", "poblacion_hace_5a",
                        "crecimiento_%", "supera_20k", "crecimiento_positivo",
                        "precio_m2", "variacion_anual_%", "variacion_maximo_%",
-                       "en_maximo_historico", "precio_anual_positivo"] + amenity_cols
+                       "en_maximo_historico", "precio_anual_positivo",
+                       "fuente_precio"] + amenity_cols
 
     print(f"\nCPs totales: {len(grouped)}")
     print(f"CPs >20K hab: {grouped['supera_20k'].sum()}")
