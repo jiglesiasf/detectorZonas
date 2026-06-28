@@ -4,7 +4,8 @@ import pandas as pd
 df = pd.read_csv("data/poblacion_por_cp_completo.csv")
 
 amenity_fields = ["tiene_supermercado", "tiene_colegio", "tiene_instituto",
-                  "tiene_universidad", "tiene_centro_salud", "tiene_todos_servicios"]
+                  "tiene_universidad", "tiene_centro_salud", "tiene_todos_servicios",
+                  "tiene_mercadona"]
 
 records = []
 for _, row in df.iterrows():
@@ -80,6 +81,7 @@ th.sorted .th-sort{{opacity:1}}
 <label><input type="checkbox" id="filterNoMax" checked onchange="render()"> <span>No en máximo histórico</span></label>
 <label><input type="checkbox" id="filterTodosServicios" onchange="render()"> <span>Todos los servicios</span></label>
 <label><input type="checkbox" id="filterSuper" onchange="render()"> <span>🛒 Supermercado</span></label>
+<label><input type="checkbox" id="filterMercadona" onchange="render()"> <span>🛍️ Mercadona</span></label>
 <label><input type="checkbox" id="filterColegio" onchange="render()"> <span>🏫 Colegio</span></label>
 <label><input type="checkbox" id="filterInstituto" onchange="render()"> <span>🏛️ Instituto</span></label>
 <label><input type="checkbox" id="filterUni" onchange="render()"> <span>🎓 Universidad</span></label>
@@ -120,6 +122,7 @@ function render() {{
     const fNoMax = document.getElementById('filterNoMax').checked;
     const fTodosServicios = document.getElementById('filterTodosServicios').checked;
     const fSuper = document.getElementById('filterSuper').checked;
+    const fMercadona = document.getElementById('filterMercadona').checked;
     const fColegio = document.getElementById('filterColegio').checked;
     const fInstituto = document.getElementById('filterInstituto').checked;
     const fUni = document.getElementById('filterUni').checked;
@@ -133,6 +136,7 @@ function render() {{
         if (fNoMax && d.enMax) return false;
         if (fTodosServicios && !d.tiene_todos_servicios) return false;
         if (fSuper && !d.tiene_supermercado) return false;
+        if (fMercadona && !d.tiene_mercadona) return false;
         if (fColegio && !d.tiene_colegio) return false;
         if (fInstituto && !d.tiene_instituto) return false;
         if (fUni && !d.tiene_universidad) return false;
@@ -150,6 +154,7 @@ function render() {{
         if (d.crecPos) badges.push('<span class="badge badge-grow">+' + d.crec + '%</span>');
         if (d.enMax) badges.push('<span class="badge badge-max">Máx. histórico</span>');
         if (d.tiene_supermercado) badges.push('<span class="badge badge-servicio" title="Supermercado">🛒</span>');
+        if (d.tiene_mercadona) badges.push('<span class="badge badge-servicio" title="Mercadona">🛍️</span>');
         if (d.tiene_colegio) badges.push('<span class="badge badge-servicio" title="Colegio">🏫</span>');
         if (d.tiene_instituto) badges.push('<span class="badge badge-servicio" title="Instituto">🏛️</span>');
         if (d.tiene_universidad) badges.push('<span class="badge badge-servicio" title="Universidad">🎓</span>');

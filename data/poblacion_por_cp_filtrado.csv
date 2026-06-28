@@ -1,2 +1,2 @@
-codigo_postal,provincia,municipio_nombre,poblacion_actual,poblacion_hace_5a,crecimiento_%,supera_20k,crecimiento_positivo,precio_m2,variacion_anual_%,variacion_maximo_%,en_maximo_historico,precio_anual_positivo,tiene_supermercado,tiene_colegio,tiene_instituto,tiene_universidad,tiene_centro_salud,tiene_todos_servicios
-46100,Valencia/València,Burjassot,41299.0,38632.0,6.9,True,True,1940.6,22.72,-7.05,False,True,True,True,True,True,True,True
+codigo_postal,provincia,municipio_nombre,poblacion_actual,poblacion_hace_5a,crecimiento_%,supera_20k,crecimiento_positivo,precio_m2,variacion_anual_%,variacion_maximo_%,en_maximo_historico,precio_anual_positivo,fuente_precio,tiene_supermercado,tiene_colegio,tiene_instituto,tiene_universidad,tiene_centro_salud,tiene_todos_servicios,tiene_mercadona
+46100,Valencia/València,Burjassot,41299.0,38632.0,6.9,True,True,1529.922101,22.72,-7.05,False,True,notariado,True,True,True,True,True,True,True
