@@ -271,9 +271,11 @@ def main():
             print(f"    Error: {e}", file=sys.stderr)
 
     pop_df = pd.DataFrame(all_pop)
+    # Use min() to avoid picking the province-level total (which has the same
+    # name as the capital city but a much larger population)
     pop_pivot = pop_df.pivot_table(
         index=["provincia_id", "municipio_nombre_api"],
-        columns="anio", values="poblacion", aggfunc="first"
+        columns="anio", values="poblacion", aggfunc="min"
     ).reset_index()
     pop_pivot.columns.name = None
     pop_pivot.rename(columns={year_pasado: "pob_5a", year_actual: "pob_act"}, inplace=True)
@@ -318,6 +320,13 @@ def main():
     # shows the population of its municipality, making supera_20k filtering correct.
     matched["pob_act_cp"] = matched["pob_act"]
     matched["pob_5a_cp"] = matched["pob_5a"]
+
+    # Deduplicate: the same municipio can match multiple API names (e.g. "Valencia/València"
+    # for the province total and "València" for the city). Keep the minimum population
+    # to avoid picking province-level aggregates.
+    matched = matched.loc[
+        matched.groupby("municipio_id")["pob_act_cp"].idxmin()
+    ].reset_index(drop=True)
 
     # --- Build CP-level results ---
     rows = []

@@ -1,379 +1,379 @@
 codigo_postal,provincia,municipio_nombre,poblacion_actual,poblacion_hace_5a,crecimiento_%,supera_20k,crecimiento_positivo,precio_m2,variacion_anual_%,variacion_maximo_%,en_maximo_historico,precio_anual_positivo,fuente_precio,tiene_supermercado,tiene_colegio,tiene_instituto,tiene_universidad,tiene_centro_salud,tiene_todos_servicios,tiene_mercadona
-46026,Valencia/València,València,2758633.0,2591875.0,6.43,True,True,1879.70867,16.99,0.0,True,True,notariado,True,True,False,False,True,False,True
-46015,Valencia/València,València,2758633.0,2591875.0,6.43,True,True,2707.931984,16.99,0.0,True,True,notariado,True,True,True,False,True,False,True
-46005,Valencia/València,València,2758633.0,2591875.0,6.43,True,True,3889.953315,16.99,0.0,True,True,notariado,True,True,False,False,True,False,True
-46025,Valencia/València,València,2758633.0,2591875.0,6.43,True,True,2108.134886,16.99,0.0,True,True,notariado,True,True,False,False,True,False,True
-46024,Valencia/València,València,2758633.0,2591875.0,6.43,True,True,2483.021592,16.99,0.0,True,True,notariado,False,True,False,False,True,False,True
-46023,Valencia/València,València,2758633.0,2591875.0,6.43,True,True,3217.140161,16.99,0.0,True,True,notariado,True,True,True,False,True,False,True
-46022,Valencia/València,València,2758633.0,2591875.0,6.43,True,True,2490.462182,16.99,0.0,True,True,notariado,True,True,True,True,True,True,True
-46021,Valencia/València,València,2758633.0,2591875.0,6.43,True,True,2806.268425,16.99,0.0,True,True,notariado,True,True,False,False,True,False,True
-46020,Valencia/València,València,2758633.0,2591875.0,6.43,True,True,2603.247974,16.99,0.0,True,True,notariado,True,True,True,False,True,False,True
-46019,Valencia/València,València,2758633.0,2591875.0,6.43,True,True,1807.027165,16.99,0.0,True,True,notariado,True,True,True,False,True,False,True
-46018,Valencia/València,València,2758633.0,2591875.0,6.43,True,True,2247.858923,16.99,0.0,True,True,notariado,True,True,False,False,True,False,True
-46017,Valencia/València,València,2758633.0,2591875.0,6.43,True,True,1914.795622,16.99,0.0,True,True,notariado,True,True,False,False,True,False,True
-46016,Valencia/València,"Tavernes Blanques, València",2758633.0,2591875.0,6.43,True,True,1376.29128,16.99,0.0,True,True,notariado,False,False,False,False,True,False,True
-46014,Valencia/València,"València, Xirivella",2758633.0,2591875.0,6.43,True,True,2221.595894,23.715,0.0,True,True,notariado,False,True,True,False,True,False,True
-46112,Valencia/València,València,2758633.0,2591875.0,6.43,True,True,2233.459441,16.99,0.0,True,True,notariado,False,False,False,False,True,False,True
-46013,Valencia/València,València,2758633.0,2591875.0,6.43,True,True,2436.711829,16.99,0.0,True,True,notariado,True,True,False,False,True,False,True
-46012,Valencia/València,València,2758633.0,2591875.0,6.43,True,True,2074.391224,16.99,0.0,True,True,notariado,False,False,False,True,True,False,True
-46011,Valencia/València,València,2758633.0,2591875.0,6.43,True,True,2925.908984,16.99,0.0,True,True,notariado,True,True,False,False,True,False,True
-46010,Valencia/València,València,2758633.0,2591875.0,6.43,True,True,3298.260904,16.99,0.0,True,True,notariado,True,True,False,True,True,False,True
-46009,Valencia/València,València,2758633.0,2591875.0,6.43,True,True,2310.265834,16.99,0.0,True,True,notariado,True,True,False,False,True,False,True
-46008,Valencia/València,València,2758633.0,2591875.0,6.43,True,True,3078.623523,16.99,0.0,True,True,notariado,True,True,True,False,True,False,True
-46007,Valencia/València,València,2758633.0,2591875.0,6.43,True,True,2536.241365,16.99,0.0,True,True,notariado,True,False,False,False,True,False,True
-46001,Valencia/València,València,2758633.0,2591875.0,6.43,True,True,3564.824826,16.99,0.0,True,True,notariado,True,False,False,False,False,False,True
-46002,Valencia/València,València,2758633.0,2591875.0,6.43,True,True,3329.189816,16.99,0.0,True,True,notariado,True,False,False,True,False,False,True
-46006,Valencia/València,València,2758633.0,2591875.0,6.43,True,True,3021.001188,16.99,0.0,True,True,notariado,True,True,False,False,True,False,True
-46003,Valencia/València,València,2758633.0,2591875.0,6.43,True,True,3436.637067,16.99,0.0,True,True,notariado,False,True,False,True,True,False,True
-46035,Valencia/València,València,2758633.0,2591875.0,6.43,True,True,1582.896429,16.99,0.0,True,True,notariado,True,True,True,False,True,False,True
-46004,Valencia/València,València,2758633.0,2591875.0,6.43,True,True,4982.029703,16.99,0.0,True,True,notariado,True,True,False,False,False,False,True
-46135,Valencia/València,"Albalat dels Sorells, Emperador, València",2758633.0,2591875.0,6.43,True,True,1359.22261,16.99,0.0,True,True,notariado,False,False,False,False,True,False,True
-46131,Valencia/València,"Bonrepòs i Mirambell, València",2758633.0,2591875.0,6.43,True,True,1533.255666,16.99,0.0,True,True,notariado,False,False,False,False,True,False,True
-03138,Alicante/Alacant,Alacant/Alicante,2030037.0,1879888.0,7.99,True,True,2692.307692,11.69,0.0,True,True,notariado,False,False,False,False,False,False,False
-03008,Alicante/Alacant,Alacant/Alicante,2030037.0,1879888.0,7.99,True,True,2482.257095,11.69,0.0,True,True,notariado,False,False,False,False,True,False,True
-03012,Alicante/Alacant,Alacant/Alicante,2030037.0,1879888.0,7.99,True,True,1373.675838,11.69,0.0,True,True,notariado,False,True,False,False,False,False,True
-03011,Alicante/Alacant,Alacant/Alicante,2030037.0,1879888.0,7.99,True,True,909.807598,11.69,0.0,True,True,notariado,False,True,True,False,True,False,True
-03010,Alicante/Alacant,Alacant/Alicante,2030037.0,1879888.0,7.99,True,True,1475.330618,11.69,0.0,True,True,notariado,False,True,False,False,True,False,True
-03009,Alicante/Alacant,Alacant/Alicante,2030037.0,1879888.0,7.99,True,True,1488.657919,11.69,0.0,True,True,notariado,False,False,False,False,True,False,True
-03007,Alicante/Alacant,Alacant/Alicante,2030037.0,1879888.0,7.99,True,True,1766.736621,11.69,0.0,True,True,notariado,True,True,True,False,True,False,True
-03013,Alicante/Alacant,Alacant/Alicante,2030037.0,1879888.0,7.99,True,True,1630.121136,11.69,0.0,True,True,notariado,False,True,False,False,True,False,True
-03006,Alicante/Alacant,Alacant/Alicante,2030037.0,1879888.0,7.99,True,True,1529.56685,11.69,0.0,True,True,notariado,False,True,False,False,False,False,True
-03005,Alicante/Alacant,Alacant/Alicante,2030037.0,1879888.0,7.99,True,True,2130.336752,11.69,0.0,True,True,notariado,False,True,True,True,True,False,True
-03699,Alicante/Alacant,Alacant/Alicante,2030037.0,1879888.0,7.99,True,True,939.347414,11.69,0.0,True,True,notariado,False,False,False,False,True,False,True
-03004,Alicante/Alacant,Alacant/Alicante,2030037.0,1879888.0,7.99,True,True,2077.669678,11.69,0.0,True,True,notariado,True,True,False,False,False,False,True
-03003,Alicante/Alacant,Alacant/Alicante,2030037.0,1879888.0,7.99,True,True,2594.818443,11.69,0.0,True,True,notariado,False,False,False,False,False,False,True
-03002,Alicante/Alacant,Alacant/Alicante,2030037.0,1879888.0,7.99,True,True,2716.035865,11.69,0.0,True,True,notariado,False,False,False,False,True,False,True
-03409,Alicante/Alacant,"Alacant/Alicante, Cañada, Salinas, Villena",2030037.0,1879888.0,7.99,True,True,568.378913,14.485,-10.11,True,True,notariado,False,False,False,False,True,False,True
-03014,Alicante/Alacant,Alacant/Alicante,2030037.0,1879888.0,7.99,True,True,877.669777,11.69,0.0,True,True,notariado,False,True,True,False,False,False,True
-03015,Alicante/Alacant,Alacant/Alicante,2030037.0,1879888.0,7.99,True,True,1551.288688,11.69,0.0,True,True,notariado,True,True,True,False,True,False,True
-03016,Alicante/Alacant,Alacant/Alicante,2030037.0,1879888.0,7.99,True,True,2757.725747,11.69,0.0,True,True,notariado,False,False,False,False,True,False,True
-03001,Alicante/Alacant,Alacant/Alicante,2030037.0,1879888.0,7.99,True,True,2768.647219,11.69,0.0,True,True,notariado,False,False,False,False,True,False,True
-03112,Alicante/Alacant,Alacant/Alicante,2030037.0,1879888.0,7.99,True,True,1233.969753,11.69,0.0,True,True,notariado,False,False,False,False,True,False,True
-03559,Alicante/Alacant,Alacant/Alicante,2030037.0,1879888.0,7.99,True,True,2118.722706,11.69,0.0,True,True,notariado,False,False,False,False,False,False,True
-03550,Alicante/Alacant,"Alacant/Alicante, Sant Joan d'Alacant",2030037.0,1879888.0,7.99,True,True,2468.516708,11.69,0.0,True,True,notariado,True,True,True,False,True,False,True
-03540,Alicante/Alacant,Alacant/Alicante,2030037.0,1879888.0,7.99,True,True,3429.993258,11.69,0.0,True,True,notariado,False,True,False,False,True,False,True
-03113,Alicante/Alacant,"Alacant/Alicante, Elx/Elche",2030037.0,1879888.0,7.99,True,True,1410.99526,16.56,-3.855,True,True,notariado,False,False,False,False,True,False,True
-03114,Alicante/Alacant,Alacant/Alicante,2030037.0,1879888.0,7.99,True,True,1753.420217,11.69,0.0,True,True,notariado,False,False,False,False,False,False,True
-03115,Alicante/Alacant,Alacant/Alicante,2030037.0,1879888.0,7.99,True,True,2265.3,11.69,0.0,True,True,mivau,False,False,False,False,False,False,True
-30168,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,638.0291,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
-30179,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,1574.8,9.64,-14.49,False,True,mivau,False,False,False,False,True,False,False
-30169,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,994.687764,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
-30139,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,553.197083,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
-30008,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,2390.241595,9.64,-14.49,False,True,notariado,True,False,False,False,False,False,True
-30167,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,596.093037,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
-30001,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,1639.772221,9.64,-14.49,False,True,notariado,False,True,True,False,False,False,True
-30156,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,904.706855,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,False
-30155,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,2510.107193,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,False
-30154,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,1100.419207,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,False
-30153,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,914.773106,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
-30152,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,954.662708,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
-30151,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,1466.513573,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
-30150,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,1435.361912,9.64,-14.49,False,True,notariado,False,True,False,False,True,False,True
-30160,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,772.57889,9.64,-14.49,False,True,notariado,False,True,False,False,True,False,True
-30120,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,881.886637,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
-30110,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,1707.969168,9.64,-14.49,False,True,notariado,False,True,False,False,True,False,True
-30108,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,1081.543296,9.64,-14.49,False,True,notariado,False,False,False,False,False,False,True
-30161,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,639.646468,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
-30162,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,648.507475,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
-30163,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,1146.858094,9.64,-14.49,False,True,notariado,False,True,True,False,True,False,True
-30164,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,786.384071,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,False
-30165,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,767.316449,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
-30107,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,1507.237751,9.64,-14.49,False,True,notariado,False,False,False,True,True,False,True
-30100,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,1284.637079,9.64,-14.49,False,True,notariado,False,False,False,True,True,False,True
-30166,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,911.800475,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
-30012,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,1135.623737,9.64,-14.49,False,True,notariado,False,True,False,False,True,False,True
-30011,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,1239.641338,9.64,-14.49,False,True,notariado,True,True,True,False,True,False,True
-30010,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,1165.273498,9.64,-14.49,False,True,notariado,False,True,False,False,True,False,True
-30009,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,1619.865488,9.64,-14.49,False,True,notariado,True,True,False,False,True,False,True
-30007,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,2243.47158,9.64,-14.49,False,True,notariado,True,False,False,False,True,False,True
-30006,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,1145.492725,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
-30005,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,1853.366682,9.64,-14.49,False,True,notariado,True,True,False,False,True,False,True
-30004,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,2141.516882,9.64,-14.49,False,True,notariado,False,False,False,False,False,False,True
-30003,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,1509.14351,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
-30002,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,1422.65101,9.64,-14.49,False,True,notariado,True,False,False,False,True,False,True
-30158,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,927.450419,9.64,-14.49,False,True,notariado,False,True,False,False,True,False,True
-30157,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,900.263467,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
-30830,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,1248.573929,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
-30837,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,1574.8,9.64,-14.49,False,True,mivau,False,False,False,False,False,False,True
-30831,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,714.600954,9.64,-14.49,False,True,notariado,False,False,False,False,False,False,True
-30832,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,679.182108,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
-30833,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,1227.445951,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
-30834,Murcia,"Lorca, Murcia",1589138.0,1511251.0,5.15,True,True,1373.742882,13.0,-16.87,False,True,notariado,False,False,False,False,False,False,True
-30835,Murcia,"Cartagena, Murcia",1589138.0,1511251.0,5.15,True,True,808.269938,11.865,-20.72,False,True,notariado,False,False,False,False,True,False,True
-30592,Murcia,"Murcia, San Javier, Torre-Pacheco",1589138.0,1511251.0,5.15,True,True,1318.98296,14.68,-20.566666666666666,False,True,notariado,False,False,False,False,True,False,True
-30836,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,726.504832,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
-30590,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,1458.631024,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
-30589,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,762.99153,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
-30588,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,626.866088,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
-30580,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,452.139143,9.64,-14.49,False,True,notariado,False,True,True,False,True,False,True
-30579,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,766.439933,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
-30331,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,624.738626,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,False
-30570,Murcia,Murcia,1589138.0,1511251.0,5.15,True,True,713.008894,9.64,-14.49,False,True,notariado,True,True,True,False,True,False,True
-30385,Murcia,"Cartagena, Murcia",1589138.0,1511251.0,5.15,True,True,2091.365761,11.865,-20.72,False,True,notariado,False,False,False,False,True,False,True
-15005,A Coruña,"Coruña, A",1135612.0,1121815.0,1.23,True,True,3012.705167,,,False,False,notariado,True,False,False,False,True,False,True
-15006,A Coruña,"Coruña, A",1135612.0,1121815.0,1.23,True,True,3135.454696,,,False,False,notariado,True,True,False,False,True,False,True
-15007,A Coruña,"Coruña, A",1135612.0,1121815.0,1.23,True,True,2274.949624,,,False,False,notariado,True,True,True,True,True,True,True
-15010,A Coruña,"Coruña, A",1135612.0,1121815.0,1.23,True,True,2018.823346,,,False,False,notariado,True,True,True,False,True,False,True
-15008,A Coruña,"Arteixo, Coruña, A",1135612.0,1121815.0,1.23,True,True,1949.255758,22.75,0.0,True,True,notariado,True,True,True,True,True,True,True
-15191,A Coruña,"Coruña, A",1135612.0,1121815.0,1.23,True,True,,,,False,False,mivau,False,False,False,False,False,False,False
-15004,A Coruña,"Coruña, A",1135612.0,1121815.0,1.23,True,True,3116.590828,,,False,False,notariado,True,True,False,False,False,False,True
-15011,A Coruña,"Coruña, A",1135612.0,1121815.0,1.23,True,True,2750.767371,,,False,False,notariado,True,True,True,True,True,True,True
-15190,A Coruña,"Coruña, A",1135612.0,1121815.0,1.23,True,True,1735.69383,,,False,False,notariado,True,True,False,False,True,False,True
-15003,A Coruña,"Coruña, A",1135612.0,1121815.0,1.23,True,True,3432.316116,,,False,False,notariado,True,False,False,False,True,False,True
-15002,A Coruña,"Coruña, A",1135612.0,1121815.0,1.23,True,True,2680.071282,,,False,False,notariado,True,True,False,False,True,False,True
-15001,A Coruña,"Coruña, A",1135612.0,1121815.0,1.23,True,True,2897.152464,,,False,False,notariado,True,True,False,False,True,False,True
-15170,A Coruña,"Coruña, A",1135612.0,1121815.0,1.23,True,True,,,,False,False,mivau,False,False,False,False,False,False,False
-15192,A Coruña,"Coruña, A",1135612.0,1121815.0,1.23,True,True,,,,False,False,mivau,False,False,False,False,False,False,False
-15009,A Coruña,"Coruña, A",1135612.0,1121815.0,1.23,True,True,2474.890324,,,False,False,notariado,True,True,True,False,True,False,True
-36690,Pontevedra,"Pontevedra, Soutomaior",946225.0,945408.0,0.09,True,True,1231.974481,22.59,0.0,True,True,notariado,False,True,False,False,True,False,False
-36001,Pontevedra,Pontevedra,946225.0,945408.0,0.09,True,True,2127.243655,22.59,0.0,True,True,notariado,True,True,True,False,False,False,True
-36002,Pontevedra,Pontevedra,946225.0,945408.0,0.09,True,True,2195.680891,22.59,0.0,True,True,notariado,False,True,False,False,True,False,True
-36003,Pontevedra,Pontevedra,946225.0,945408.0,0.09,True,True,2191.014489,22.59,0.0,True,True,notariado,False,True,True,False,False,False,True
-36004,Pontevedra,Pontevedra,946225.0,945408.0,0.09,True,True,1904.598149,22.59,0.0,True,True,notariado,False,True,False,False,True,False,True
-36154,Pontevedra,Pontevedra,946225.0,945408.0,0.09,True,True,2083.6,22.59,0.0,True,True,mivau,False,False,False,False,False,False,False
-36164,Pontevedra,Pontevedra,946225.0,945408.0,0.09,True,True,1596.807772,22.59,0.0,True,True,notariado,False,False,False,False,False,False,True
-36162,Pontevedra,Pontevedra,946225.0,945408.0,0.09,True,True,1346.48241,22.59,0.0,True,True,notariado,False,False,False,False,True,False,True
-36910,Pontevedra,Pontevedra,946225.0,945408.0,0.09,True,True,1016.815406,22.59,0.0,True,True,notariado,False,True,False,False,False,False,True
-36161,Pontevedra,Pontevedra,946225.0,945408.0,0.09,True,True,2083.6,22.59,0.0,True,True,mivau,False,True,False,False,False,False,True
-36160,Pontevedra,Pontevedra,946225.0,945408.0,0.09,True,True,1169.456066,22.59,0.0,True,True,notariado,False,False,False,False,False,False,True
-36158,Pontevedra,Pontevedra,946225.0,945408.0,0.09,True,True,1241.81478,22.59,0.0,True,True,notariado,False,False,False,False,False,False,False
-36157,Pontevedra,Pontevedra,946225.0,945408.0,0.09,True,True,1032.027257,22.59,0.0,True,True,notariado,False,False,False,False,False,False,False
-36005,Pontevedra,Pontevedra,946225.0,945408.0,0.09,True,True,1551.628369,22.59,0.0,True,True,notariado,True,True,True,False,False,False,True
-36155,Pontevedra,Pontevedra,946225.0,945408.0,0.09,True,True,2083.6,22.59,0.0,True,True,mivau,False,False,False,False,False,False,False
-36156,Pontevedra,Pontevedra,946225.0,945408.0,0.09,True,True,931.751168,22.59,0.0,True,True,notariado,False,False,False,False,True,False,True
-36153,Pontevedra,Pontevedra,946225.0,945408.0,0.09,True,True,697.929354,22.59,0.0,True,True,notariado,False,True,False,False,False,False,True
-36152,Pontevedra,Pontevedra,946225.0,945408.0,0.09,True,True,2083.6,22.59,0.0,True,True,mivau,False,False,False,False,False,False,False
-36151,Pontevedra,Pontevedra,946225.0,945408.0,0.09,True,True,2083.6,22.59,0.0,True,True,mivau,False,False,False,False,False,False,False
-36150,Pontevedra,Pontevedra,946225.0,945408.0,0.09,True,True,497.26477,22.59,0.0,True,True,notariado,False,False,False,False,False,False,False
-36143,Pontevedra,Pontevedra,946225.0,945408.0,0.09,True,True,542.082662,22.59,0.0,True,True,notariado,True,False,False,False,False,False,True
-43006,Tarragona,Tarragona,874808.0,816772.0,7.11,True,True,1051.869401,9.95,-26.93,False,True,notariado,False,False,False,False,True,False,True
-43130,Tarragona,Tarragona,874808.0,816772.0,7.11,True,True,1071.295168,9.95,-26.93,False,True,notariado,False,False,False,False,True,False,True
-43005,Tarragona,Tarragona,874808.0,816772.0,7.11,True,True,2274.033723,9.95,-26.93,False,True,notariado,False,False,False,False,True,False,True
-43100,Tarragona,Tarragona,874808.0,816772.0,7.11,True,True,1050.326085,9.95,-26.93,False,True,notariado,False,False,False,False,True,False,True
-43004,Tarragona,Tarragona,874808.0,816772.0,7.11,True,True,1720.89622,9.95,-26.93,False,True,notariado,False,True,False,False,False,False,True
-43003,Tarragona,Tarragona,874808.0,816772.0,7.11,True,True,2116.64213,9.95,-26.93,False,True,notariado,True,False,False,False,False,False,True
-43002,Tarragona,Tarragona,874808.0,816772.0,7.11,True,True,1837.068995,9.95,-26.93,False,True,notariado,False,False,False,True,False,False,True
-43001,Tarragona,Tarragona,874808.0,816772.0,7.11,True,True,1991.222203,9.95,-26.93,False,True,notariado,False,False,False,False,False,False,True
-43008,Tarragona,Tarragona,874808.0,816772.0,7.11,True,True,2336.046256,9.95,-26.93,False,True,notariado,False,False,False,False,False,False,True
-43007,Tarragona,Tarragona,874808.0,816772.0,7.11,True,True,2106.769309,9.95,-26.93,False,True,notariado,True,True,True,False,True,False,True
-27141,Lugo,Lugo,325759.0,327946.0,-0.67,True,False,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,False
-27181,Lugo,"Guntín, Lugo",325759.0,327946.0,-0.67,True,False,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,False
-27299,Lugo,"Friol, Lugo",325759.0,327946.0,-0.67,True,False,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,False
-27002,Lugo,Lugo,325759.0,327946.0,-0.67,True,False,1453.32248,9.52,-9.99,False,True,notariado,False,True,True,True,True,False,True
-27210,Lugo,"Guntín, Lugo",325759.0,327946.0,-0.67,True,False,366.449049,9.52,-9.99,False,True,notariado,False,False,False,False,False,False,False
-27192,Lugo,Lugo,325759.0,327946.0,-0.67,True,False,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,True
-27191,Lugo,Lugo,325759.0,327946.0,-0.67,True,False,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,False
-27190,Lugo,"Corgo, O, Lugo",325759.0,327946.0,-0.67,True,False,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,True
-27188,Lugo,"Lugo, Portomarín",325759.0,327946.0,-0.67,True,False,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,False
-27185,Lugo,"Guntín, Lugo",325759.0,327946.0,-0.67,True,False,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,True,False,False
-27001,Lugo,Lugo,325759.0,327946.0,-0.67,True,False,1190.763001,9.52,-9.99,False,True,notariado,False,True,False,False,True,False,True
-27003,Lugo,Lugo,325759.0,327946.0,-0.67,True,False,1001.063205,9.52,-9.99,False,True,notariado,True,True,True,False,True,False,True
-27298,Lugo,Lugo,325759.0,327946.0,-0.67,True,False,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,True
-27004,Lugo,Lugo,325759.0,327946.0,-0.67,True,False,965.872492,9.52,-9.99,False,True,notariado,False,True,False,False,True,False,True
-27182,Lugo,Lugo,325759.0,327946.0,-0.67,True,False,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,False
-27140,Lugo,Lugo,325759.0,327946.0,-0.67,True,False,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,False
-27180,Lugo,Lugo,325759.0,327946.0,-0.67,True,False,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,True
-27169,Lugo,Lugo,325759.0,327946.0,-0.67,True,False,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,False
-27161,Lugo,Lugo,325759.0,327946.0,-0.67,True,False,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,False
-27160,Lugo,Lugo,325759.0,327946.0,-0.67,True,False,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,True,False,True
-27230,Lugo,Lugo,325759.0,327946.0,-0.67,True,False,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,False
-27231,Lugo,Lugo,325759.0,327946.0,-0.67,True,False,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,False
-27297,Lugo,Lugo,325759.0,327946.0,-0.67,True,False,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,True
-27296,Lugo,Lugo,325759.0,327946.0,-0.67,True,False,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,False
-27294,Lugo,Lugo,325759.0,327946.0,-0.67,True,False,827.009936,9.52,-9.99,False,True,notariado,False,False,False,False,False,False,True
-27293,Lugo,"Castroverde, Lugo",325759.0,327946.0,-0.67,True,False,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,False
-27290,Lugo,Lugo,325759.0,327946.0,-0.67,True,False,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,False
-27289,Lugo,"Castro de Rei, Lugo",325759.0,327946.0,-0.67,True,False,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,False
-27233,Lugo,"Guntín, Lugo",325759.0,327946.0,-0.67,True,False,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,False
-27146,Lugo,"Castroverde, Lugo",325759.0,327946.0,-0.67,True,False,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,True
-27232,Lugo,Lugo,325759.0,327946.0,-0.67,True,False,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,False
-32960,Ourense,Ourense,305573.0,306650.0,-0.35,True,False,654.618473,18.61,-2.64,False,True,notariado,False,True,False,False,False,False,False
-32970,Ourense,Ourense,305573.0,306650.0,-0.35,True,False,1602.0,18.61,-2.64,False,True,mivau,False,False,False,False,False,False,True
-32002,Ourense,"Barbadás, Ourense",305573.0,306650.0,-0.35,True,False,1041.457495,18.61,-2.64,False,True,notariado,False,True,True,False,True,False,True
-32003,Ourense,Ourense,305573.0,306650.0,-0.35,True,False,1734.07087,18.61,-2.64,False,True,notariado,False,True,False,False,True,False,True
-32004,Ourense,Ourense,305573.0,306650.0,-0.35,True,False,1551.90779,18.61,-2.64,False,True,notariado,False,True,True,True,True,False,True
-32005,Ourense,"Barbadás, Ourense, San Cibrao das Viñas",305573.0,306650.0,-0.35,True,False,1275.306519,18.61,-2.64,False,True,notariado,True,True,True,False,True,False,True
-32103,Ourense,Ourense,305573.0,306650.0,-0.35,True,False,788.247213,18.61,-2.64,False,True,notariado,False,False,False,False,False,False,True
-32172,Ourense,"Amoeiro, Ourense",305573.0,306650.0,-0.35,True,False,373.015873,18.61,-2.64,False,True,notariado,False,False,False,False,False,False,False
-32593,Ourense,Ourense,305573.0,306650.0,-0.35,True,False,1602.0,18.61,-2.64,False,True,mivau,False,False,False,False,False,False,False
-32900,Ourense,"Ourense, San Cibrao das Viñas",305573.0,306650.0,-0.35,True,False,1602.0,18.61,-2.64,False,True,mivau,False,False,False,False,False,False,True
-32990,Ourense,Ourense,305573.0,306650.0,-0.35,True,False,1602.0,18.61,-2.64,False,True,mivau,False,False,False,False,False,False,True
-32981,Ourense,Ourense,305573.0,306650.0,-0.35,True,False,2610.945945,18.61,-2.64,False,True,notariado,False,False,False,False,False,False,True
-32971,Ourense,Ourense,305573.0,306650.0,-0.35,True,False,702.404809,18.61,-2.64,False,True,notariado,False,False,False,False,False,False,True
-32940,Ourense,"Barbadás, Ourense, Toén",305573.0,306650.0,-0.35,True,False,787.940379,18.61,-2.64,False,True,notariado,False,False,False,False,False,False,False
-32001,Ourense,Ourense,305573.0,306650.0,-0.35,True,False,1021.148744,18.61,-2.64,False,True,notariado,True,True,True,False,True,False,True
-32980,Ourense,"Amoeiro, Ourense",305573.0,306650.0,-0.35,True,False,720.447284,18.61,-2.64,False,True,notariado,False,False,False,False,False,False,True
-36210,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,1815.397979,13.9,-8.95,False,True,notariado,False,True,False,False,False,False,True
-36312,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,1000.0,13.9,-8.95,False,True,notariado,False,False,False,False,False,False,True
+46019,Valencia/València,València,840792.0,800215.0,5.07,True,True,1807.027165,16.99,0.0,True,True,notariado,True,True,True,False,True,False,True
+46018,Valencia/València,València,840792.0,800215.0,5.07,True,True,2247.858923,16.99,0.0,True,True,notariado,True,True,False,False,True,False,True
+46016,Valencia/València,"Tavernes Blanques, València",840792.0,800215.0,5.07,True,True,1376.29128,16.99,0.0,True,True,notariado,False,False,False,False,True,False,True
+46015,Valencia/València,València,840792.0,800215.0,5.07,True,True,2707.931984,16.99,0.0,True,True,notariado,True,True,True,False,True,False,True
+46014,Valencia/València,"València, Xirivella",840792.0,800215.0,5.07,True,True,2221.595894,23.715,0.0,True,True,notariado,False,True,True,False,True,False,True
+46013,Valencia/València,València,840792.0,800215.0,5.07,True,True,2436.711829,16.99,0.0,True,True,notariado,True,True,False,False,True,False,True
+46012,Valencia/València,València,840792.0,800215.0,5.07,True,True,2074.391224,16.99,0.0,True,True,notariado,False,False,False,True,True,False,True
+46011,Valencia/València,València,840792.0,800215.0,5.07,True,True,2925.908984,16.99,0.0,True,True,notariado,True,True,False,False,True,False,True
+46010,Valencia/València,València,840792.0,800215.0,5.07,True,True,3298.260904,16.99,0.0,True,True,notariado,True,True,False,True,True,False,True
+46009,Valencia/València,València,840792.0,800215.0,5.07,True,True,2310.265834,16.99,0.0,True,True,notariado,True,True,False,False,True,False,True
+46008,Valencia/València,València,840792.0,800215.0,5.07,True,True,3078.623523,16.99,0.0,True,True,notariado,True,True,True,False,True,False,True
+46007,Valencia/València,València,840792.0,800215.0,5.07,True,True,2536.241365,16.99,0.0,True,True,notariado,True,False,False,False,True,False,True
+46006,Valencia/València,València,840792.0,800215.0,5.07,True,True,3021.001188,16.99,0.0,True,True,notariado,True,True,False,False,True,False,True
+46005,Valencia/València,València,840792.0,800215.0,5.07,True,True,3889.953315,16.99,0.0,True,True,notariado,True,True,False,False,True,False,True
+46004,Valencia/València,València,840792.0,800215.0,5.07,True,True,4982.029703,16.99,0.0,True,True,notariado,True,True,False,False,False,False,True
+46003,Valencia/València,València,840792.0,800215.0,5.07,True,True,3436.637067,16.99,0.0,True,True,notariado,False,True,False,True,True,False,True
+46002,Valencia/València,València,840792.0,800215.0,5.07,True,True,3329.189816,16.99,0.0,True,True,notariado,True,False,False,True,False,False,True
+46017,Valencia/València,València,840792.0,800215.0,5.07,True,True,1914.795622,16.99,0.0,True,True,notariado,True,True,False,False,True,False,True
+46020,Valencia/València,València,840792.0,800215.0,5.07,True,True,2603.247974,16.99,0.0,True,True,notariado,True,True,True,False,True,False,True
+46131,Valencia/València,"Bonrepòs i Mirambell, València",840792.0,800215.0,5.07,True,True,1533.255666,16.99,0.0,True,True,notariado,False,False,False,False,True,False,True
+46026,Valencia/València,València,840792.0,800215.0,5.07,True,True,1879.70867,16.99,0.0,True,True,notariado,True,True,False,False,True,False,True
+46135,Valencia/València,"Albalat dels Sorells, Emperador, València",840792.0,800215.0,5.07,True,True,1359.22261,16.99,0.0,True,True,notariado,False,False,False,False,True,False,True
+46021,Valencia/València,València,840792.0,800215.0,5.07,True,True,2806.268425,16.99,0.0,True,True,notariado,True,True,False,False,True,False,True
+46112,Valencia/València,València,840792.0,800215.0,5.07,True,True,2233.459441,16.99,0.0,True,True,notariado,False,False,False,False,True,False,True
+46035,Valencia/València,València,840792.0,800215.0,5.07,True,True,1582.896429,16.99,0.0,True,True,notariado,True,True,True,False,True,False,True
+46001,Valencia/València,València,840792.0,800215.0,5.07,True,True,3564.824826,16.99,0.0,True,True,notariado,True,False,False,False,False,False,True
+46025,Valencia/València,València,840792.0,800215.0,5.07,True,True,2108.134886,16.99,0.0,True,True,notariado,True,True,False,False,True,False,True
+46024,Valencia/València,València,840792.0,800215.0,5.07,True,True,2483.021592,16.99,0.0,True,True,notariado,False,True,False,False,True,False,True
+46023,Valencia/València,València,840792.0,800215.0,5.07,True,True,3217.140161,16.99,0.0,True,True,notariado,True,True,True,False,True,False,True
+46022,Valencia/València,València,840792.0,800215.0,5.07,True,True,2490.462182,16.99,0.0,True,True,notariado,True,True,True,True,True,True,True
+30331,Murcia,Murcia,479405.0,459403.0,4.35,True,True,624.738626,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,False
+30837,Murcia,Murcia,479405.0,459403.0,4.35,True,True,1574.8,9.64,-14.49,False,True,mivau,False,False,False,False,False,False,True
+30836,Murcia,Murcia,479405.0,459403.0,4.35,True,True,726.504832,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
+30835,Murcia,"Cartagena, Murcia",479405.0,459403.0,4.35,True,True,808.269938,11.865,-20.72,False,True,notariado,False,False,False,False,True,False,True
+30834,Murcia,"Lorca, Murcia",479405.0,459403.0,4.35,True,True,1373.742882,13.0,-16.87,False,True,notariado,False,False,False,False,False,False,True
+30833,Murcia,Murcia,479405.0,459403.0,4.35,True,True,1227.445951,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
+30832,Murcia,Murcia,479405.0,459403.0,4.35,True,True,679.182108,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
+30830,Murcia,Murcia,479405.0,459403.0,4.35,True,True,1248.573929,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
+30001,Murcia,Murcia,479405.0,459403.0,4.35,True,True,1639.772221,9.64,-14.49,False,True,notariado,False,True,True,False,False,False,True
+30002,Murcia,Murcia,479405.0,459403.0,4.35,True,True,1422.65101,9.64,-14.49,False,True,notariado,True,False,False,False,True,False,True
+30153,Murcia,Murcia,479405.0,459403.0,4.35,True,True,914.773106,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
+30155,Murcia,Murcia,479405.0,459403.0,4.35,True,True,2510.107193,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,False
+30156,Murcia,Murcia,479405.0,459403.0,4.35,True,True,904.706855,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,False
+30157,Murcia,Murcia,479405.0,459403.0,4.35,True,True,900.263467,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
+30158,Murcia,Murcia,479405.0,459403.0,4.35,True,True,927.450419,9.64,-14.49,False,True,notariado,False,True,False,False,True,False,True
+30160,Murcia,Murcia,479405.0,459403.0,4.35,True,True,772.57889,9.64,-14.49,False,True,notariado,False,True,False,False,True,False,True
+30161,Murcia,Murcia,479405.0,459403.0,4.35,True,True,639.646468,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
+30162,Murcia,Murcia,479405.0,459403.0,4.35,True,True,648.507475,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
+30163,Murcia,Murcia,479405.0,459403.0,4.35,True,True,1146.858094,9.64,-14.49,False,True,notariado,False,True,True,False,True,False,True
+30164,Murcia,Murcia,479405.0,459403.0,4.35,True,True,786.384071,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,False
+30165,Murcia,Murcia,479405.0,459403.0,4.35,True,True,767.316449,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
+30166,Murcia,Murcia,479405.0,459403.0,4.35,True,True,911.800475,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
+30167,Murcia,Murcia,479405.0,459403.0,4.35,True,True,596.093037,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
+30168,Murcia,Murcia,479405.0,459403.0,4.35,True,True,638.0291,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
+30169,Murcia,Murcia,479405.0,459403.0,4.35,True,True,994.687764,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
+30179,Murcia,Murcia,479405.0,459403.0,4.35,True,True,1574.8,9.64,-14.49,False,True,mivau,False,False,False,False,True,False,False
+30154,Murcia,Murcia,479405.0,459403.0,4.35,True,True,1100.419207,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,False
+30152,Murcia,Murcia,479405.0,459403.0,4.35,True,True,954.662708,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
+30003,Murcia,Murcia,479405.0,459403.0,4.35,True,True,1509.14351,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
+30151,Murcia,Murcia,479405.0,459403.0,4.35,True,True,1466.513573,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
+30004,Murcia,Murcia,479405.0,459403.0,4.35,True,True,2141.516882,9.64,-14.49,False,True,notariado,False,False,False,False,False,False,True
+30005,Murcia,Murcia,479405.0,459403.0,4.35,True,True,1853.366682,9.64,-14.49,False,True,notariado,True,True,False,False,True,False,True
+30006,Murcia,Murcia,479405.0,459403.0,4.35,True,True,1145.492725,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
+30007,Murcia,Murcia,479405.0,459403.0,4.35,True,True,2243.47158,9.64,-14.49,False,True,notariado,True,False,False,False,True,False,True
+30008,Murcia,Murcia,479405.0,459403.0,4.35,True,True,2390.241595,9.64,-14.49,False,True,notariado,True,False,False,False,False,False,True
+30009,Murcia,Murcia,479405.0,459403.0,4.35,True,True,1619.865488,9.64,-14.49,False,True,notariado,True,True,False,False,True,False,True
+30010,Murcia,Murcia,479405.0,459403.0,4.35,True,True,1165.273498,9.64,-14.49,False,True,notariado,False,True,False,False,True,False,True
+30011,Murcia,Murcia,479405.0,459403.0,4.35,True,True,1239.641338,9.64,-14.49,False,True,notariado,True,True,True,False,True,False,True
+30012,Murcia,Murcia,479405.0,459403.0,4.35,True,True,1135.623737,9.64,-14.49,False,True,notariado,False,True,False,False,True,False,True
+30100,Murcia,Murcia,479405.0,459403.0,4.35,True,True,1284.637079,9.64,-14.49,False,True,notariado,False,False,False,True,True,False,True
+30107,Murcia,Murcia,479405.0,459403.0,4.35,True,True,1507.237751,9.64,-14.49,False,True,notariado,False,False,False,True,True,False,True
+30108,Murcia,Murcia,479405.0,459403.0,4.35,True,True,1081.543296,9.64,-14.49,False,True,notariado,False,False,False,False,False,False,True
+30110,Murcia,Murcia,479405.0,459403.0,4.35,True,True,1707.969168,9.64,-14.49,False,True,notariado,False,True,False,False,True,False,True
+30120,Murcia,Murcia,479405.0,459403.0,4.35,True,True,881.886637,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
+30150,Murcia,Murcia,479405.0,459403.0,4.35,True,True,1435.361912,9.64,-14.49,False,True,notariado,False,True,False,False,True,False,True
+30831,Murcia,Murcia,479405.0,459403.0,4.35,True,True,714.600954,9.64,-14.49,False,True,notariado,False,False,False,False,False,False,True
+30139,Murcia,Murcia,479405.0,459403.0,4.35,True,True,553.197083,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
+30588,Murcia,Murcia,479405.0,459403.0,4.35,True,True,626.866088,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
+30570,Murcia,Murcia,479405.0,459403.0,4.35,True,True,713.008894,9.64,-14.49,False,True,notariado,True,True,True,False,True,False,True
+30592,Murcia,"Murcia, San Javier, Torre-Pacheco",479405.0,459403.0,4.35,True,True,1318.98296,14.68,-20.566666666666666,False,True,notariado,False,False,False,False,True,False,True
+30579,Murcia,Murcia,479405.0,459403.0,4.35,True,True,766.439933,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
+30580,Murcia,Murcia,479405.0,459403.0,4.35,True,True,452.139143,9.64,-14.49,False,True,notariado,False,True,True,False,True,False,True
+30385,Murcia,"Cartagena, Murcia",479405.0,459403.0,4.35,True,True,2091.365761,11.865,-20.72,False,True,notariado,False,False,False,False,True,False,True
+30589,Murcia,Murcia,479405.0,459403.0,4.35,True,True,762.99153,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
+30590,Murcia,Murcia,479405.0,459403.0,4.35,True,True,1458.631024,9.64,-14.49,False,True,notariado,False,False,False,False,True,False,True
+03005,Alicante/Alacant,Alacant/Alicante,366221.0,337482.0,8.52,True,True,2130.336752,11.69,0.0,True,True,notariado,False,True,True,True,True,False,True
+03008,Alicante/Alacant,Alacant/Alicante,366221.0,337482.0,8.52,True,True,2482.257095,11.69,0.0,True,True,notariado,False,False,False,False,True,False,True
+03007,Alicante/Alacant,Alacant/Alicante,366221.0,337482.0,8.52,True,True,1766.736621,11.69,0.0,True,True,notariado,True,True,True,False,True,False,True
+03006,Alicante/Alacant,Alacant/Alicante,366221.0,337482.0,8.52,True,True,1529.56685,11.69,0.0,True,True,notariado,False,True,False,False,False,False,True
+03699,Alicante/Alacant,Alacant/Alicante,366221.0,337482.0,8.52,True,True,939.347414,11.69,0.0,True,True,notariado,False,False,False,False,True,False,True
+03113,Alicante/Alacant,"Alacant/Alicante, Elx/Elche",366221.0,337482.0,8.52,True,True,1410.99526,16.56,-3.855,True,True,notariado,False,False,False,False,True,False,True
+03004,Alicante/Alacant,Alacant/Alicante,366221.0,337482.0,8.52,True,True,2077.669678,11.69,0.0,True,True,notariado,True,True,False,False,False,False,True
+03010,Alicante/Alacant,Alacant/Alicante,366221.0,337482.0,8.52,True,True,1475.330618,11.69,0.0,True,True,notariado,False,True,False,False,True,False,True
+03003,Alicante/Alacant,Alacant/Alicante,366221.0,337482.0,8.52,True,True,2594.818443,11.69,0.0,True,True,notariado,False,False,False,False,False,False,True
+03002,Alicante/Alacant,Alacant/Alicante,366221.0,337482.0,8.52,True,True,2716.035865,11.69,0.0,True,True,notariado,False,False,False,False,True,False,True
+03114,Alicante/Alacant,Alacant/Alicante,366221.0,337482.0,8.52,True,True,1753.420217,11.69,0.0,True,True,notariado,False,False,False,False,False,False,True
+03540,Alicante/Alacant,Alacant/Alicante,366221.0,337482.0,8.52,True,True,3429.993258,11.69,0.0,True,True,notariado,False,True,False,False,True,False,True
+03009,Alicante/Alacant,Alacant/Alicante,366221.0,337482.0,8.52,True,True,1488.657919,11.69,0.0,True,True,notariado,False,False,False,False,True,False,True
+03409,Alicante/Alacant,"Alacant/Alicante, Cañada, Salinas, Villena",366221.0,337482.0,8.52,True,True,568.378913,14.485,-10.11,True,True,notariado,False,False,False,False,True,False,True
+03011,Alicante/Alacant,Alacant/Alicante,366221.0,337482.0,8.52,True,True,909.807598,11.69,0.0,True,True,notariado,False,True,True,False,True,False,True
+03016,Alicante/Alacant,Alacant/Alicante,366221.0,337482.0,8.52,True,True,2757.725747,11.69,0.0,True,True,notariado,False,False,False,False,True,False,True
+03112,Alicante/Alacant,Alacant/Alicante,366221.0,337482.0,8.52,True,True,1233.969753,11.69,0.0,True,True,notariado,False,False,False,False,True,False,True
+03115,Alicante/Alacant,Alacant/Alicante,366221.0,337482.0,8.52,True,True,2265.3,11.69,0.0,True,True,mivau,False,False,False,False,False,False,True
+03559,Alicante/Alacant,Alacant/Alicante,366221.0,337482.0,8.52,True,True,2118.722706,11.69,0.0,True,True,notariado,False,False,False,False,False,False,True
+03001,Alicante/Alacant,Alacant/Alicante,366221.0,337482.0,8.52,True,True,2768.647219,11.69,0.0,True,True,notariado,False,False,False,False,True,False,True
+03138,Alicante/Alacant,Alacant/Alicante,366221.0,337482.0,8.52,True,True,2692.307692,11.69,0.0,True,True,notariado,False,False,False,False,False,False,False
+03015,Alicante/Alacant,Alacant/Alicante,366221.0,337482.0,8.52,True,True,1551.288688,11.69,0.0,True,True,notariado,True,True,True,False,True,False,True
+03014,Alicante/Alacant,Alacant/Alicante,366221.0,337482.0,8.52,True,True,877.669777,11.69,0.0,True,True,notariado,False,True,True,False,False,False,True
+03013,Alicante/Alacant,Alacant/Alicante,366221.0,337482.0,8.52,True,True,1630.121136,11.69,0.0,True,True,notariado,False,True,False,False,True,False,True
+03012,Alicante/Alacant,Alacant/Alicante,366221.0,337482.0,8.52,True,True,1373.675838,11.69,0.0,True,True,notariado,False,True,False,False,False,False,True
+03550,Alicante/Alacant,"Alacant/Alicante, Sant Joan d'Alacant",366221.0,337482.0,8.52,True,True,2468.516708,11.69,0.0,True,True,notariado,True,True,True,False,True,False,True
+36202,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,2253.816686,13.9,-8.95,False,True,notariado,True,True,False,False,True,False,True
+36203,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,2348.354919,13.9,-8.95,False,True,notariado,True,True,True,False,False,False,True
+36201,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,2857.460852,13.9,-8.95,False,True,notariado,True,True,False,False,True,False,True
+36204,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,2264.646399,13.9,-8.95,False,True,notariado,True,True,False,False,True,False,True
+36390,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,2357.553284,13.9,-8.95,False,True,notariado,False,False,False,False,False,False,True
 36331,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,2610.960282,13.9,-8.95,False,True,notariado,False,False,False,True,False,False,True
-36330,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,1510.0,13.9,-8.95,False,True,notariado,False,True,False,False,True,False,True
 36205,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,1830.851698,13.9,-8.95,False,True,notariado,True,True,False,False,True,False,True
-36318,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,1104.225352,13.9,-8.95,False,True,notariado,False,True,False,False,False,False,True
-36317,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,1198.815566,13.9,-8.95,False,True,notariado,False,False,False,False,False,False,True
+36392,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,1909.388412,13.9,-8.95,False,True,notariado,False,False,False,False,False,False,True
+36213,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,1287.256102,13.9,-8.95,False,True,notariado,True,True,False,False,True,False,True
 36315,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,1832.044673,13.9,-8.95,False,True,notariado,False,False,False,False,False,False,True
-36314,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,2302.3,13.9,-8.95,False,True,mivau,False,False,False,False,False,False,True
-36313,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,1845.454545,13.9,-8.95,False,True,notariado,False,False,False,False,False,False,True
+36317,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,1198.815566,13.9,-8.95,False,True,notariado,False,False,False,False,False,False,True
+36318,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,1104.225352,13.9,-8.95,False,True,notariado,False,True,False,False,False,False,True
+36312,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,1000.0,13.9,-8.95,False,True,notariado,False,False,False,False,False,False,True
 36310,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,2302.3,13.9,-8.95,False,True,mivau,False,False,False,True,False,False,True
-36207,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,1772.72154,13.9,-8.95,False,True,notariado,True,True,True,False,False,False,True
 36216,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,1452.405522,13.9,-8.95,False,True,notariado,False,True,True,False,True,False,True
+36330,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,1510.0,13.9,-8.95,False,True,notariado,False,True,False,False,True,False,True
+36314,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,2302.3,13.9,-8.95,False,True,mivau,False,False,False,False,False,False,True
 36215,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,1310.412879,13.9,-8.95,False,True,notariado,False,True,True,False,False,False,True
 36214,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,1388.189032,13.9,-8.95,False,True,notariado,True,True,True,False,True,False,True
-36213,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,1287.256102,13.9,-8.95,False,True,notariado,True,True,False,False,True,False,True
+36313,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,1845.454545,13.9,-8.95,False,True,notariado,False,False,False,False,False,False,True
 36212,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,1935.512448,13.9,-8.95,False,True,notariado,False,True,False,False,False,False,True
-36211,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,2386.946579,13.9,-8.95,False,True,notariado,False,True,False,False,True,False,True
 36206,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,2021.895823,13.9,-8.95,False,True,notariado,True,True,False,False,False,False,True
-36209,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,2158.132035,13.9,-8.95,False,True,notariado,True,True,True,False,True,False,True
-36390,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,2357.553284,13.9,-8.95,False,True,notariado,False,False,False,False,False,False,True
-36392,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,1909.388412,13.9,-8.95,False,True,notariado,False,False,False,False,False,False,True
-36204,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,2264.646399,13.9,-8.95,False,True,notariado,True,True,False,False,True,False,True
-36201,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,2857.460852,13.9,-8.95,False,True,notariado,True,True,False,False,True,False,True
-36203,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,2348.354919,13.9,-8.95,False,True,notariado,True,True,True,False,False,False,True
+36207,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,1772.72154,13.9,-8.95,False,True,notariado,True,True,True,False,False,False,True
 36208,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,1863.041991,13.9,-8.95,False,True,notariado,False,True,True,True,True,False,True
-36202,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,2253.816686,13.9,-8.95,False,True,notariado,True,True,False,False,True,False,True
+36209,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,2158.132035,13.9,-8.95,False,True,notariado,True,True,True,False,True,False,True
+36210,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,1815.397979,13.9,-8.95,False,True,notariado,False,True,False,False,False,False,True
+36211,Pontevedra,Vigo,294489.0,296692.0,-0.74,True,False,2386.946579,13.9,-8.95,False,True,notariado,False,True,False,False,True,False,True
+15192,A Coruña,"Coruña, A",251543.0,247604.0,1.59,True,True,,,,False,False,mivau,False,False,False,False,False,False,False
+15011,A Coruña,"Coruña, A",251543.0,247604.0,1.59,True,True,2750.767371,,,False,False,notariado,True,True,True,True,True,True,True
+15190,A Coruña,"Coruña, A",251543.0,247604.0,1.59,True,True,1735.69383,,,False,False,notariado,True,True,False,False,True,False,True
+15010,A Coruña,"Coruña, A",251543.0,247604.0,1.59,True,True,2018.823346,,,False,False,notariado,True,True,True,False,True,False,True
+15009,A Coruña,"Coruña, A",251543.0,247604.0,1.59,True,True,2474.890324,,,False,False,notariado,True,True,True,False,True,False,True
+15008,A Coruña,"Arteixo, Coruña, A",251543.0,247604.0,1.59,True,True,1949.255758,22.75,0.0,True,True,notariado,True,True,True,True,True,True,True
+15007,A Coruña,"Coruña, A",251543.0,247604.0,1.59,True,True,2274.949624,,,False,False,notariado,True,True,True,True,True,True,True
+15006,A Coruña,"Coruña, A",251543.0,247604.0,1.59,True,True,3135.454696,,,False,False,notariado,True,True,False,False,True,False,True
+15005,A Coruña,"Coruña, A",251543.0,247604.0,1.59,True,True,3012.705167,,,False,False,notariado,True,False,False,False,True,False,True
+15004,A Coruña,"Coruña, A",251543.0,247604.0,1.59,True,True,3116.590828,,,False,False,notariado,True,True,False,False,False,False,True
+15003,A Coruña,"Coruña, A",251543.0,247604.0,1.59,True,True,3432.316116,,,False,False,notariado,True,False,False,False,True,False,True
+15170,A Coruña,"Coruña, A",251543.0,247604.0,1.59,True,True,,,,False,False,mivau,False,False,False,False,False,False,False
+15191,A Coruña,"Coruña, A",251543.0,247604.0,1.59,True,True,,,,False,False,mivau,False,False,False,False,False,False,False
+15001,A Coruña,"Coruña, A",251543.0,247604.0,1.59,True,True,2897.152464,,,False,False,notariado,True,True,False,False,True,False,True
+15002,A Coruña,"Coruña, A",251543.0,247604.0,1.59,True,True,2680.071282,,,False,False,notariado,True,True,False,False,True,False,True
 03320,Alicante/Alacant,Elx/Elche,245557.0,234765.0,4.6,True,True,1198.668572,21.43,-7.71,False,True,notariado,True,False,False,False,True,False,True
-03194,Alicante/Alacant,Elx/Elche,245557.0,234765.0,4.6,True,True,1930.678045,21.43,-7.71,False,True,notariado,False,False,False,False,True,False,True
-03195,Alicante/Alacant,Elx/Elche,245557.0,234765.0,4.6,True,True,2335.668226,21.43,-7.71,False,True,notariado,False,False,False,False,True,False,True
-03201,Alicante/Alacant,Elx/Elche,245557.0,234765.0,4.6,True,True,1236.836488,21.43,-7.71,False,True,notariado,False,False,False,False,True,False,True
-03203,Alicante/Alacant,Elx/Elche,245557.0,234765.0,4.6,True,True,1552.926648,21.43,-7.71,False,True,notariado,False,True,True,True,True,False,True
-03204,Alicante/Alacant,Elx/Elche,245557.0,234765.0,4.6,True,True,1241.4375,21.43,-7.71,False,True,notariado,True,True,True,False,True,False,True
-03295,Alicante/Alacant,Elx/Elche,245557.0,234765.0,4.6,True,True,1417.214532,21.43,-7.71,False,True,notariado,False,False,False,False,True,False,True
-03205,Alicante/Alacant,Elx/Elche,245557.0,234765.0,4.6,True,True,1135.731986,21.43,-7.71,False,True,notariado,False,True,True,False,True,False,True
-03294,Alicante/Alacant,Elx/Elche,245557.0,234765.0,4.6,True,True,1802.606305,21.43,-7.71,False,True,notariado,False,False,False,False,True,False,True
-03293,Alicante/Alacant,Elx/Elche,245557.0,234765.0,4.6,True,True,1927.264287,21.43,-7.71,False,True,notariado,False,True,True,False,True,False,True
-03292,Alicante/Alacant,Elx/Elche,245557.0,234765.0,4.6,True,True,1351.878172,21.43,-7.71,False,True,notariado,False,False,False,False,True,False,True
-03291,Alicante/Alacant,Elx/Elche,245557.0,234765.0,4.6,True,True,1587.935761,21.43,-7.71,False,True,notariado,False,False,False,False,False,False,True
-03290,Alicante/Alacant,Elx/Elche,245557.0,234765.0,4.6,True,True,1519.003378,21.43,-7.71,False,True,notariado,False,False,False,False,False,False,True
-03208,Alicante/Alacant,Elx/Elche,245557.0,234765.0,4.6,True,True,1953.886073,21.43,-7.71,False,True,notariado,False,False,False,False,False,False,True
-03296,Alicante/Alacant,Elx/Elche,245557.0,234765.0,4.6,True,True,917.473663,21.43,-7.71,False,True,notariado,False,True,False,False,False,False,True
-03202,Alicante/Alacant,Elx/Elche,245557.0,234765.0,4.6,True,True,1569.381636,21.43,-7.71,False,True,notariado,False,False,False,False,True,False,True
-03206,Alicante/Alacant,Elx/Elche,245557.0,234765.0,4.6,True,True,909.110434,21.43,-7.71,False,True,notariado,False,True,True,False,True,False,True
 03139,Alicante/Alacant,Elx/Elche,245557.0,234765.0,4.6,True,True,1977.288385,21.43,-7.71,False,True,notariado,False,True,False,False,True,False,True
 03207,Alicante/Alacant,Elx/Elche,245557.0,234765.0,4.6,True,True,1260.91037,21.43,-7.71,False,True,notariado,False,False,False,False,False,False,True
-30380,Murcia,"Cartagena, San Javier",220704.0,216108.0,2.13,True,True,1861.427707,17.740000000000002,-22.07,False,True,notariado,False,False,False,False,True,False,True
-30381,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,759.216687,14.09,-26.95,False,True,notariado,False,False,False,False,True,False,False
+03296,Alicante/Alacant,Elx/Elche,245557.0,234765.0,4.6,True,True,917.473663,21.43,-7.71,False,True,notariado,False,True,False,False,False,False,True
+03295,Alicante/Alacant,Elx/Elche,245557.0,234765.0,4.6,True,True,1417.214532,21.43,-7.71,False,True,notariado,False,False,False,False,True,False,True
+03208,Alicante/Alacant,Elx/Elche,245557.0,234765.0,4.6,True,True,1953.886073,21.43,-7.71,False,True,notariado,False,False,False,False,False,False,True
+03205,Alicante/Alacant,Elx/Elche,245557.0,234765.0,4.6,True,True,1135.731986,21.43,-7.71,False,True,notariado,False,True,True,False,True,False,True
+03204,Alicante/Alacant,Elx/Elche,245557.0,234765.0,4.6,True,True,1241.4375,21.43,-7.71,False,True,notariado,True,True,True,False,True,False,True
+03203,Alicante/Alacant,Elx/Elche,245557.0,234765.0,4.6,True,True,1552.926648,21.43,-7.71,False,True,notariado,False,True,True,True,True,False,True
+03290,Alicante/Alacant,Elx/Elche,245557.0,234765.0,4.6,True,True,1519.003378,21.43,-7.71,False,True,notariado,False,False,False,False,False,False,True
+03202,Alicante/Alacant,Elx/Elche,245557.0,234765.0,4.6,True,True,1569.381636,21.43,-7.71,False,True,notariado,False,False,False,False,True,False,True
+03201,Alicante/Alacant,Elx/Elche,245557.0,234765.0,4.6,True,True,1236.836488,21.43,-7.71,False,True,notariado,False,False,False,False,True,False,True
+03291,Alicante/Alacant,Elx/Elche,245557.0,234765.0,4.6,True,True,1587.935761,21.43,-7.71,False,True,notariado,False,False,False,False,False,False,True
+03195,Alicante/Alacant,Elx/Elche,245557.0,234765.0,4.6,True,True,2335.668226,21.43,-7.71,False,True,notariado,False,False,False,False,True,False,True
+03194,Alicante/Alacant,Elx/Elche,245557.0,234765.0,4.6,True,True,1930.678045,21.43,-7.71,False,True,notariado,False,False,False,False,True,False,True
+03292,Alicante/Alacant,Elx/Elche,245557.0,234765.0,4.6,True,True,1351.878172,21.43,-7.71,False,True,notariado,False,False,False,False,True,False,True
+03206,Alicante/Alacant,Elx/Elche,245557.0,234765.0,4.6,True,True,909.110434,21.43,-7.71,False,True,notariado,False,True,True,False,True,False,True
+03293,Alicante/Alacant,Elx/Elche,245557.0,234765.0,4.6,True,True,1927.264287,21.43,-7.71,False,True,notariado,False,True,True,False,True,False,True
+03294,Alicante/Alacant,Elx/Elche,245557.0,234765.0,4.6,True,True,1802.606305,21.43,-7.71,False,True,notariado,False,False,False,False,True,False,True
+30202,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,1320.375925,14.09,-26.95,False,True,notariado,False,True,False,True,True,False,True
+30201,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,1415.442592,14.09,-26.95,False,True,notariado,False,False,False,False,False,False,True
 30397,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,577.579686,14.09,-26.95,False,True,notariado,False,False,False,False,True,False,False
-30396,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,928.769708,14.09,-26.95,False,True,notariado,False,False,False,False,True,False,True
-30395,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,1082.855275,14.09,-26.95,False,True,notariado,False,False,False,False,True,False,True
-30394,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,1257.497522,14.09,-26.95,False,True,notariado,False,False,False,False,True,False,True
-30393,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,1353.697813,14.09,-26.95,False,True,notariado,False,True,False,False,True,False,True
-30392,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,742.519189,14.09,-26.95,False,True,notariado,False,False,False,False,False,False,True
-30391,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,1496.0,14.09,-26.95,False,True,mivau,False,False,False,False,False,False,False
-30390,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,658.16468,14.09,-26.95,False,True,notariado,False,True,False,False,True,False,False
-30370,Murcia,"Cartagena, San Javier",220704.0,216108.0,2.13,True,True,2357.053665,17.740000000000002,-22.07,False,True,notariado,False,False,False,False,True,False,True
-30387,Murcia,"Cartagena, Moratalla",220704.0,216108.0,2.13,True,True,1496.0,14.09,-26.95,False,True,mivau,False,False,False,False,False,False,False
-30386,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,1496.0,14.09,-26.95,False,True,mivau,False,False,False,False,False,False,False
+30398,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,675.763546,14.09,-26.95,False,True,notariado,False,False,False,False,True,False,False
 30399,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,1496.0,14.09,-26.95,False,True,mivau,False,True,False,False,True,False,True
-30593,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,1012.403834,14.09,-26.95,False,True,notariado,False,False,False,False,True,False,True
+30203,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,1323.722223,14.09,-26.95,False,True,notariado,False,True,False,True,True,False,True
+30381,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,759.216687,14.09,-26.95,False,True,notariado,False,False,False,False,True,False,False
+30395,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,1082.855275,14.09,-26.95,False,True,notariado,False,False,False,False,True,False,True
+30386,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,1496.0,14.09,-26.95,False,True,mivau,False,False,False,False,False,False,False
+30387,Murcia,"Cartagena, Moratalla",220704.0,216108.0,2.13,True,True,1496.0,14.09,-26.95,False,True,mivau,False,False,False,False,False,False,False
 30205,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,1352.958683,14.09,-26.95,False,True,notariado,False,True,False,False,True,False,True
-30594,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,881.733298,14.09,-26.95,False,True,notariado,True,False,False,False,True,False,True
-30384,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,1623.60112,14.09,-26.95,False,True,notariado,False,False,False,False,True,False,True
-30369,Murcia,"Cartagena, Unión, La",220704.0,216108.0,2.13,True,True,901.422948,14.09,-26.95,False,True,notariado,False,False,False,False,True,False,True
+30390,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,658.16468,14.09,-26.95,False,True,notariado,False,True,False,False,True,False,False
+30300,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,1026.846109,14.09,-26.95,False,True,notariado,True,False,False,False,True,False,True
 30868,Murcia,"Cartagena, Mazarrón",220704.0,216108.0,2.13,True,True,1907.547529,13.565,-22.895,False,True,notariado,False,False,False,False,True,False,True
 30310,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,977.615839,14.09,-26.95,False,True,notariado,True,True,True,False,True,False,True
-30383,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,930.855193,14.09,-26.95,False,True,notariado,False,False,False,False,True,False,True
+30204,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,1345.296899,14.09,-26.95,False,True,notariado,False,True,False,False,False,False,True
 30319,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,1322.977234,14.09,-26.95,False,True,notariado,True,False,False,False,True,False,True
 30330,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,558.591103,14.09,-26.95,False,True,notariado,False,False,False,False,True,False,False
-30350,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,2174.15909,14.09,-26.95,False,True,notariado,False,False,False,False,False,False,False
-30351,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,682.352941,14.09,-26.95,False,True,notariado,False,False,False,False,True,False,True
+30391,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,1496.0,14.09,-26.95,False,True,mivau,False,False,False,False,False,False,False
+30392,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,742.519189,14.09,-26.95,False,True,notariado,False,False,False,False,False,False,True
+30393,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,1353.697813,14.09,-26.95,False,True,notariado,False,True,False,False,True,False,True
+30394,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,1257.497522,14.09,-26.95,False,True,notariado,False,False,False,False,True,False,True
+30380,Murcia,"Cartagena, San Javier",220704.0,216108.0,2.13,True,True,1861.427707,17.740000000000002,-22.07,False,True,notariado,False,False,False,False,True,False,True
+30396,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,928.769708,14.09,-26.95,False,True,notariado,False,False,False,False,True,False,True
 30365,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,1496.0,14.09,-26.95,False,True,mivau,False,False,False,False,False,False,False
+30370,Murcia,"Cartagena, San Javier",220704.0,216108.0,2.13,True,True,2357.053665,17.740000000000002,-22.07,False,True,notariado,False,False,False,False,True,False,True
+30594,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,881.733298,14.09,-26.95,False,True,notariado,True,False,False,False,True,False,True
+30384,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,1623.60112,14.09,-26.95,False,True,notariado,False,False,False,False,True,False,True
+30350,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,2174.15909,14.09,-26.95,False,True,notariado,False,False,False,False,False,False,False
+30383,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,930.855193,14.09,-26.95,False,True,notariado,False,False,False,False,True,False,True
+30382,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,1114.616533,14.09,-26.95,False,True,notariado,False,False,False,False,False,False,True
+30351,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,682.352941,14.09,-26.95,False,True,notariado,False,False,False,False,True,False,True
+30593,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,1012.403834,14.09,-26.95,False,True,notariado,False,False,False,False,True,False,True
 30366,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,928.812421,14.09,-26.95,False,True,notariado,False,False,False,False,True,False,True
 30367,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,1496.0,14.09,-26.95,False,True,mivau,False,False,False,False,False,False,False
 30368,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,1280.736159,14.09,-26.95,False,True,notariado,False,False,False,False,True,False,True
-30382,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,1114.616533,14.09,-26.95,False,True,notariado,False,False,False,False,False,False,True
-30300,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,1026.846109,14.09,-26.95,False,True,notariado,True,False,False,False,True,False,True
-30398,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,675.763546,14.09,-26.95,False,True,notariado,False,False,False,False,True,False,False
-30204,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,1345.296899,14.09,-26.95,False,True,notariado,False,True,False,False,False,False,True
-30203,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,1323.722223,14.09,-26.95,False,True,notariado,False,True,False,True,True,False,True
-30202,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,1320.375925,14.09,-26.95,False,True,notariado,False,True,False,True,True,False,True
-30201,Murcia,Cartagena,220704.0,216108.0,2.13,True,True,1415.442592,14.09,-26.95,False,True,notariado,False,False,False,False,False,False,True
-12001,Castellón/Castelló,Castelló de la Plana/Castellón de la Plana,183711.0,174264.0,5.42,True,True,1236.766463,,,False,False,notariado,False,False,False,False,True,False,True
-12006,Castellón/Castelló,Castelló de la Plana/Castellón de la Plana,183711.0,174264.0,5.42,True,True,1165.392326,,,False,False,notariado,False,True,False,False,True,False,True
+30369,Murcia,"Cartagena, Unión, La",220704.0,216108.0,2.13,True,True,901.422948,14.09,-26.95,False,True,notariado,False,False,False,False,True,False,True
 12100,Castellón/Castelló,"Alcora, l', Castelló de la Plana/Castellón de la Plana",183711.0,174264.0,5.42,True,True,1483.347307,,,False,False,notariado,False,True,False,False,True,False,True
-12004,Castellón/Castelló,Castelló de la Plana/Castellón de la Plana,183711.0,174264.0,5.42,True,True,1238.149099,,,False,False,notariado,False,True,False,False,True,False,True
-12003,Castellón/Castelló,Castelló de la Plana/Castellón de la Plana,183711.0,174264.0,5.42,True,True,1472.516111,,,False,False,notariado,True,True,True,False,True,False,True
-12002,Castellón/Castelló,Castelló de la Plana/Castellón de la Plana,183711.0,174264.0,5.42,True,True,1292.84177,,,False,False,notariado,False,False,False,False,False,False,True
 12005,Castellón/Castelló,Castelló de la Plana/Castellón de la Plana,183711.0,174264.0,5.42,True,True,1386.158579,,,False,False,notariado,True,True,False,False,True,False,True
 12560,Castellón/Castelló,"Benicàssim/Benicasim, Castelló de la Plana/Castellón de la Plana",183711.0,174264.0,5.42,True,True,2769.38566,,,False,False,notariado,False,True,True,False,True,False,True
+12006,Castellón/Castelló,Castelló de la Plana/Castellón de la Plana,183711.0,174264.0,5.42,True,True,1165.392326,,,False,False,notariado,False,True,False,False,True,False,True
+12004,Castellón/Castelló,Castelló de la Plana/Castellón de la Plana,183711.0,174264.0,5.42,True,True,1238.149099,,,False,False,notariado,False,True,False,False,True,False,True
+12002,Castellón/Castelló,Castelló de la Plana/Castellón de la Plana,183711.0,174264.0,5.42,True,True,1292.84177,,,False,False,notariado,False,False,False,False,False,False,True
+12001,Castellón/Castelló,Castelló de la Plana/Castellón de la Plana,183711.0,174264.0,5.42,True,True,1236.766463,,,False,False,notariado,False,False,False,False,True,False,True
+12003,Castellón/Castelló,Castelló de la Plana/Castellón de la Plana,183711.0,174264.0,5.42,True,True,1472.516111,,,False,False,notariado,True,True,True,False,True,False,True
+43130,Tarragona,Tarragona,143649.0,136496.0,5.24,True,True,1071.295168,9.95,-26.93,False,True,notariado,False,False,False,False,True,False,True
+43006,Tarragona,Tarragona,143649.0,136496.0,5.24,True,True,1051.869401,9.95,-26.93,False,True,notariado,False,False,False,False,True,False,True
+43002,Tarragona,Tarragona,143649.0,136496.0,5.24,True,True,1837.068995,9.95,-26.93,False,True,notariado,False,False,False,True,False,False,True
+43003,Tarragona,Tarragona,143649.0,136496.0,5.24,True,True,2116.64213,9.95,-26.93,False,True,notariado,True,False,False,False,False,False,True
+43004,Tarragona,Tarragona,143649.0,136496.0,5.24,True,True,1720.89622,9.95,-26.93,False,True,notariado,False,True,False,False,False,False,True
+43005,Tarragona,Tarragona,143649.0,136496.0,5.24,True,True,2274.033723,9.95,-26.93,False,True,notariado,False,False,False,False,True,False,True
+43001,Tarragona,Tarragona,143649.0,136496.0,5.24,True,True,1991.222203,9.95,-26.93,False,True,notariado,False,False,False,False,False,False,True
+43007,Tarragona,Tarragona,143649.0,136496.0,5.24,True,True,2106.769309,9.95,-26.93,False,True,notariado,True,True,True,False,True,False,True
+43008,Tarragona,Tarragona,143649.0,136496.0,5.24,True,True,2336.046256,9.95,-26.93,False,True,notariado,False,False,False,False,False,False,True
+43100,Tarragona,Tarragona,143649.0,136496.0,5.24,True,True,1050.326085,9.95,-26.93,False,True,notariado,False,False,False,False,True,False,True
 43205,Tarragona,Reus,111601.0,106168.0,5.12,True,True,1395.648762,11.88,-17.69,False,True,notariado,True,True,True,False,False,False,True
 43206,Tarragona,"Reus, Vila-seca",111601.0,106168.0,5.12,True,True,1866.506977,11.88,-17.69,False,True,notariado,False,True,True,False,True,False,True
-43203,Tarragona,Reus,111601.0,106168.0,5.12,True,True,1327.504982,11.88,-17.69,False,True,notariado,False,True,False,False,True,False,True
-43201,Tarragona,Reus,111601.0,106168.0,5.12,True,True,1361.545251,11.88,-17.69,False,True,notariado,False,True,True,False,False,False,True
 43207,Tarragona,Reus,111601.0,106168.0,5.12,True,True,1640.9,11.88,-17.69,False,True,mivau,False,False,False,False,False,False,False
+43203,Tarragona,Reus,111601.0,106168.0,5.12,True,True,1327.504982,11.88,-17.69,False,True,notariado,False,True,False,False,True,False,True
 43202,Tarragona,Reus,111601.0,106168.0,5.12,True,True,1494.228897,11.88,-17.69,False,True,notariado,False,False,False,False,True,False,True
 43204,Tarragona,Reus,111601.0,106168.0,5.12,True,True,1446.74991,11.88,-17.69,False,True,notariado,True,True,True,False,True,False,True
-15893,A Coruña,Santiago de Compostela,100965.0,97848.0,3.19,True,True,2365.0,13.38,0.0,True,True,mivau,False,True,False,False,False,False,True
-15688,A Coruña,"Oroso, Santiago de Compostela",100965.0,97848.0,3.19,True,True,831.589362,13.38,0.0,True,True,notariado,False,False,False,False,False,False,False
-15897,A Coruña,Santiago de Compostela,100965.0,97848.0,3.19,True,True,1063.033345,13.38,0.0,True,True,notariado,False,True,False,False,False,False,True
-15898,A Coruña,Santiago de Compostela,100965.0,97848.0,3.19,True,True,750.174947,13.38,0.0,True,True,notariado,False,True,False,False,False,False,True
-15707,A Coruña,Santiago de Compostela,100965.0,97848.0,3.19,True,True,1828.885269,13.38,0.0,True,True,notariado,True,True,True,False,True,False,True
+43201,Tarragona,Reus,111601.0,106168.0,5.12,True,True,1361.545251,11.88,-17.69,False,True,notariado,False,True,True,False,False,False,True
+32990,Ourense,Ourense,105769.0,105643.0,0.12,True,True,1602.0,18.61,-2.64,False,True,mivau,False,False,False,False,False,False,True
+32971,Ourense,Ourense,105769.0,105643.0,0.12,True,True,702.404809,18.61,-2.64,False,True,notariado,False,False,False,False,False,False,True
+32970,Ourense,Ourense,105769.0,105643.0,0.12,True,True,1602.0,18.61,-2.64,False,True,mivau,False,False,False,False,False,False,True
+32960,Ourense,Ourense,105769.0,105643.0,0.12,True,True,654.618473,18.61,-2.64,False,True,notariado,False,True,False,False,False,False,False
+32940,Ourense,"Barbadás, Ourense, Toén",105769.0,105643.0,0.12,True,True,787.940379,18.61,-2.64,False,True,notariado,False,False,False,False,False,False,False
+32001,Ourense,Ourense,105769.0,105643.0,0.12,True,True,1021.148744,18.61,-2.64,False,True,notariado,True,True,True,False,True,False,True
+32002,Ourense,"Barbadás, Ourense",105769.0,105643.0,0.12,True,True,1041.457495,18.61,-2.64,False,True,notariado,False,True,True,False,True,False,True
+32003,Ourense,Ourense,105769.0,105643.0,0.12,True,True,1734.07087,18.61,-2.64,False,True,notariado,False,True,False,False,True,False,True
+32004,Ourense,Ourense,105769.0,105643.0,0.12,True,True,1551.90779,18.61,-2.64,False,True,notariado,False,True,True,True,True,False,True
+32900,Ourense,"Ourense, San Cibrao das Viñas",105769.0,105643.0,0.12,True,True,1602.0,18.61,-2.64,False,True,mivau,False,False,False,False,False,False,True
+32005,Ourense,"Barbadás, Ourense, San Cibrao das Viñas",105769.0,105643.0,0.12,True,True,1275.306519,18.61,-2.64,False,True,notariado,True,True,True,False,True,False,True
+32103,Ourense,Ourense,105769.0,105643.0,0.12,True,True,788.247213,18.61,-2.64,False,True,notariado,False,False,False,False,False,False,True
+32172,Ourense,"Amoeiro, Ourense",105769.0,105643.0,0.12,True,True,373.015873,18.61,-2.64,False,True,notariado,False,False,False,False,False,False,False
+32593,Ourense,Ourense,105769.0,105643.0,0.12,True,True,1602.0,18.61,-2.64,False,True,mivau,False,False,False,False,False,False,False
+32981,Ourense,Ourense,105769.0,105643.0,0.12,True,True,2610.945945,18.61,-2.64,False,True,notariado,False,False,False,False,False,False,True
+32980,Ourense,"Amoeiro, Ourense",105769.0,105643.0,0.12,True,True,720.447284,18.61,-2.64,False,True,notariado,False,False,False,False,False,False,True
 15892,A Coruña,Santiago de Compostela,100965.0,97848.0,3.19,True,True,509.329787,13.38,0.0,True,True,notariado,False,False,False,False,False,False,True
-15890,A Coruña,Santiago de Compostela,100965.0,97848.0,3.19,True,True,2365.0,13.38,0.0,True,True,mivau,False,False,False,False,False,False,True
-15884,A Coruña,"Oroso, Santiago de Compostela",100965.0,97848.0,3.19,True,True,518.75,13.38,0.0,True,True,notariado,False,True,False,False,False,False,True
-15820,A Coruña,Santiago de Compostela,100965.0,97848.0,3.19,True,True,613.013698,13.38,0.0,True,True,notariado,False,False,False,False,False,False,False
 15706,A Coruña,Santiago de Compostela,100965.0,97848.0,3.19,True,True,2687.690542,13.38,0.0,True,True,notariado,True,True,True,False,True,False,True
+15899,A Coruña,Santiago de Compostela,100965.0,97848.0,3.19,True,True,2365.0,13.38,0.0,True,True,mivau,False,False,False,False,False,False,True
+15898,A Coruña,Santiago de Compostela,100965.0,97848.0,3.19,True,True,750.174947,13.38,0.0,True,True,notariado,False,True,False,False,False,False,True
+15893,A Coruña,Santiago de Compostela,100965.0,97848.0,3.19,True,True,2365.0,13.38,0.0,True,True,mivau,False,True,False,False,False,False,True
+15890,A Coruña,Santiago de Compostela,100965.0,97848.0,3.19,True,True,2365.0,13.38,0.0,True,True,mivau,False,False,False,False,False,False,True
+15897,A Coruña,Santiago de Compostela,100965.0,97848.0,3.19,True,True,1063.033345,13.38,0.0,True,True,notariado,False,True,False,False,False,False,True
+15820,A Coruña,Santiago de Compostela,100965.0,97848.0,3.19,True,True,613.013698,13.38,0.0,True,True,notariado,False,False,False,False,False,False,False
+15707,A Coruña,Santiago de Compostela,100965.0,97848.0,3.19,True,True,1828.885269,13.38,0.0,True,True,notariado,True,True,True,False,True,False,True
+15884,A Coruña,"Oroso, Santiago de Compostela",100965.0,97848.0,3.19,True,True,518.75,13.38,0.0,True,True,notariado,False,True,False,False,False,False,True
 15705,A Coruña,Santiago de Compostela,100965.0,97848.0,3.19,True,True,1705.828989,13.38,0.0,True,True,notariado,True,True,False,False,True,False,True
+15896,A Coruña,Santiago de Compostela,100965.0,97848.0,3.19,True,True,1198.25756,13.38,0.0,True,True,notariado,False,True,False,False,False,False,True
 15704,A Coruña,Santiago de Compostela,100965.0,97848.0,3.19,True,True,1815.626348,13.38,0.0,True,True,notariado,False,True,False,False,True,False,True
 15703,A Coruña,Santiago de Compostela,100965.0,97848.0,3.19,True,True,1927.703169,13.38,0.0,True,True,notariado,True,True,True,False,False,False,True
 15702,A Coruña,Santiago de Compostela,100965.0,97848.0,3.19,True,True,2131.857665,13.38,0.0,True,True,notariado,False,True,True,False,False,False,True
 15701,A Coruña,Santiago de Compostela,100965.0,97848.0,3.19,True,True,2296.052403,13.38,0.0,True,True,notariado,False,True,False,False,True,False,True
-15896,A Coruña,Santiago de Compostela,100965.0,97848.0,3.19,True,True,1198.25756,13.38,0.0,True,True,notariado,False,True,False,False,False,False,True
-15899,A Coruña,Santiago de Compostela,100965.0,97848.0,3.19,True,True,2365.0,13.38,0.0,True,True,mivau,False,False,False,False,False,False,True
+15688,A Coruña,"Oroso, Santiago de Compostela",100965.0,97848.0,3.19,True,True,831.589362,13.38,0.0,True,True,notariado,False,False,False,False,False,False,False
+27181,Lugo,"Guntín, Lugo",100143.0,98519.0,1.65,True,True,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,False
+27191,Lugo,Lugo,100143.0,98519.0,1.65,True,True,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,False
+27001,Lugo,Lugo,100143.0,98519.0,1.65,True,True,1190.763001,9.52,-9.99,False,True,notariado,False,True,False,False,True,False,True
+27190,Lugo,"Corgo, O, Lugo",100143.0,98519.0,1.65,True,True,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,True
+27188,Lugo,"Lugo, Portomarín",100143.0,98519.0,1.65,True,True,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,False
+27185,Lugo,"Guntín, Lugo",100143.0,98519.0,1.65,True,True,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,True,False,False
+27003,Lugo,Lugo,100143.0,98519.0,1.65,True,True,1001.063205,9.52,-9.99,False,True,notariado,True,True,True,False,True,False,True
+27182,Lugo,Lugo,100143.0,98519.0,1.65,True,True,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,False
+27002,Lugo,Lugo,100143.0,98519.0,1.65,True,True,1453.32248,9.52,-9.99,False,True,notariado,False,True,True,True,True,False,True
+27180,Lugo,Lugo,100143.0,98519.0,1.65,True,True,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,True
+27169,Lugo,Lugo,100143.0,98519.0,1.65,True,True,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,False
+27161,Lugo,Lugo,100143.0,98519.0,1.65,True,True,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,False
+27160,Lugo,Lugo,100143.0,98519.0,1.65,True,True,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,True,False,True
+27210,Lugo,"Guntín, Lugo",100143.0,98519.0,1.65,True,True,366.449049,9.52,-9.99,False,True,notariado,False,False,False,False,False,False,False
+27146,Lugo,"Castroverde, Lugo",100143.0,98519.0,1.65,True,True,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,True
+27141,Lugo,Lugo,100143.0,98519.0,1.65,True,True,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,False
+27192,Lugo,Lugo,100143.0,98519.0,1.65,True,True,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,True
+27289,Lugo,"Castro de Rei, Lugo",100143.0,98519.0,1.65,True,True,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,False
+27230,Lugo,Lugo,100143.0,98519.0,1.65,True,True,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,False
+27290,Lugo,Lugo,100143.0,98519.0,1.65,True,True,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,False
+27299,Lugo,"Friol, Lugo",100143.0,98519.0,1.65,True,True,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,False
+27298,Lugo,Lugo,100143.0,98519.0,1.65,True,True,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,True
+27297,Lugo,Lugo,100143.0,98519.0,1.65,True,True,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,True
+27296,Lugo,Lugo,100143.0,98519.0,1.65,True,True,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,False
+27294,Lugo,Lugo,100143.0,98519.0,1.65,True,True,827.009936,9.52,-9.99,False,True,notariado,False,False,False,False,False,False,True
+27293,Lugo,"Castroverde, Lugo",100143.0,98519.0,1.65,True,True,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,False
+27231,Lugo,Lugo,100143.0,98519.0,1.65,True,True,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,False
+27004,Lugo,Lugo,100143.0,98519.0,1.65,True,True,965.872492,9.52,-9.99,False,True,notariado,False,True,False,False,True,False,True
+27140,Lugo,Lugo,100143.0,98519.0,1.65,True,True,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,False
+27233,Lugo,"Guntín, Lugo",100143.0,98519.0,1.65,True,True,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,False
+27232,Lugo,Lugo,100143.0,98519.0,1.65,True,True,1360.1,9.52,-9.99,False,True,mivau,False,False,False,False,False,False,False
+30816,Murcia,Lorca,98969.0,95515.0,3.62,True,True,1051.770416,16.36,-19.25,False,True,notariado,False,False,False,False,True,False,False
+30815,Murcia,Lorca,98969.0,95515.0,3.62,True,True,705.18602,16.36,-19.25,False,True,notariado,False,False,False,False,True,False,False
+30818,Murcia,Lorca,98969.0,95515.0,3.62,True,True,982.594936,16.36,-19.25,False,True,notariado,False,False,False,False,False,False,True
+30814,Murcia,Lorca,98969.0,95515.0,3.62,True,True,475.718533,16.36,-19.25,False,True,notariado,False,False,False,False,True,False,False
+30813,Murcia,Lorca,98969.0,95515.0,3.62,True,True,1373.307879,16.36,-19.25,False,True,notariado,False,False,False,False,True,False,True
+30812,Murcia,Lorca,98969.0,95515.0,3.62,True,True,420.805171,16.36,-19.25,False,True,notariado,False,False,False,False,True,False,False
 30811,Murcia,Lorca,98969.0,95515.0,3.62,True,True,811.678832,16.36,-19.25,False,True,notariado,False,False,False,False,True,False,False
 30810,Murcia,Lorca,98969.0,95515.0,3.62,True,True,553.147139,16.36,-19.25,False,True,notariado,False,False,False,False,True,False,False
 30800,Murcia,Lorca,98969.0,95515.0,3.62,True,True,1060.463342,16.36,-19.25,False,True,notariado,True,False,False,False,True,False,True
-30890,Murcia,"Lorca, Puerto Lumbreras",98969.0,95515.0,3.62,True,True,743.424826,16.36,-19.25,False,True,notariado,False,False,False,False,True,False,True
-30813,Murcia,Lorca,98969.0,95515.0,3.62,True,True,1373.307879,16.36,-19.25,False,True,notariado,False,False,False,False,True,False,True
-30814,Murcia,Lorca,98969.0,95515.0,3.62,True,True,475.718533,16.36,-19.25,False,True,notariado,False,False,False,False,True,False,False
-30893,Murcia,Lorca,98969.0,95515.0,3.62,True,True,708.317669,16.36,-19.25,False,True,notariado,False,False,False,False,True,False,False
-30889,Murcia,"Lorca, Águilas",98969.0,95515.0,3.62,True,True,1597.72537,18.119999999999997,-29.9,False,True,notariado,False,False,False,False,True,False,True
-30878,Murcia,"Lorca, Mazarrón",98969.0,95515.0,3.62,True,True,786.304604,14.7,-19.045,False,True,notariado,False,False,False,False,True,False,False
-30815,Murcia,Lorca,98969.0,95515.0,3.62,True,True,705.18602,16.36,-19.25,False,True,notariado,False,False,False,False,True,False,False
-30816,Murcia,Lorca,98969.0,95515.0,3.62,True,True,1051.770416,16.36,-19.25,False,True,notariado,False,False,False,False,True,False,False
 30817,Murcia,Lorca,98969.0,95515.0,3.62,True,True,1201.5,16.36,-19.25,False,True,mivau,False,False,False,False,False,False,True
 30876,Murcia,"Lorca, Mazarrón",98969.0,95515.0,3.62,True,True,796.787056,14.7,-19.045,False,True,notariado,True,False,False,False,True,False,True
-30812,Murcia,Lorca,98969.0,95515.0,3.62,True,True,420.805171,16.36,-19.25,False,True,notariado,False,False,False,False,True,False,False
-30818,Murcia,Lorca,98969.0,95515.0,3.62,True,True,982.594936,16.36,-19.25,False,True,notariado,False,False,False,False,False,False,True
+30889,Murcia,"Lorca, Águilas",98969.0,95515.0,3.62,True,True,1597.72537,18.119999999999997,-29.9,False,True,notariado,False,False,False,False,True,False,True
+30878,Murcia,"Lorca, Mazarrón",98969.0,95515.0,3.62,True,True,786.304604,14.7,-19.045,False,True,notariado,False,False,False,False,True,False,False
+30890,Murcia,"Lorca, Puerto Lumbreras",98969.0,95515.0,3.62,True,True,743.424826,16.36,-19.25,False,True,notariado,False,False,False,False,True,False,True
+30893,Murcia,Lorca,98969.0,95515.0,3.62,True,True,708.317669,16.36,-19.25,False,True,notariado,False,False,False,False,True,False,False
 03183,Alicante/Alacant,Torrevieja,98533.0,84667.0,16.38,True,True,2497.246089,15.71,0.0,True,True,notariado,False,True,True,False,True,False,True
 03186,Alicante/Alacant,Torrevieja,98533.0,84667.0,16.38,True,True,2370.373483,15.71,0.0,True,True,notariado,False,False,False,False,False,False,True
+03188,Alicante/Alacant,Torrevieja,98533.0,84667.0,16.38,True,True,2448.336909,15.71,0.0,True,True,notariado,False,False,False,False,True,False,True
 03185,Alicante/Alacant,"Penàguila, Torrevieja",98533.0,84667.0,16.38,True,True,2711.238022,15.71,0.0,True,True,notariado,False,True,False,False,True,False,True
 03184,Alicante/Alacant,Torrevieja,98533.0,84667.0,16.38,True,True,2016.137219,15.71,0.0,True,True,notariado,True,True,True,False,True,False,True
-03182,Alicante/Alacant,Torrevieja,98533.0,84667.0,16.38,True,True,1813.050692,15.71,0.0,True,True,notariado,True,True,False,False,False,False,True
 03181,Alicante/Alacant,Torrevieja,98533.0,84667.0,16.38,True,True,1680.537475,15.71,0.0,True,True,notariado,False,False,False,False,True,False,True
-03188,Alicante/Alacant,Torrevieja,98533.0,84667.0,16.38,True,True,2448.336909,15.71,0.0,True,True,notariado,False,False,False,False,True,False,True
+03182,Alicante/Alacant,Torrevieja,98533.0,84667.0,16.38,True,True,1813.050692,15.71,0.0,True,True,notariado,True,True,False,False,False,False,True
 46900,Valencia/València,Torrent,90928.0,83962.0,8.3,True,True,1280.278326,22.23,0.0,True,True,notariado,True,True,True,False,True,False,True
 46901,Valencia/València,Torrent,90928.0,83962.0,8.3,True,True,1456.365707,22.23,0.0,True,True,notariado,False,True,False,False,True,False,True
 46909,Valencia/València,Torrent,90928.0,83962.0,8.3,True,True,1880.5,22.23,0.0,True,True,mivau,False,False,False,False,False,False,True
-03317,Alicante/Alacant,"Callosa de Segura, Orihuela",84560.0,78505.0,7.71,True,True,2166.2,28.59,0.0,True,True,mivau,False,False,False,False,True,False,True
-03316,Alicante/Alacant,"Benferri, Orihuela",84560.0,78505.0,7.71,True,True,1060.93978,28.59,0.0,True,True,notariado,False,True,False,False,True,False,True
-03311,Alicante/Alacant,Orihuela,84560.0,78505.0,7.71,True,True,1664.227742,28.59,0.0,True,True,notariado,False,False,False,False,True,False,True
-03312,Alicante/Alacant,Orihuela,84560.0,78505.0,7.71,True,True,625.568204,28.59,0.0,True,True,notariado,False,False,False,False,True,False,True
-03300,Alicante/Alacant,Orihuela,84560.0,78505.0,7.71,True,True,1880.93743,28.59,0.0,True,True,notariado,False,True,False,False,True,False,True
-03369,Alicante/Alacant,"Orihuela, Rafal",84560.0,78505.0,7.71,True,True,589.813934,28.59,0.0,True,True,notariado,False,True,True,False,True,False,True
 03313,Alicante/Alacant,Orihuela,84560.0,78505.0,7.71,True,True,1679.218518,28.59,0.0,True,True,notariado,False,False,False,False,True,False,False
-03119,Alicante/Alacant,Orihuela,84560.0,78505.0,7.71,True,True,2166.2,28.59,0.0,True,True,mivau,False,False,False,False,False,False,False
 03314,Alicante/Alacant,Orihuela,84560.0,78505.0,7.71,True,True,736.578866,28.59,0.0,True,True,notariado,False,False,False,False,True,False,True
-03380,Alicante/Alacant,"Bigastro, Orihuela",84560.0,78505.0,7.71,True,True,891.710288,28.59,0.0,True,True,notariado,False,True,False,False,True,False,True
+03312,Alicante/Alacant,Orihuela,84560.0,78505.0,7.71,True,True,625.568204,28.59,0.0,True,True,notariado,False,False,False,False,True,False,True
+03311,Alicante/Alacant,Orihuela,84560.0,78505.0,7.71,True,True,1664.227742,28.59,0.0,True,True,notariado,False,False,False,False,True,False,True
+03189,Alicante/Alacant,Orihuela,84560.0,78505.0,7.71,True,True,2688.284583,28.59,0.0,True,True,notariado,False,False,False,False,True,False,True
+03316,Alicante/Alacant,"Benferri, Orihuela",84560.0,78505.0,7.71,True,True,1060.93978,28.59,0.0,True,True,notariado,False,True,False,False,True,False,True
+03119,Alicante/Alacant,Orihuela,84560.0,78505.0,7.71,True,True,2166.2,28.59,0.0,True,True,mivau,False,False,False,False,False,False,False
 03315,Alicante/Alacant,Orihuela,84560.0,78505.0,7.71,True,True,1187.385192,28.59,0.0,True,True,notariado,False,False,False,False,True,False,True
+03369,Alicante/Alacant,"Orihuela, Rafal",84560.0,78505.0,7.71,True,True,589.813934,28.59,0.0,True,True,notariado,False,True,True,False,True,False,True
+03317,Alicante/Alacant,"Callosa de Segura, Orihuela",84560.0,78505.0,7.71,True,True,2166.2,28.59,0.0,True,True,mivau,False,False,False,False,True,False,True
 03319,Alicante/Alacant,Orihuela,84560.0,78505.0,7.71,True,True,3052.606391,28.59,0.0,True,True,notariado,False,False,False,False,False,False,True
-03689,Alicante/Alacant,"Fondó de les Neus, el/Hondón de las Nieves, Hondón de los Frailes, Orihuela",84560.0,78505.0,7.71,True,True,995.529341,28.59,0.0,True,True,notariado,False,False,False,False,True,False,False
-03325,Alicante/Alacant,Orihuela,84560.0,78505.0,7.71,True,True,763.193504,28.59,0.0,True,True,notariado,False,False,False,False,False,False,True
 03321,Alicante/Alacant,Orihuela,84560.0,78505.0,7.71,True,True,2166.2,28.59,0.0,True,True,mivau,False,False,False,False,False,False,True
 03322,Alicante/Alacant,Orihuela,84560.0,78505.0,7.71,True,True,2166.2,28.59,0.0,True,True,mivau,False,False,False,False,True,False,True
+03325,Alicante/Alacant,Orihuela,84560.0,78505.0,7.71,True,True,763.193504,28.59,0.0,True,True,notariado,False,False,False,False,False,False,True
+03380,Alicante/Alacant,"Bigastro, Orihuela",84560.0,78505.0,7.71,True,True,891.710288,28.59,0.0,True,True,notariado,False,True,False,False,True,False,True
+03689,Alicante/Alacant,"Fondó de les Neus, el/Hondón de las Nieves, Hondón de los Frailes, Orihuela",84560.0,78505.0,7.71,True,True,995.529341,28.59,0.0,True,True,notariado,False,False,False,False,True,False,False
 03190,Alicante/Alacant,"Orihuela, Pilar de la Horadada",84560.0,78505.0,7.71,True,True,2128.101906,28.59,0.0,True,True,notariado,False,True,True,False,True,False,True
-03189,Alicante/Alacant,Orihuela,84560.0,78505.0,7.71,True,True,2688.284583,28.59,0.0,True,True,notariado,False,False,False,False,True,False,True
-46701,Valencia/València,Gandia,83135.0,75798.0,9.68,True,True,1201.546168,21.65,-6.73,False,True,notariado,False,True,True,False,True,False,True
+03300,Alicante/Alacant,Orihuela,84560.0,78505.0,7.71,True,True,1880.93743,28.59,0.0,True,True,notariado,False,True,False,False,True,False,True
+36690,Pontevedra,"Pontevedra, Soutomaior",83316.0,83260.0,0.07,True,True,1231.974481,22.59,0.0,True,True,notariado,False,True,False,False,True,False,False
+36151,Pontevedra,Pontevedra,83316.0,83260.0,0.07,True,True,2083.6,22.59,0.0,True,True,mivau,False,False,False,False,False,False,False
+36155,Pontevedra,Pontevedra,83316.0,83260.0,0.07,True,True,2083.6,22.59,0.0,True,True,mivau,False,False,False,False,False,False,False
+36153,Pontevedra,Pontevedra,83316.0,83260.0,0.07,True,True,697.929354,22.59,0.0,True,True,notariado,False,True,False,False,False,False,True
+36152,Pontevedra,Pontevedra,83316.0,83260.0,0.07,True,True,2083.6,22.59,0.0,True,True,mivau,False,False,False,False,False,False,False
+36156,Pontevedra,Pontevedra,83316.0,83260.0,0.07,True,True,931.751168,22.59,0.0,True,True,notariado,False,False,False,False,True,False,True
+36150,Pontevedra,Pontevedra,83316.0,83260.0,0.07,True,True,497.26477,22.59,0.0,True,True,notariado,False,False,False,False,False,False,False
+36143,Pontevedra,Pontevedra,83316.0,83260.0,0.07,True,True,542.082662,22.59,0.0,True,True,notariado,True,False,False,False,False,False,True
+36005,Pontevedra,Pontevedra,83316.0,83260.0,0.07,True,True,1551.628369,22.59,0.0,True,True,notariado,True,True,True,False,False,False,True
+36004,Pontevedra,Pontevedra,83316.0,83260.0,0.07,True,True,1904.598149,22.59,0.0,True,True,notariado,False,True,False,False,True,False,True
+36157,Pontevedra,Pontevedra,83316.0,83260.0,0.07,True,True,1032.027257,22.59,0.0,True,True,notariado,False,False,False,False,False,False,False
+36003,Pontevedra,Pontevedra,83316.0,83260.0,0.07,True,True,2191.014489,22.59,0.0,True,True,notariado,False,True,True,False,False,False,True
+36002,Pontevedra,Pontevedra,83316.0,83260.0,0.07,True,True,2195.680891,22.59,0.0,True,True,notariado,False,True,False,False,True,False,True
+36001,Pontevedra,Pontevedra,83316.0,83260.0,0.07,True,True,2127.243655,22.59,0.0,True,True,notariado,True,True,True,False,False,False,True
+36158,Pontevedra,Pontevedra,83316.0,83260.0,0.07,True,True,1241.81478,22.59,0.0,True,True,notariado,False,False,False,False,False,False,False
+36160,Pontevedra,Pontevedra,83316.0,83260.0,0.07,True,True,1169.456066,22.59,0.0,True,True,notariado,False,False,False,False,False,False,True
+36161,Pontevedra,Pontevedra,83316.0,83260.0,0.07,True,True,2083.6,22.59,0.0,True,True,mivau,False,True,False,False,False,False,True
+36162,Pontevedra,Pontevedra,83316.0,83260.0,0.07,True,True,1346.48241,22.59,0.0,True,True,notariado,False,False,False,False,True,False,True
+36910,Pontevedra,Pontevedra,83316.0,83260.0,0.07,True,True,1016.815406,22.59,0.0,True,True,notariado,False,True,False,False,False,False,True
+36164,Pontevedra,Pontevedra,83316.0,83260.0,0.07,True,True,1596.807772,22.59,0.0,True,True,notariado,False,False,False,False,False,False,True
+36154,Pontevedra,Pontevedra,83316.0,83260.0,0.07,True,True,2083.6,22.59,0.0,True,True,mivau,False,False,False,False,False,False,False
 46702,Valencia/València,Gandia,83135.0,75798.0,9.68,True,True,1009.321307,21.65,-6.73,False,True,notariado,False,True,True,False,True,False,True
-46728,Valencia/València,Gandia,83135.0,75798.0,9.68,True,True,1948.50818,21.65,-6.73,False,True,notariado,False,False,False,False,False,False,True
+46701,Valencia/València,Gandia,83135.0,75798.0,9.68,True,True,1201.546168,21.65,-6.73,False,True,notariado,False,True,True,False,True,False,True
 46730,Valencia/València,Gandia,83135.0,75798.0,9.68,True,True,1978.204523,21.65,-6.73,False,True,notariado,False,False,False,True,True,False,True
+46728,Valencia/València,Gandia,83135.0,75798.0,9.68,True,True,1948.50818,21.65,-6.73,False,True,notariado,False,False,False,False,False,False,True
+30627,Murcia,Molina de Segura,78458.0,73095.0,7.34,True,True,1269.2,13.29,-32.32,False,True,mivau,False,False,False,False,True,False,False
+30506,Murcia,Molina de Segura,78458.0,73095.0,7.34,True,True,1431.549394,13.29,-32.32,False,True,notariado,True,True,False,False,False,False,True
 30500,Murcia,Molina de Segura,78458.0,73095.0,7.34,True,True,861.075277,13.29,-32.32,False,True,notariado,True,True,False,False,True,False,True
 30509,Murcia,Molina de Segura,78458.0,73095.0,7.34,True,True,1179.479631,13.29,-32.32,False,True,notariado,False,True,False,False,True,False,True
 30508,Murcia,Molina de Segura,78458.0,73095.0,7.34,True,True,1171.473118,13.29,-32.32,False,True,notariado,False,False,False,False,True,False,True
-30506,Murcia,Molina de Segura,78458.0,73095.0,7.34,True,True,1431.549394,13.29,-32.32,False,True,notariado,True,True,False,False,False,False,True
-30627,Murcia,Molina de Segura,78458.0,73095.0,7.34,True,True,1269.2,13.29,-32.32,False,True,mivau,False,False,False,False,True,False,False
 30507,Murcia,Molina de Segura,78458.0,73095.0,7.34,True,True,1338.346686,13.29,-32.32,False,True,notariado,False,False,False,False,False,False,True
-03501,Alicante/Alacant,Benidorm,77327.0,70450.0,9.76,True,True,2233.11394,9.03,0.0,True,True,notariado,True,False,False,False,True,False,True
-03502,Alicante/Alacant,Benidorm,77327.0,70450.0,9.76,True,True,3476.620899,9.03,0.0,True,True,notariado,True,False,False,False,True,False,True
 03503,Alicante/Alacant,Benidorm,77327.0,70450.0,9.76,True,True,2845.297066,9.03,0.0,True,True,notariado,True,True,False,False,True,False,True
+03502,Alicante/Alacant,Benidorm,77327.0,70450.0,9.76,True,True,3476.620899,9.03,0.0,True,True,notariado,True,False,False,False,True,False,True
+03501,Alicante/Alacant,Benidorm,77327.0,70450.0,9.76,True,True,2233.11394,9.03,0.0,True,True,notariado,True,False,False,False,True,False,True
 46989,Valencia/València,Paterna,76019.0,71035.0,7.02,True,True,2094.200203,20.64,0.0,True,True,notariado,False,False,False,False,True,False,True
 46980,Valencia/València,Paterna,76019.0,71035.0,7.02,True,True,1699.045857,20.64,0.0,True,True,notariado,True,True,True,False,True,False,True
 46988,Valencia/València,Paterna,76019.0,71035.0,7.02,True,True,2220.0,20.64,0.0,True,True,mivau,False,False,False,False,False,False,True
